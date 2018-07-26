@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+@font-face {
+  font-family: 'organo';
+  src: url('./organo.woff2') format('woff2'),
+      url('./organo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  padding-bottom: 6rem;
+  font-family: 'Varela Round', sans-serif;
+  color: #373738;
+  background-color: #ffffff;
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.nav-items {
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+  .brand {
+    color: #404140;
+    font-size: 1.8em;
+    font-family: 'organo';
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px 0px 0px auto;
+    flex-direction: row;
+
+    li {
+        a {
+        display: inline-block;
+        text-decoration: none;
+        margin: 0;
+        padding: 25px;
+        color: #373738;
+        font-size: 1em;
+
+        :hover {
+          color: #02b839;
+        }
+      }
+      a.active {
+        color: #02b839;
+        border-bottom: 2px solid #02b839;
+      }
+    }
+  }
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  height: 500px;
+  align-items: center;
+
+  .hero-texts {
+    display: flex;
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-direction: column;
+    justify-content: center;
+
+    .sosc-logo {
+      width: 80px;
+      height: 35px;
+    }
+    .sosc-header {
+      font-size: 2em;
+      font-weight: bold;
+      margin: 20px 0px 10px 0px;
+    }
+    a {
+      background: linear-gradient(45deg, #08D777, #1FD656);
+      background: -webkit-linear-gradient(45, #08D777, #1FD656);
+      background: -moz-linear-gradient(45, #08D777, #1FD656);
+
+      -webkit-box-shadow: 0px 5px 10px 0px rgba(31,214,86,0.32);
+      -moz-box-shadow: 0px 5px 10px 0px rgba(31,214,86,0.32);
+      box-shadow: 0px 5px 10px 0px rgba(31,214,86,0.32);
+
+      margin-top: 15px;
+      padding: 15px 20px 15px 20px;
+      color: white;
+      align-self: flex-start;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: all 0.5s ease-in-out;
+    }
+    a:hover {
+      background: linear-gradient(45deg, rgb(7, 228, 125), #1FD656);
+      background: -webkit-linear-gradient(45, rgb(7, 228, 125), #1FD656);
+      background: -moz-linear-gradient(45, rgb(7, 228, 125), #1FD656);
+      -webkit-box-shadow: 0px 7px 20px 0px rgba(15,255,111,0.52);
+      -moz-box-shadow: 0px 7px 20px 0px rgba(15,255,111,0.52);
+      box-shadow: 0px 7px 20px 0px rgba(15,255,111,0.52);
+    }
+  }
+
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.club-logo-section {
+  background-color: #eeeeee;
+  padding: 20px;
+  display: block;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  .container {
+      width: 80%;
+  }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .container {
+      width: 80%;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .container {
+      width: 80%;
+  }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .container {
+      width: 90%;
+  }
+
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .container {
+      width: 95%;
+  }
+
+  .nav-items {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .brand{
+      font-size: 1.6em;
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      li a{
+        padding: 20px;
+      }
+    }
+  }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .container {
+      width: 95%;
+  }
+
+  .nav-items {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .brand{
+      font-size: 1.6em;
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+
+    ul {
+      align-self: center;
+      padding: 0;
+      margin: 0;
+
+      li a {
+        padding: 15px;
+      }
+    }
+  }
+
+}
