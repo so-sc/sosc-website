@@ -16,9 +16,9 @@ const IndexPage = () => (
             Sahyadri<br/>OpenSource Community
           </p>
           <p>
-            A community driven by tech enthusiasts and<br/>
-            open-source contributors, to help young students<br/>
-            to be part of the open-source ecosystem by providing<br/>
+            A community driven by tech enthusiasts and
+            open-source contributors, to help young students
+            to be part of the open-source ecosystem by providing
             training and skill development.
           </p>
           <a href="#">Become a member</a>
