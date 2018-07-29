@@ -77,7 +77,7 @@ const IndexPage = () => (
           <p className="hero-header">Get Connected !</p>
           <div className="dash"/>
           <p>
-            Meet people with similar interest to work together on projects on projects
+            Meet people with similar interest to work together on projects
             and host events to build a better collaborative environment. We are
             more than 100 members with interests on various fields of technology
             here to know each other and get connected. Meet our members to know

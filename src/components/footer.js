@@ -3,26 +3,33 @@ import Link from 'gatsby-link'
 
 
 const Footer = ({ siteTitle }) => (
-  <div style={{
-    display: 'block',
-    backgroundColor: '#ffffff',
-    zIndex: '10 !important',
-    boxShadow:"0px 9px 30px -8px rgba(46, 46, 46, 0.24)"
-  }}>
+  <footer>
     <div className="container">
-    <div className="nav-items">
-      <span className="brand">
-      {siteTitle}
-      </span>
-        <ul>
-          <li><Link to="/" exact={true} activeClassName="active">Home</Link></li>
-          <li><Link to="/events" exact={true} activeClassName="active">Events</Link></li>
-          <li><Link to="/blog" exact={true} activeClassName="active">Blogs</Link></li>
-          <li><Link to="/team" exact={true} activeClassName="active">Team</Link></li>
-        </ul>
+      <div className="info-area">
+        <div className="column">
+          <a href="https://gihub.com/so-sc">GitHub</a>
+          <a href="https://instagram.com/so-sc">Instagram</a>
+          <a href="https://linkedin.com/so-sc">LinkedIn</a>
+        </div>
+        <div className="column">
+          <a href="https://gihub.com/so-sc">Community Guide lines</a>
+          <a href="https://instagram.com/so-sc">Code of Conduct</a>
+        </div>
+        <div className="column">
+          <p>
+            <strong>Sahyadri Open-Source Community</strong><br/>
+            Sahyadri College of Engineering and Management,
+            Adyar, Mangalore - 575007 IN<br/><br/>
+            sosc@sahyadri.edu.in<br/>
+            +91 9539518599
+          </p>
+        </div>
+      </div>
     </div>
+    <div className="copyright-area">
+      <p>SOSC © 2018</p>
     </div>
-  </div>
+  </footer>
 )
 
 export default Footer

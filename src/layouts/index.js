@@ -4,7 +4,10 @@ import Helmet from 'react-helmet';
 import AOS from 'aos';
 
 import Header from '../components/header';
+import Footer from '../components/footer';
+
 import '../sass/index.scss';
+
 
 
 class Layout extends React.Component {
@@ -35,6 +38,7 @@ class Layout extends React.Component {
 				}}>
 					{this.props.children()}
 				</div>
+				<Footer/>
 			</div>
 		);
 	}
