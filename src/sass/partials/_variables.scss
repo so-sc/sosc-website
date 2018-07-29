@@ -1,0 +1,41 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+$min-width-large: '1281px';
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+$min-width-desktop: '1025px';
+$max-width-desktop: '1280px';
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+$min-width-tablets: '768px';
+$max-width-tablets: '1024px';
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+$min-width-mobiles: '481px';
+$max-width-mobiles: '767px';
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+$min-width-small: '320px';
+$max-width-small: '480px';
+
+$media-large: '(min-width: '+$min-width-large+')';
+$media-desktop: '(min-width: '+$min-width-desktop+') and (max-width: '+$max-width-desktop+')';
+$media-tablet-p: '(min-width: '+$min-width-tablets+') and (max-width: '+$max-width-tablets+')';
+$media-tablet-l: '(min-width: '+$min-width-tablets+') and (max-width: '+$max-width-tablets+') and (orientation: landscape)';
+$media-mobile: '(min-width: '+$min-width-mobiles+') and (max-width: '+$max-width-mobiles+')';
+$media-small: '(min-width: '+$min-width-small+') and (max-width: '+$max-width-small+')';

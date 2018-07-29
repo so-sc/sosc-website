@@ -1,0 +1,108 @@
+.container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    @media #{$media-large}{
+        width: 80%;
+    }
+
+    @media #{$media-desktop} {
+        width: 80%;
+    }
+
+    @media  #{$media-tablet-p}{
+        width: 80%;
+    }
+
+    @media #{$media-tablet-l}{
+        width: 90%;
+    }
+
+    @media #{$media-mobile}{
+        width: 90%;
+    }
+
+    @media #{$media-small}{
+        width: 93%;
+    }
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    height: 500px;
+    align-items: center;
+  
+    .hero-texts {
+      display: flex;
+      flex-basis: 50%;
+      flex-grow: 0;
+      flex-direction: column;
+      justify-content: center;
+  
+      .sosc-logo {
+        width: 80px;
+        height: 35px;
+      }
+      .sosc-header {
+        font-size: 2em;
+        font-weight: bold;
+        margin: 20px 0px 10px 0px;
+        @media #{$media-mobile}{
+            font-size: 1.5em;
+        }
+
+        @media #{$media-small}{
+            font-size: 1.5em;
+        }
+      }
+      a {
+        background: linear-gradient(45deg, #08D777, #1FD656);
+        background: -webkit-linear-gradient(45, #08D777, #1FD656);
+        background: -moz-linear-gradient(45, #08D777, #1FD656);
+  
+        -webkit-box-shadow: 0px 5px 10px 0px rgba(31,214,86,0.32);
+        -moz-box-shadow: 0px 5px 10px 0px rgba(31,214,86,0.32);
+        box-shadow: 0px 5px 10px 0px rgba(31,214,86,0.32);
+  
+        margin-top: 15px;
+        padding: 15px 20px 15px 20px;
+        color: white;
+        align-self: flex-start;
+        border-radius: 30px;
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+      }
+      a:hover {
+        background: linear-gradient(45deg, rgb(7, 228, 125), #1FD656);
+        background: -webkit-linear-gradient(45, rgb(7, 228, 125), #1FD656);
+        background: -moz-linear-gradient(45, rgb(7, 228, 125), #1FD656);
+        -webkit-box-shadow: 0px 7px 20px 0px rgba(15,255,111,0.52);
+        -moz-box-shadow: 0px 7px 20px 0px rgba(15,255,111,0.52);
+        box-shadow: 0px 7px 20px 0px rgba(15,255,111,0.52);
+      }
+    }
+  
+    .hero-image {
+      width: 100%;
+      height: auto;
+    }
+    
+    @media #{$media-mobile}{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        height: auto;
+        align-items: center;
+    }
+
+    @media #{$media-small}{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        height: auto;
+        align-items: center;
+    }
+}
+  
