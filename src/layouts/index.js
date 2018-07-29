@@ -14,7 +14,7 @@ class Layout extends React.Component {
   }
   componentDidMount(){
     AOS.init({
-			duration: 1000,
+			duration: 500,
     })
 	}
 	

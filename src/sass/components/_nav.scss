@@ -40,17 +40,30 @@
       flex-direction: row;
 
       @media #{$media-mobile} {
-        justify-content: space-evenly;
+        justify-self: center;
+        align-self: center;
+        align-content: space-between;
         padding: 0;
         margin: 0;
       }
 
       @media #{$media-small} {
+        justify-self: center;
+        align-self: center;
+        align-content: space-between;
         padding: 0;
         margin: 0;
       }
   
       li {
+
+        @media #{$media-mobile} {
+          flex-grow: 0;
+        }
+  
+        @media #{$media-small} {
+          flex-grow: 0;
+        }
           a {
           display: inline-block;
           text-decoration: none;
