@@ -1,29 +1,45 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
+import AOS from 'aos';
 
 import Header from '../components/header';
 import '../sass/index.scss';
 
 
-const Layout = ({ children, data }) => (
-	<div>
-		<Helmet
-			title={data.site.siteMetadata.title}
-			meta={[
-				{ name: 'description', content: 'Sample' },
-				{ name: 'keywords', content: 'sample, something' },
-			]}
-		/>
-		<Header siteTitle={data.site.siteMetadata.title} />
-		<div style={{
-			display: 'flex',
-			flexDirection: 'column',
-		}}>
-			{children()}
-		</div>
-	</div>
-);
+class Layout extends React.Component {
+
+	constructor(props){
+    super(props);
+  }
+  componentDidMount(){
+    AOS.init({
+			duration: 1000,
+    })
+	}
+	
+	render() {
+		return(
+			<div>
+				<Helmet
+					title={this.props.data.site.siteMetadata.title}
+					meta={[
+						{ name: 'description', content: 'Sample' },
+						{ name: 'keywords', content: 'sample, something' },
+					]}
+				/>
+				<Header siteTitle={this.props.data.site.siteMetadata.title} />
+				<div style={{
+					display: 'flex',
+					flexDirection: 'column',
+				}}>
+					{this.props.children()}
+				</div>
+			</div>
+		);
+	}
+}
+
 
 Layout.propTypes = {
 	children: PropTypes.func,

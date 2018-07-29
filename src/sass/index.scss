@@ -1,5 +1,6 @@
 @import 'components/components';
 @import 'partials/base';
+@import 'aos.css';
 
 :focus {outline:none;}
 ::-moz-focus-inner {border:0;}
@@ -19,15 +20,6 @@ body {
   font-family: 'Varela Round', sans-serif;
   color: #373738;
   background-color: #ffffff;
-}
-
-
-
-
-.club-logo-section {
-  background-color: #eeeeee;
-  padding: 20px;
-  display: block;
 }
 
 

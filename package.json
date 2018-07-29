@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Musthaq Ahamad <musthu.gm@gmail.com>",
   "dependencies": {
+    "aos": "^2.3.3",
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
