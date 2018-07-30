@@ -7,13 +7,13 @@ const Footer = ({ siteTitle }) => (
     <div className="container">
       <div className="info-area">
         <div className="column">
-          <a href="https://gihub.com/so-sc">GitHub</a>
-          <a href="https://instagram.com/so-sc">Instagram</a>
-          <a href="https://linkedin.com/so-sc">LinkedIn</a>
+          <a href="https://github.com/so-sc">GitHub</a>
+          <a href="https://instagram.com/sosc.sahyadri">Instagram</a>
+          <a href="https://linkedin.com/company/sosc-sahyadri">LinkedIn</a>
         </div>
         <div className="column">
-          <a href="https://gihub.com/so-sc">Community Guide lines</a>
-          <a href="https://instagram.com/so-sc">Code of Conduct</a>
+          <a href="https://github.com/so-sc">Community Guide lines</a>
+          <a href="https://instagram.com/sosc.sahyadri">Code of Conduct</a>
         </div>
         <div className="column">
           <p>
