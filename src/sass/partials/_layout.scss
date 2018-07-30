@@ -1,3 +1,14 @@
+.page {
+    margin-top: 80px;
+
+    @media #{$media-mobile}{
+        margin-top: 120px;
+    }
+
+    @media #{$media-small}{
+        margin-top: 120px;
+    }
+}
 .container {
     position: relative;
     display: block;

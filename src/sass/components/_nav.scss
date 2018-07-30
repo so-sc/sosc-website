@@ -1,5 +1,13 @@
 @import '../partials/variables';
 
+.nav-bar {
+    display: block;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #e7e4e4;
+    z-index: 99;
+}
 .nav-items {
     display: flex;
     margin: auto;
@@ -25,11 +33,13 @@
       @media #{$media-mobile} {
         font-size: 1.6em;
         padding-top: 20px;
+        margin-left: 20px;
       }
 
       @media #{$media-small} {
         font-size: 1.6em;
         padding-top: 20px;
+        margin-left: 15px;
       }
     }
   
@@ -40,29 +50,34 @@
       flex-direction: row;
 
       @media #{$media-mobile} {
-        justify-self: center;
+        width: 100%;
         align-self: center;
-        align-content: space-between;
+        justify-content: space-between;
         padding: 0;
         margin: 0;
       }
 
       @media #{$media-small} {
-        justify-self: center;
+        width: 100%;
         align-self: center;
-        align-content: space-between;
+        justify-content: space-between;
         padding: 0;
         margin: 0;
       }
   
       li {
 
+
         @media #{$media-mobile} {
           flex-grow: 0;
+          flex-basis: 25%;
+          margin: auto;
         }
   
         @media #{$media-small} {
           flex-grow: 0;
+          flex-basis: 25%;
+          margin: auto;
         }
           a {
           display: inline-block;

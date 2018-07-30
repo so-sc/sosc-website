@@ -10,7 +10,7 @@ const logoStyle = {
   
 };
 const IndexPage = () => (
-  <div>
+  <div className="page">
     <div className="container">
       <section data-aos="fade-up" className="hero-section">
         <div className="hero-texts">
