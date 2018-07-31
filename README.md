@@ -17,6 +17,7 @@ git clone https://github.com/YOUR_USERNAME/sosc-website.git
 Then you can run it by:
 ```sh
 cd sosc-website
+npm install
 gatsby develop
 ```
 
