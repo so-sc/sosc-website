@@ -281,3 +281,39 @@
         }
     }
 }
+
+.blog-section {
+    display: flex;
+    flex-direction: row;
+
+   .blog-card{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #e7e4e4;
+
+   }
+
+   .blog-newsletter {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .card-content {
+       display: flex;
+       flex-direction: column;
+   }
+   
+   .tags {
+   }
+
+   .author-box {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+   }
+
+   .author-details {
+       display: flex;
+       flex-direction: column;
+   }
+}
