@@ -59,7 +59,7 @@ const IndexPage = () => (
             SOSC is all about helping each other to learn and improve, we conduct 
             workshops and trainings led by speakers from other technical communities,
             and student experts. Keeping up to date with latest technologies and learning
-            new things is what most of love. Here si your chance to attend workshops, training
+            new things is what most of love. Here is your chance to attend workshops, training
             and even host non-profit events to help others.
           </p>
         </div>
