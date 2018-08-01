@@ -254,3 +254,30 @@
         align-items: center;
     }
 }
+
+.event-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 1px solid #e7e4e4;
+
+    .event-list-item {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        border-bottom: 1px solid #e7e4e4;
+        border-left: 3px solid #02b839;
+
+        .event-title {
+            font-size: 1.2em;
+            color: #02b839;
+            margin: 0 0 5px 0;
+        }
+
+        .event-description {
+            font-size: 1em;
+            color: rgb(36, 36, 36);
+        }
+    }
+}
