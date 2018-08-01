@@ -15,10 +15,15 @@ class Layout extends React.Component {
 	constructor(props){
     super(props);
   }
+	
   componentDidMount(){
     AOS.init({
 			duration: 500,
     })
+	}
+
+	componentDidUpdate() {
+		AOS.refresh();
 	}
 	
 	render() {
