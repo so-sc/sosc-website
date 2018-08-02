@@ -1,12 +1,34 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import BlogCard from '../components/blog_card';
+
+
+function getBlogs() {
+  let blogs = [];
+  for(let i = 0; i < 9; i++) {
+    blogs.push(<BlogCard/>)
+  }
+  return blogs;
+}
 
 const BlogsPage = () => (
-  <div className="page">
-    <h1>Hi from the blogs page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </div>
+
+<div className="page">
+	<div className="container">
+		<section className="blog-section">
+			<div className="blog-posts">
+
+      { getBlogs() }
+
+			</div>
+			<div className="blog-newsletter">
+				<div className="news-card">
+					<img src=""></img>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
 )
 
 export default BlogsPage
