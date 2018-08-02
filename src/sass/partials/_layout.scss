@@ -262,12 +262,12 @@
         @media #{$media-mobile} {
             flex-direction: column;
             height: auto;
-            margin: 10px;
+            margin: 10px 0px 0px 0px;
         }
         @media #{$media-small} {
             flex-direction: column;
             height: auto;
-            margin: 20px;
+            margin: 10px 0px 0px 0px;
         }
         .cover {
             width: 40%;
@@ -339,5 +339,6 @@
     }
     .date {
         padding: 0 5px 5px 5px;
+        font-size: 0.8em;
     }
 }

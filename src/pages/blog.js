@@ -54,6 +54,7 @@ query blogsQuery {
 			node {
 				id
 				frontmatter {
+					slug
 					cover {
 						publicURL
 						childImageSharp {
@@ -66,6 +67,7 @@ query blogsQuery {
 					title
 					description
 					author
+					date(formatString: "DD-MMM-YYYY")
 				}
 			}
 		}
