@@ -23,7 +23,7 @@ const BlogsPage = () => (
 			</div>
 			<div className="blog-newsletter">
 				<div className="news-card">
-					<img src="http://www.osuinternationalhouse.com/wp-content/uploads/2011/10/logo_house_small.png"></img>
+					<img src=""></img>
 				</div>
 			</div>
 		</section>

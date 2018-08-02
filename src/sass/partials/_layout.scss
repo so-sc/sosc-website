@@ -287,10 +287,19 @@
     flex-direction: row;
 
    .blog-card{
-    display: flex;
-    flex-direction: row;
-    border: 1px solid #e7e4e4;
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+        border: 1px solid #e7e4e4;
+        border-radius: 10px;
 
+   }
+
+   .blog-img {
+        object-fit: cover;
+        width: auto;
+        border-radius: 10px 0px 0px 10px;
+        height: 250px;
    }
 
    .blog-newsletter {
@@ -301,19 +310,44 @@
    .card-content {
        display: flex;
        flex-direction: column;
+       padding: 20px;
    }
    
    .tags {
+       color: #02b839;
+   }
+
+   .title {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #373738;
+    padding: 10px 10px 10px 0;
    }
 
    .author-box {
-       display: flex;
-       flex-direction: row;
-       align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+   }
+
+   .author-img {
+    width: 40px;
+    border-radius: 50%;
    }
 
    .author-details {
-       display: flex;
-       flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+   }
+
+   .author-name {
+        padding: 5px 5px 0px 5px;
+        font-weight: bold;
+   }
+
+   .date {
+        padding: 0 5px 5px 5px;
    }
 }
