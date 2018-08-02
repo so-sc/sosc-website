@@ -262,12 +262,12 @@
         @media #{$media-mobile} {
             flex-direction: column;
             height: auto;
-            margin: 10px;
+            margin: 10px 0px 0px 0px;
         }
         @media #{$media-small} {
             flex-direction: column;
             height: auto;
-            margin: 20px;
+            margin: 10px 0px 0px 0px;
         }
         .cover {
             width: 40%;
@@ -302,10 +302,10 @@
             justify-content: center;
             padding: 20px;
             @media #{$media-mobile} {
-                width: 100%;
+                width: auto;
             }
             @media #{$media-small} {
-                width: 100%;
+                width: auto;
             }
         }
     }
@@ -317,6 +317,10 @@
         font-weight: bold;
         color: #373738;
         padding: 10px 10px 10px 0;
+    }
+
+    .description {
+        display: flex;
     }
     .author-box {
         display: flex;
@@ -339,5 +343,6 @@
     }
     .date {
         padding: 0 5px 5px 5px;
+        font-size: 0.8em;
     }
 }
