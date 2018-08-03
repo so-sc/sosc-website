@@ -5,8 +5,8 @@
   "author": "Musthaq Ahamad <musthu.gm@gmail.com>",
   "dependencies": {
     "aos": "^2.3.3",
-    "gatsby": "^1.9.247",
     "gatsby-image": "^1.0.55",
+    "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-react-helmet": "^2.0.10",

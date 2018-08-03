@@ -225,29 +225,6 @@
     }
 }
 
-.event-section {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    border: 1px solid #e7e4e4;
-    .event-list-item {
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        align-content: flex-start;
-        border-bottom: 1px solid #e7e4e4;
-        border-left: 3px solid #02b839;
-        .event-title {
-            font-size: 1.2em;
-            color: #02b839;
-            margin: 0 0 5px 0;
-        }
-        .event-description {
-            font-size: 1em;
-            color: rgb(36, 36, 36);
-        }
-    }
-}
 
 .blog-section {
     display: flex;
@@ -521,4 +498,61 @@
             font-size: 1.2em;
         }
     }
+}
+.card {
+    background: #fff;
+    border-radius: 2px;
+    display: inlineBlock;
+    height: 270px;
+    width: 350px;
+    margin: 1rem;
+    position: relative;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.card:hover {
+    box-shadow: 0 12px 26px rgba(0,0,0,0.25), 0 8px 8px rgba(0,0,0,0.22);
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: auto;
+}
+
+.card-header-img {
+    width: 100%;
+    height: 60%;
+}
+
+.card-text {
+  //  background-color: red;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-header-text {
+    width: 100%;
+    text-align: center;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-size: 1.18em;
+}
+
+.card-date {
+    // background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 90%;
+}
+
+.card-date-text {
+    padding: 0 2%;
+    color: black;
 }
