@@ -5,7 +5,6 @@ import BlogCard from '../components/blog_card';
 
 function getBlogs(data) {
 	let blogs = [];
-	console.log(data);
 	let blogList = data.allMarkdownRemark.edges;
 
 	blogList.map(element => {
@@ -21,7 +20,7 @@ const BlogsPage = ({data}) => (
 		<section className="blog-section">
 			<div className="blog-posts">
 
-      { getBlogs(data) }
+      			{ getBlogs(data) }
 
 			</div>
 			<div className="blog-newsletter">
