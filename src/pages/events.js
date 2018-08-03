@@ -1,11 +1,14 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import Card from '../components/card';
+import Footer from '../components/footer';
+
+const imgUrl = 'https://zocada.com/wp-content/uploads/2018/07/HLS_EXO-740x370.png';
 
 const EventsPage = () => (
   <div>
-    <h1>Hi from the events page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <div className="container">
+      <Card imgUrl={imgUrl} title="Android Workshop (Java)" date="24-Jul-2018"/>
+    </div>
   </div>
 )
 
