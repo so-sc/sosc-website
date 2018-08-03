@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'SOSC',
+    siteUrl: 'https://sosc.org.in'
   },
 plugins: [
     'gatsby-plugin-react-helmet',
@@ -36,5 +37,8 @@ plugins: [
         exclude: ["/preview/**", "/do-not-track/me/too/"],
       },
     },
+    {
+      resolve: `gatsby-plugin-sitemap`
+    }
   ],
 }
