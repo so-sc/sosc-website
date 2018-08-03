@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const BlogCard = ({data}) => (
-    <div className="blog-card">
+    <div data-aos="fade-up" className="blog-card">
 
         <div className="cover">
         <img src={data.cover.publicURL}></img>
@@ -12,7 +12,7 @@ const BlogCard = ({data}) => (
                 {data.tags}
             </div>
             <div className="title">
-                {data.title}
+                <Link to={data.slug}>{data.title}</Link>
             </div>
             <div className="description">
                 {data.description}

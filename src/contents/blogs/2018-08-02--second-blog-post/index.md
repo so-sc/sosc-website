@@ -1,5 +1,5 @@
 ---
-slug: 'second-blog-post'
+slug: '/blog/second-blog-post'
 date: '2018-08-02'
 author: 'haxzie'
 title: 'Second blog post'
