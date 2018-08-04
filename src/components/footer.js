@@ -1,6 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+function getYear() {
+  return new Date().getFullYear();
+}
 
 const Footer = ({ siteTitle }) => (
   <footer>
@@ -27,7 +30,7 @@ const Footer = ({ siteTitle }) => (
       </div>
     </div>
     <div className="copyright-area">
-      <p>SOSC © 2018</p>
+      <p>SOSC © { getYear() }</p>
     </div>
   </footer>
 )
