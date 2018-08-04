@@ -67,7 +67,7 @@ create a new Markdown file with the name `index.md` and add any images if you wa
 follow the below format with all the details inside the markdown file and submit a PullRequest to this repository.
 
 PS: 
-- Slug is where your blog post will be available on the website and the prefix `/events/` is a must to identify it as a blog.
+- Slug is where your blog post will be available on the website and the prefix `/events/` is a must to identify it as an event.
 - Date should be in the format YYYY-mm-dd
 
 eg.
