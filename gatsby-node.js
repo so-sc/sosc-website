@@ -38,6 +38,11 @@ exports.createPages = ({boundActionCreators, graphql}) => {
                         path: slug,
                         component: blogTemplate
                     })
+                } else if (slug.includes(`/events/`)) {
+                    createPage({
+                        path: slug,
+                        component: eventTemplate
+                    })
                 }
             }
             

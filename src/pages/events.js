@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from '../components/event_card';
-import Footer from '../components/footer';
 
 const imgUrl = 'https://zocada.com/wp-content/uploads/2018/07/HLS_EXO-740x370.png';
 
@@ -11,7 +10,9 @@ function getEvents(data) {
 
   eventList.map(({node}) => {
     events.push(
-      <Card imgUrl={node.frontmatter.cover.publicURL} 
+      <Card 
+        slug={node.frontmatter.slug}
+        imgUrl={node.frontmatter.cover.publicURL} 
         title={node.frontmatter.name} 
         date={node.frontmatter.date}/>
     );
