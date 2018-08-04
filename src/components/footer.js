@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-
 const Footer = ({ siteTitle }) => (
   <footer>
     <div className="container">
@@ -12,7 +11,7 @@ const Footer = ({ siteTitle }) => (
           <a href="https://linkedin.com/company/sosc-sahyadri">LinkedIn</a>
         </div>
         <div className="column">
-          <a href="">Community Guide lines</a>
+          <a href="">Community Guidelines</a>
           <a href="https://github.com/so-sc/code-of-conduct">Code of Conduct</a>
         </div>
         <div className="column">
@@ -27,7 +26,7 @@ const Footer = ({ siteTitle }) => (
       </div>
     </div>
     <div className="copyright-area">
-      <p>SOSC © 2018</p>
+      <p>SOSC © { new Date().getFullYear() }</p>
     </div>
   </footer>
 )
