@@ -25,6 +25,10 @@ class Layout extends React.Component {
 	componentDidUpdate() {
 		AOS.refresh();
 	}
+
+	componentWillReceiveProps () {
+		AOS.refresh();
+	}
 	
 	render() {
 		return(
