@@ -1,30 +1,62 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import Card from '../components/event_card';
+import Footer from '../components/footer';
 
-const EventsPage = () => (
+const imgUrl = 'https://zocada.com/wp-content/uploads/2018/07/HLS_EXO-740x370.png';
+
+
+function getEvents(data) {
+  let events = [];
+  let eventList = data.allMarkdownRemark.edges;
+
+  eventList.map(({node}) => {
+    events.push(
+      <Card imgUrl={node.frontmatter.cover.publicURL} 
+        title={node.frontmatter.name} 
+        date={node.frontmatter.date}/>
+    );
+  })
+
+  return events;
+}
+const EventsPage = ({data}) => (
   <div className="page">
     <div className="container">
-      <section className="event-section">
-        <div className="event-list-item">
-          <p className="event-title">
-            Python BootCamp
-          </p>
-          <p className="event-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-
-        <div className="event-list-item">
-          <p className="event-title">
-            Python BootCamp
-          </p>
-          <p className="event-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-      </section>
+      <div className="event-card-container">
+        { getEvents(data) }
+      </div>
     </div>
   </div>
 )
 
 export default EventsPage
+
+export const query = graphql`
+query eventsQuery {
+  allMarkdownRemark(
+		sort: {
+			fields: [frontmatter___date],
+			order: DESC
+		},
+		filter: {
+			fileAbsolutePath: {
+				regex: "/events/.*\\.md$/"
+			}
+		}
+  ) {
+    totalCount
+    edges {
+      node {
+        frontmatter {
+          slug
+          name
+          date(formatString: "DD-MMM-YYYY")
+          cover {
+            publicURL
+          }
+        }
+      }
+    }
+  }
+}
+`

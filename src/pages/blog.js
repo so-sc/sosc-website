@@ -3,22 +3,24 @@ import Link from 'gatsby-link'
 import BlogCard from '../components/blog_card';
 
 
-function getBlogs() {
-  let blogs = [];
-  for(let i = 0; i < 9; i++) {
-    blogs.push(<BlogCard/>)
-  }
+function getBlogs(data) {
+	let blogs = [];
+	let blogList = data.allMarkdownRemark.edges;
+
+	blogList.map(element => {
+		blogs.push( <BlogCard data={ element.node.frontmatter }/> )
+	});
   return blogs;
 }
 
-const BlogsPage = () => (
+const BlogsPage = ({data}) => (
 
 <div className="page">
 	<div className="container">
 		<section className="blog-section">
 			<div className="blog-posts">
 
-      { getBlogs() }
+      			{ getBlogs(data) }
 
 			</div>
 			<div className="blog-newsletter">
@@ -32,3 +34,42 @@ const BlogsPage = () => (
 )
 
 export default BlogsPage
+
+export const query =  graphql`
+query blogsQuery {
+	allMarkdownRemark(
+		sort: {
+			fields: [frontmatter___date],
+			order: DESC
+		},
+		filter: {
+			fileAbsolutePath: {
+				regex: "/blogs/.*\\.md$/"
+			}
+		}
+	) {
+		totalCount
+		edges {
+			node {
+				id
+				frontmatter {
+					slug
+					cover {
+						publicURL
+						childImageSharp {
+							sizes(maxWidth: 700) {
+								srcSet
+							}
+						}
+					}
+					tags
+					title
+					description
+					author
+					date(formatString: "DD-MMM-YYYY")
+				}
+			}
+		}
+	}
+}
+`

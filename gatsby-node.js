@@ -1,7 +1,46 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+const path = require('path');
 
- // You can delete this file if you're not using it
+exports.createPages = ({boundActionCreators, graphql}) => {
+    const {createPage} = boundActionCreators;
+
+    const blogTemplate = path.resolve('src/templates/blog.js');
+    const eventTemplate = path.resolve('src/templates/event.js');
+
+    return graphql(
+        `{
+            allMarkdownRemark {
+                edges {
+                    node {
+                        id
+                        frontmatter {
+                            slug
+                        }
+
+                    }
+                }
+            }
+        }`
+    ).then(res => {
+        if (res.errors) {
+            return Promise.reject(errors);
+        }
+
+        console.log(res.data.allMarkdownRemark.edges);
+
+        res.data.allMarkdownRemark.edges.map(element => {
+
+            let slug = element.node.frontmatter.slug;
+
+            if (slug) {
+                //create page for blog using template
+                if (slug.includes(`/blog/`)) {
+                    createPage({
+                        path: slug,
+                        component: blogTemplate
+                    })
+                }
+            }
+            
+        });
+    })
+}
