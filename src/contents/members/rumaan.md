@@ -2,7 +2,7 @@
 username: rumaan
 name: Rumaan Khalander
 designation: Technical Lead
-email: musthu.gm@gmail.com
-linkedin: https://www.linkedin.com/in/haxzie/
-skills: Android, Design, web, Public speaking
+email: rumaankalander@gmail.com
+linkedin: https://www.linkedin.com/in/rumaan/
+skills: Android, Web, Python, Public speaking
 ---
