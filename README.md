@@ -5,7 +5,7 @@ If you are new to Git and GitHub and don't know hoe to submit a PR, please refer
 on submitting your first pull request at [gitme.js.org](https://gitme.js.org).  
 
 All the contents to the website is in Markdown format, Please follow the below guidelines for any contributions.
-If You don't know hoe to write a markdown file, take quick look at [GitHub's markdown](https://guides.github.com/features/mastering-markdown/) guide.
+If You don't know how to write a markdown file, take quick look at [GitHub's markdown](https://guides.github.com/features/mastering-markdown/) guide.
 
 ## Adding your profile
 Submit a pull request by adding your profile to the `src/contents/members` directory.  
