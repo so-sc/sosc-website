@@ -4,7 +4,7 @@ All contribution to this website including contents are made through Pull Reques
 If you are new to Git and GitHub and don't know how to submit a Pull Request(PR), please refer our friendly guide
 on submitting your first pull request at [gitme.js.org](https://gitme.js.org).  
 
-All the contents to the website is in Markdown format, Please follow the below guidelines for any contributions.
+All the contents to the website is in Markdown format, Please follow the below guidelines for any contributions.  
 If you don't know how to write a markdown file, take quick look at [GitHub's markdown](https://guides.github.com/features/mastering-markdown/) guide.
 
 ## Adding your profile
