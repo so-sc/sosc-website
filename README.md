@@ -42,7 +42,7 @@ Add the following frontmatter details into the markdown file followed by your bl
 And finally submit a Pull Request.
 
 PS: 
-- Slug is where your blog post will be available on the website and the prefix `/blog/` is a must to identify it as a blog.
+- Slug is where your blog post will be available on the website and the prefix `/blog/` is required to identify it as a blog.
 - Description should be written in a single line, with considerably almost 2-3 lines as viewable. Make it short and descriptive. 
 - Date should be in the format YYYY-mm-dd
 - Your author name should be your github profile url.
@@ -63,8 +63,8 @@ description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
 
 ## Creating a new Event
 To submit a new event details, create a folder in the `src/contents/events/` directory with the name of the event.  
-create a new Markdown file with the name `index.md` and add any images if you want to refer in the same directory.  
-follow the below format with all the details inside the markdown file and submit a Pull Request to this repository.
+Create a new Markdown file with the name `index.md` and add any images if you want to refer in the same directory.  
+Follow the below format with all the details inside the markdown file and submit a Pull Request to this repository.
 
 PS: 
 - Slug is where your blog post will be available on the website and the prefix `/events/` is a must to identify it as an event.
