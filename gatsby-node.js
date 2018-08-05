@@ -25,7 +25,6 @@ exports.createPages = ({boundActionCreators, graphql}) => {
             return Promise.reject(errors);
         }
 
-        console.log(res.data.allMarkdownRemark.edges);
 
         res.data.allMarkdownRemark.edges.map(element => {
 
