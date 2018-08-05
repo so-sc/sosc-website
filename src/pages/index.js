@@ -31,8 +31,8 @@ const IndexPage = () => (
         </div>
       </section>
     </div>
-    <div>
-      <section data-aos="fade-up" className="hero-section2 container">
+    <div className="container">
+      <section data-aos="fade-up" className="hero-section2 ">
         <div>
           <img src={clubImage} className="hero-image" alt="hero image"/>
         </div>

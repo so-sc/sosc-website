@@ -25,6 +25,10 @@ class Layout extends React.Component {
 	componentDidUpdate() {
 		AOS.refresh();
 	}
+
+	componentWillReceiveProps () {
+		AOS.refresh();
+	}
 	
 	render() {
 		return(
@@ -32,8 +36,8 @@ class Layout extends React.Component {
 				<Helmet
 					title={this.props.data.site.siteMetadata.title}
 					meta={[
-						{ name: 'description', content: 'Sample' },
-						{ name: 'keywords', content: 'sample, something' },
+						{ name: 'description', content: 'Sahyadri Open-Source Community' },
+						{ name: 'keywords', content: 'Community, OpenSource, SOSC, sahyadri, student' },
 					]}
 				/>
 				<Header siteTitle={this.props.data.site.siteMetadata.title} />

@@ -1,0 +1,130 @@
+
+
+.event-card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.card {
+    background: #fff;
+    border-radius: 10px;
+    display: inlineBlock;
+    height: 270px;
+    width: 30%;
+    margin: 1rem;
+    position: relative;
+    border: 1px solid#e7e4e4;
+
+    @media #{$media-mobile} {
+        width: 100%;
+    }
+    @media #{$media-small} {
+        width: 100%;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 160px;
+        .card-header-img {
+            object-fit: cover;
+            width: 100%;
+            height: 160px;
+            border-radius: 9px 9px 0 0;
+        }
+        .card-text {
+            //  background-color: red;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+
+            .card-header-text {
+                
+                width: 100%;
+                text-align: center;
+                -webkit-font-smoothing: subpixel-antialiased;
+                font-size: 1em;
+                color: #474747;
+
+                a {
+                    text-decoration: none;
+                    color: #373738;
+                    &:hover {
+                        color: #02b839;
+                    }
+                }
+            }
+            .card-date {
+                // background-color: yellow;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                font-size: 90%;
+            }
+            .card-date-text {
+                padding: 0 2%;
+                color: #474747;
+            }
+        }
+    }
+}
+
+.event-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.event-page {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+    @media #{$media-mobile} {
+        width: 100%;
+    }
+    @media #{$media-small} {
+        width: 100%;
+    }
+
+    .cover {
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+        object-fit: cover;
+
+        @media #{$media-mobile} {
+            height: 200px;
+        }
+        @media #{$media-small} {
+            height: 200px;
+        }
+    }
+
+    .title {
+        align-self: center;
+    }
+
+    .event-details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        .icon {
+            width: 25px;
+            height: 25px;
+            margin: 10px 15px 10px 20px;
+        }
+
+        .text-details {
+            font-size: 0.8em;
+            color: #5c5c5c;
+        }
+    }
+
+}

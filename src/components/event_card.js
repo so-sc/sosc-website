@@ -9,7 +9,7 @@ const Card = (props) => (
                 <img className="card-header-img" src={props.imgUrl} alt="Card Image Text"/>
                 <div className="card-text">
                     <h2 className="card-header-text">
-                    <Link to="">{props.title}</Link>
+                    <Link to={props.slug}>{props.title}</Link>
                     </h2>
                     <div className="card-date">
                         <img src={DateIcon} className="card-date-icon" alt="date icon"/>
