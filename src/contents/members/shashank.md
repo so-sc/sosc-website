@@ -1,8 +1,8 @@
 ---
-username: SHANKY1199
-name: SHASHANK S
-designation: CAMPAIGN MONITOR
-email: SHASHANKS939@GMAIL.COM
+username: Shanky1199
+name: Shashank S
+designation: Campaign Monitor
+email: shashanks939@gmail.com
 linkedin: YOUR_LINKEDIN_PROFILE_URL (optional)
-skills: LEADERSHIP,SPEAEKER,DEDICATION TO CONTRIBUTE.
+skills: Leadership,Public speaking,OpenSource contributor.
 ---
