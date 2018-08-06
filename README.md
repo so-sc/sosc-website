@@ -1,5 +1,5 @@
 ![sosc logo](https://raw.githubusercontent.com/haxzie/sosc-website/master/src/images/logo_main.png)
-# Sahyadr OpenSource Community
+# Sahyadri OpenSource Community
 Official website for Sahyadri OpenSource Community.  
 All contribution to this website including contents are made through Pull Requests.  
 If you are new to Git and GitHub and don't know how to submit a Pull Request(PR), please refer our friendly guide
