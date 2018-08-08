@@ -15,7 +15,7 @@ Winning a game development hackathon is hard, especially when creativity is a co
 
 It was the month of April when we weren't super busy with academics nor projects, and It's pretty usual to hear about event invitations happening around in other colleges. But this news was quite different. Our college's Information Science department with some good folks at [Juego studios](https://www.juegostudio.com) were planning to conduct a hackathon in upcoming weekend. I was super excited but let down when I realized it's a Game development thingy. Fun fact: I never created a game before nor a hardcore gamer, am just a design guy or a mediocre web/Android dev.  
 
-To my surprise my vegan friend [Chaman](https://github.com/chamak-k) and Aravind looked excited than usual about the news, a little bit of background check helped me to know they were actually intrested in Unity ( it's a game engine, in case if you are wondering ), and had created some VR stuffs. But still it was a solid no from me, because I'd be just a paper weight during the event (TLDR; that's what happened). I really didn't wanted to let his excitement down and together with our friend Arjun, we planned to take a shot (we both knew what's gonna happen, lol).
+To my surprise my vegan friend [Chaman](https://github.com/chamak-k) and Aravind looked excited than usual about the news, a little bit of background check helped me to know they were actually interested in Unity ( it's a game engine, in case if you are wondering ), and had created some VR stuffs. But still it was a solid no from me, because I'd be just a paper weight during the event (TLDR; that's what happened). I really didn't wanted to let his excitement down and together with our friend Arjun, we planned to take a shot (we both knew what's gonna happen, lol).
 
 It was a 24 hours hackathon with a decent cash prize for the winners and the runners up. The event would start at around 10 O'clock in the morning and finish at the same time next day. We got a few of our friends at SOSC already signed up for the event and yeah devs from a lot of other colleges too.
 
@@ -62,7 +62,7 @@ For the final touch Aravind made the movement of the enemies and their spawn are
 
 ![real steel](https://media.giphy.com/media/OQJffa3JkqDQY/giphy.gif)
 
-We went ahead with the presentation infront of the CEO and developers from Juego studios for evaluation. We were surprised to see them intrested in playing the game, looking at them shouting at the mic to find that one voice the game recognizes among all the others shouting left, right and center at it, and the smile of excitement in their face when the game actually recognized and shot a few alien bad ass. We were happy, they were happy and our team headed back to home before hearing the announcement, because we weren't much of a believer of miracles happening to our project and actually getting atleast a consolation prize.
+We went ahead with the presentation in-front of the CEO and developers from Juego studios for evaluation. We were surprised to see them interested in playing the game, looking at them shouting at the mic to find that one voice the game recognizes among all the others shouting left, right and centre at it, and the smile of excitement in their face when the game actually recognized and shot a few alien bad ass. We were happy, they were happy and our team headed back to home before hearing the announcement, because we weren't much of a believer of miracles happening to our project and actually getting atleast a consolation prize.
 
 As you have already knew by now, we were shocked to hear the news after couple of hours that we won the hackathon! Yaay! But nay, we were like "It's a prank bro".
 
@@ -70,7 +70,7 @@ As you have already knew by now, we were shocked to hear the news after couple o
 
 Fast forward after collecting the prizes next day. That was actually awkward! We learned a lot of things from this hackathon which we weren't able to find in our previous hackathons.
 
-1. A hackathon team should be diverse in skills, not just a buch of programmers with no design thinking, because this way it's really hard to build something cool.
+1. A hackathon team should be diverse in skills, not just a bunch of programmers with no design thinking, because this way it's really hard to build something cool.
 2. Hackathons are not just to show your competence but to learn a lot of new things, socialize and find new contacts (and hella coffee).
 3. It helps to measure the skills we have and to measure our learning capability in critical situations.
 4. It's an opportunity to know about the trending technologies, or technologies which you may not even know existed. (well, there is an npm package for that too)
