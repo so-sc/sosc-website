@@ -21,7 +21,7 @@ function getMembers(data) {
 
 const TeamsPage = ({data}) => (
   <div className="page">
-    <div className="container team">
+    <div className="container">
       <div className="team-section">
         { getMembers(data) }
       </div>
