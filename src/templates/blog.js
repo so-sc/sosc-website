@@ -1,12 +1,16 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Img from 'gatsby-image'
+import MemberCard from '../components/member_card';
 
 export default function BlogTemplate ({data}) {
     const {markdownRemark: post} = data;
     
     return (
         <div className="page">
+            <Helmet>
+                <title>{post.frontmatter.title}</title>
+                <meta name="description" content={post.frontmatter.description} />
+            </Helmet>
             <div className="container">
                 <div className="blog-page">
 
@@ -35,7 +39,7 @@ export default function BlogTemplate ({data}) {
                                 <div className="author-details">
                                     <div className="author-name">
                                         <a href={`https://github.com/${post.frontmatter.author}`}
-                                            rel="noopener noreferrer" target="_blank" >{post.frontmatter.author}</a>
+                                            rel="noopener noreferrer" target="_blank" >{post.frontmatter.name}</a>
                                     </div>
                                     <div className="date">
                                         {post.frontmatter.date}
@@ -57,6 +61,13 @@ export default function BlogTemplate ({data}) {
                     <div data-aos="fade-up" 
                         className="blog-contents" 
                         dangerouslySetInnerHTML={{ __html: post.html}}/>
+                    
+                    <div className="team-section bottom-box">
+                        <MemberCard
+                            username={post.frontmatter.author}
+                            full_name={post.frontmatter.name}
+                            designation="" />
+                    </div>
                 </div>
             </div>
             
@@ -77,7 +88,9 @@ export const postQuery = graphql`
                 title
                 description
                 author
-                date
+                name
+                date(formatString: "DD-MMM-YYYY")
+                designation
             }
         }
     }
