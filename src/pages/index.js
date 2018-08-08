@@ -16,7 +16,7 @@ const IndexPage = () => (
         <div className="hero-texts">
           <img src={soscLogo} className="sosc-logo" alt="sosc logo"/>
           <p className="sosc-header">
-            Sahyadri<br/>OpenSource Community
+            Sahyadri<br/>Open Source Community
           </p>
           <p>
             A community driven by tech enthusiasts and
