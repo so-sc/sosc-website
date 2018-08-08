@@ -7,6 +7,10 @@ export default function BlogTemplate ({data}) {
     
     return (
         <div className="page">
+            <Helmet>
+                <title>{post.frontmatter.title}</title>
+                <meta name="description" content={post.frontmatter.description} />
+            </Helmet>
             <div className="container">
                 <div className="blog-page">
 
