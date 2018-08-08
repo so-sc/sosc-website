@@ -50,9 +50,10 @@ PS:
 
 ```
 ---
-slug: /blog/YOUR_BLOG_POST_URL
+slug: /blog/YOUR-BLOG-POST-URL (add your post title with hyphens instead of spaces, in Lowercase only)
 date: 2018-08-02
 author: haxzie
+name: Musthaq Ahamad
 title: Second blog post
 tags: blog post
 cover: './cover.jpg'
