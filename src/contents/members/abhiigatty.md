@@ -1,7 +1,7 @@
 ---
 username: Hitoshirenu
 name: Abhishek P
-designation: Community Leap
+designation: Community Lead
 email: abhiigatty@gmail.com
 linkedin: www.linkedin.com/in/abhiigatty
 skills: Net Sec, System Architecture design, Python, Ruby
