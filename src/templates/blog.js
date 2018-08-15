@@ -1,9 +1,15 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { DiscussionEmbed } from "disqus-react";
 import MemberCard from '../components/member_card';
 
 export default function BlogTemplate ({data}) {
     const {markdownRemark: post} = data;
+    const disqusShortname = "sosc";
+    const disqusConfig = {
+      identifier: post.frontmatter.title,
+      title: post.frontmatter.title,
+    };
     
     return (
         <div className="page">
@@ -61,13 +67,13 @@ export default function BlogTemplate ({data}) {
                     <div data-aos="fade-up" 
                         className="blog-contents" 
                         dangerouslySetInnerHTML={{ __html: post.html}}/>
-                    
                     <div className="team-section bottom-box">
                         <MemberCard
                             username={post.frontmatter.author}
                             full_name={post.frontmatter.name}
                             designation="" />
                     </div>
+                    <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
                 </div>
             </div>
             
