@@ -24,7 +24,7 @@ const IndexPage = () => (
             to be part of the open-source ecosystem by providing
             training and skill development.
           </p>
-          <a href="#" className="btn-hero-green">Become a member</a>
+          <a href="https://goo.gl/forms/XH41TwlMxOeRwmdQ2" className="btn-hero-green">Become a member</a>
         </div>
         <div>
           <img src={heroImage} className="hero-image" alt="hero image"/>
