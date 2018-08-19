@@ -16,6 +16,13 @@ In Google I/O '16 several certification programmes were introduced which would h
 
 ![Badge](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/11316860)
 
+## My journey as an Android Developer
+
+Right from the early days when computers came into my house I was curious about how they work and thier functionings. I used to tinked around my computer and learnt alot from it. Back in the _days_ we had something called as a _feature phone_ which was supposedly a phone with basic functionalities and would seem to suffice the basic needs of the owner. It had inbuilt apps like a dialer, contacts, camera and some basic games. 
+<!-- Write more on the history of iPhone launch and advent of smartphones -->
+
+
+
 <!--![Certificate](https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/11316860)
 -->
 
