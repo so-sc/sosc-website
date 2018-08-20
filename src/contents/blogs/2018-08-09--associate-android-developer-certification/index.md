@@ -40,7 +40,7 @@ It a pretty straight forward process. I'll try to explain each step in detail in
 
 ## Certification Exam 👨🏻‍💻
 
-After you have paid the fee (which is roughly around ₹5000), and hit the start exam button, 
+After you have paid the fee (which is roughly around ₹6500), and hit the start exam button, 
 You'll be given a project (partially complete) which you need to download and a set of functional requirements, bugs and other required wireframes etc. to complete the app in a stipulated time of 12hrs (which is now apparently reduced to 8hrs) and making use of best practices and guidelines for Android.
 
 After I hit the start exam button, I came across this App details page and I started reading all the requirements, bugs etc. carefully. Since the project was partially complete I quickly fired it up on Android Studio (after waiting for Gradle build... of course 😉). I ran the app from the initial project and I cross-checked with the requirements and made a note of what needs to be done and prioritized things that need to be fixed first and the one's which would require a quick fix.  
