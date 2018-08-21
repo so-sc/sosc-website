@@ -49,7 +49,7 @@ I start off skimming through the existing code and going through the comments tr
 
 After some hours (6hrs approx.) of bug fixing, coding, adding features as mentioned in the requirements. I switched gears and checked for _memory leaks_ and tried to implement _best practices_ and wrote a couple of tests too. 
 
-> There are times where you will scratch your head 🤯, tear some sheets, smash some potatoes🥔, just to fix a nasty lil' bug/error, It's all part of the process. Keep calm and code warm!😊   ~ Rumaan
+> "There are times where you will scratch your head 🤯, tear some sheets, smash some potatoes🥔, just to fix a nasty lil' bug/error, It's all part of the process. Keep calm and code warm!"😊 
 
 In about 8hrs I was able to complete the project and made sure I had cross-checked all the functional requirements and features that were supposed to be added and bugs that were supposed to be fixed (Of course I took 15-30min brakes in between 🥤). I zipped the project and submitted it and hoped for it to work. 
 
@@ -72,6 +72,12 @@ A couple of more details to fill in and I had my Digital Badge that said _Associ
 If you wish to get into Android development and want to start making apps and a name for yourself, firstly be consistent, there are tough times when code breaks, nothing seems to work and everything just falls apart. You've got to stay strong and believe in yourself. I'm not an expert Android Developer either, I rectify my errors, learn new stuffs every day because Android platform is always evolving and there's a certain thrill in developing for a mobile platform that has over millions of users and growing.
 
 Start with the basics like Creating new Activities, Sending data from one activity to another and try different styles by changing accent colors. 
+
+## What's the whole point of this post?
+
+By now you probably might think this post is all about me bragging my AAD certification. Well, the answer is : Yes and No, and No Again!😐
+
+All I **ever** want from this post is to '__inspire you__' and make one thing clear that, If you have interest and passion towards something, make sure you follow your passion and work on it. I usually get a lot of questions like, "How to make an App?", "How do I start with Android?" etc. and I usually reply with "If you want to start, just go ahead. But be Persistent, don't stop learning and always appreciate open-source code."✌🏻
 
 ## Some useful resource links
 
