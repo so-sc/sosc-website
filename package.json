@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "author": "Musthaq Ahamad <musthu.gm@gmail.com>",
   "dependencies": {
-    "aos": "^2.3.3",
     "disqus-react": "^1.0.5",
     "gatsby": "^1.9.277",
     "gatsby-image": "^1.0.55",
