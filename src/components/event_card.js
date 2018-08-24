@@ -5,7 +5,7 @@ import { relative } from 'path'
 import DateIcon from '../images/date_icon.svg'
 
 const Card = (props) => (
-        <div data-aos="fade-up" className="card">
+        <div className="card">
             <div className="card-container">
                 <img className="card-header-img" src={props.cover.publicURL} alt="Card Image Text"/>
                 <div className="card-text">

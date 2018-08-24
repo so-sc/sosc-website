@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import AOS from 'aos';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
@@ -16,19 +15,6 @@ class Layout extends React.Component {
     super(props);
   }
 	
-  componentDidMount(){
-    AOS.init({
-			duration: 500,
-    })
-	}
-
-	componentDidUpdate() {
-		AOS.refresh();
-	}
-
-	componentWillReceiveProps () {
-		AOS.refresh();
-	}
 	
 	render() {
 		return(

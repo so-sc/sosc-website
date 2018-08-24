@@ -12,7 +12,7 @@ const logoStyle = {
 const IndexPage = () => (
   <div className="page">
     <div className="container">
-      <section data-aos="fade-up" className="hero-section">
+      <section className="hero-section">
         <div className="hero-texts">
           <img src={soscLogo} className="sosc-logo" alt="sosc logo"/>
           <p className="sosc-header">
@@ -32,7 +32,7 @@ const IndexPage = () => (
       </section>
     </div>
     <div className="container">
-      <section data-aos="fade-up" className="hero-section2 ">
+      <section className="hero-section2 ">
         <div>
           <img src={clubImage} className="hero-image" alt="hero image"/>
         </div>
@@ -51,7 +51,7 @@ const IndexPage = () => (
     </div>
 
     <div className="container">
-      <section data-aos="fade-up" className="hero-section3">
+      <section className="hero-section3">
         <div className="hero-texts">
           <p className="hero-header">Get Trained by Experts</p>
           <div className="dash"/>
@@ -69,7 +69,7 @@ const IndexPage = () => (
       </section>
     </div>
     <div className="container">
-      <section data-aos="fade-up" className="hero-section4">
+      <section className="hero-section4">
       <div>
           <img src={connectImage} className="hero-image" alt="hero image"/>
         </div>
