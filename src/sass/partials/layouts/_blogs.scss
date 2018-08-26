@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+.slide-up {
+    overflow-y: hidden;
+    max-height: 500px;
+    /* approximate max height */
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
 .blog-section {
     display: flex;
     flex-direction: row;
@@ -243,7 +252,6 @@
             margin: 0;
             width: 100%;
         }
-
         blockquote {
             margin: 0;
             padding: 30px;
@@ -271,7 +279,6 @@
                 display: inline;
             }
         }
-
         ol {
             font-size: 1.2em;
             color: #474747;
