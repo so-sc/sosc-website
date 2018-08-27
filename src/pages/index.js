@@ -10,7 +10,7 @@ const logoStyle = {
   
 };
 const IndexPage = () => (
-  <div className="page">
+  <div className="page white-bg">
     <div className="container">
       <section className="hero-section">
         <div className="hero-texts">
