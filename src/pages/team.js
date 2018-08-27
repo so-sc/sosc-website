@@ -25,13 +25,15 @@ const TeamsPage = ({data}) => (
     <div className="container">
     <h2>Co-ordinators</h2>
       <div className="team-section">
-        <div className="member-card">
+        { /* Card for coordinators */}
+        <div className="member-card white-bg elevate">
           <img className="profile-pic" src={PrakhyathImage}/>
           <div className="member-details">
               <h3 className="name">Prakhyath Rai</h3>
               <p className="designation">Faculty Coordinator</p>
           </div>
         </div>
+
           <MemberCard 
             username="manjesh1"
             full_name="Manjesh P Shetty"

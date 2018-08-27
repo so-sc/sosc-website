@@ -9,13 +9,12 @@
 }
 .card {
     background: #fff;
-    border-radius: 10px;
+    border-radius: 2px;
     display: inlineBlock;
     height: 270px;
     width: 30%;
     margin: 1rem;
     position: relative;
-    border: 1px solid#e7e4e4;
 
     @media #{$media-mobile} {
         width: 100%;
@@ -34,7 +33,7 @@
             object-fit: cover;
             width: 100%;
             height: 160px;
-            border-radius: 9px 9px 0 0;
+            border-radius: 2px 2px 0 0;
         }
         .card-text {
             //  background-color: red;
