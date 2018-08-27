@@ -12,9 +12,8 @@ devhost:18 was the first annual Student Developers meet organised by Sahyadri Op
 
  devhost:18 was a two days event which took place on 4th and 5th May 2018 which had speakers from various organizations. The event was open-to-all and was free of cost for anyone who was interested. 
 
-#### DAY 1 
-	Day 1 started with inauguration of Sahyadri Open Source (SOSC)'s new workspace by Ms. Swathi Bavanaka, then it was followed by a speech from Hon'ble Principal of Sahyadri College of Engineering and Management.
-	
+### DAY 1 
+Day 1 started with inauguration of Sahyadri Open Source (SOSC)'s new workspace by Ms. Swathi Bavanaka, then it was followed by a speech from Hon'ble Principal of Sahyadri College of Engineering and Management.
 	Day's first technical session was taken by Women Tech Speaker Ms. Swathi Bavanaka based on Products and User Experience called "UX: Getting your App to Market", this session was mainly focused on how to produce user-friendly apps for the market. This session was followed by another technical session on Machine Learning and Deep Learning by former Microsoft employee Mr.Subash Konda called "Intro to Modern Data Science", this session gave a brief introduction about the Machine Learning and Data Science to the attendees. At the end of the Sessions, and Q&A session took place where swags and prizes were distributed to attendees.
 
 ## ANything in Markdown
