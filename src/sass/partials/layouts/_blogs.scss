@@ -12,12 +12,12 @@
         @media #{$media-mobile} {
             flex-direction: column;
             height: auto;
-            margin: 10px 0px 0px 0px;
+            margin: 10px 0px 25px 0px;
         }
         @media #{$media-small} {
             flex-direction: column;
             height: auto;
-            margin: 10px 0px 0px 0px;
+            margin: 10px 0px 25px 0px;
         }
         .cover {
             width: 40%;
@@ -37,11 +37,11 @@
                 height: 100%;
                 @media #{$media-mobile} {
                     width: 100%;
-                    border-radius: 10px 10px 0px 0px;
+                    border-radius: 2px 2px 0px 0px;
                 }
                 @media #{$media-small} {
                     width: 100%;
-                    border-radius: 10px 10px 0px 0px;
+                    border-radius: 2px 2px 0px 0px;
                 }
             }
         }
