@@ -284,6 +284,26 @@
                 margin-bottom: 10px;
             }
         }
+        ul {
+            font-size: 1.2em;
+            color: #474747;
+            width: auto;
+            @media #{$media-mobile} {
+                font-size: 1em;
+            }
+            @media #{$media-small} {
+                font-size: 1em;
+            }
+            li {
+                margin-bottom: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: #02b839;
+                    display: inline;
+                }
+            }
+        }
         pre {
             overflow: scroll;
             padding: 15px;
@@ -300,6 +320,18 @@
                 @media #{$media-small} {
                     font-size: 0.9em;
                 }
+            }
+        }
+        code {
+            background-color: #e0f3e6;
+            font-family: 'Fira Mono', monospace;
+            font-size: 1em;
+            color: #272727;
+            @media #{$media-mobile} {
+                font-size: 0.9em;
+            }
+            @media #{$media-small} {
+                font-size: 0.9em;
             }
         }
     }
