@@ -16,9 +16,10 @@ devhost:18 was the first annual Student Developers meet organised by Sahyadri Op
 ### DAY 1 
 <image src="day1.jpg" width=400 height=250>
 Day 1 started with inauguration of Sahyadri Open Source (SOSC)'s new workspace by Ms. Swathi Bavanaka, then it was followed by a speech from Hon'ble Principal of Sahyadri College of Engineering and Management.<br/>
- 
-Day's first technical session was taken by Women Tech Speaker Ms. Swathi Bavanaka based on Products and User Experience called "UX: Getting your App to Market", this session was mainly focused on how to produce user-friendly apps for the market. This session was followed by another technical session on Machine Learning and Deep Learning by former Microsoft employee Mr.Subash Konda called "Intro to Modern Data Science", this session gave a brief introduction about the Machine Learning and Data Science to the attendees. At the end of the Sessions, and Q&A session took place where swags and prizes were distributed to attendees.
+ <br/><br/>
+Day's first technical session was taken by Women Tech Speaker Ms. Swathi Bavanaka based on Products and User Experience called "UX: Getting your App to Market", this session was mainly focused on how to produce user-friendly apps for the market. This session was followed by another technical session on Machine Learning and Deep Learning by former Microsoft employee Mr.Subash Konda called "Intro to Modern Data Science", this session gave a brief introduction about the Machine Learning and Data Science to the attendees. At the end of the Sessions Q&A session took place where swags and prizes were distributed to attendees.
 
 ### DAY 2 
 Day 2 was started with Hands on Modern Application Security session by Defcon Speaker Mr. Madhu Akula. This session was aimed on making safer and reliable applications and avoid data leaks, privacy breaches and other security related issues. This session was followed by another security based technical session by Mr. Mehul Patel (Rowdy Mehul) from Auth0 which was about Authorization and Authenication.
-Day 2's last session was by a Mozilla Rep Speaker Mr.Prathmesh Chava
+Day 2's last session was by a Mozilla Rep Speaker Mr.Prathmesh Chava which was a hands on session on Virtual Reality. This session introduced all the attendees to how VR works and how useful it is in today's world, this session also gave attendees hands on experience on VR. At the end of the sessions, a Q&A session was arranged where Swags and Prizes were distributed to attendees. The day ended with a Thanking Speech to the speakers and all the attendees.
+The event was a grand success as this brought many like minded people and communities together in one place.
