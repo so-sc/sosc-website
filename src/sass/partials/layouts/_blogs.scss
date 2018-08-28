@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
 
 .blog-section {
     display: flex;
@@ -6,18 +7,17 @@
         margin: 20px;
         display: flex;
         flex-direction: row;
-        border: 1px solid #e7e4e4;
-        border-radius: 10px;
+        border-radius: 2px;
         height: 300px;
         @media #{$media-mobile} {
             flex-direction: column;
             height: auto;
-            margin: 10px 0px 0px 0px;
+            margin: 10px 0px 25px 0px;
         }
         @media #{$media-small} {
             flex-direction: column;
             height: auto;
-            margin: 10px 0px 0px 0px;
+            margin: 10px 0px 25px 0px;
         }
         .cover {
             width: 40%;
@@ -32,16 +32,16 @@
             }
             img {
                 object-fit: cover;
-                border-radius: 10px 0px 0px 10px;
+                border-radius: 2px 0px 0px 2px;
                 width: 100%;
                 height: 100%;
                 @media #{$media-mobile} {
                     width: 100%;
-                    border-radius: 10px 10px 0px 0px;
+                    border-radius: 2px 2px 0px 0px;
                 }
                 @media #{$media-small} {
                     width: 100%;
-                    border-radius: 10px 10px 0px 0px;
+                    border-radius: 2px 2px 0px 0px;
                 }
             }
         }
@@ -105,7 +105,6 @@
         }
     }
 }
-
 
 .blog-page {
     display: flex;
@@ -180,9 +179,11 @@
                 margin: 20px 10px 10px 0px;
                 @media #{$media-mobile} {
                     margin: 20px 0px 10px 0px;
+                    display: none;
                 }
                 @media #{$media-small} {
                     margin: 20px 0px 10px 0px;
+                    display: none;
                 }
                 .author-img {
                     width: 40px;
@@ -242,15 +243,105 @@
             margin: 0;
             width: 100%;
         }
+        blockquote {
+            margin: 0;
+            padding: 30px;
+            border-left: 3px solid #02b839;
+        }
         p {
             font-size: 1.2em;
             color: #474747;
+            width: auto;
             @media #{$media-mobile} {
                 font-size: 1em;
             }
             @media #{$media-small} {
                 font-size: 1em;
             }
+            img {
+                align-self: center;
+                margin: 0 auto;
+                max-width: 100%;
+                display: block;
+            }
+            a {
+                text-decoration: none;
+                color: #02b839;
+                display: inline;
+            }
+        }
+        ol {
+            font-size: 1.2em;
+            color: #474747;
+            width: auto;
+            @media #{$media-mobile} {
+                font-size: 1em;
+            }
+            @media #{$media-small} {
+                font-size: 1em;
+            }
+            li {
+                margin-bottom: 10px;
+            }
+        }
+        ul {
+            font-size: 1.2em;
+            color: #474747;
+            width: auto;
+            @media #{$media-mobile} {
+                font-size: 1em;
+            }
+            @media #{$media-small} {
+                font-size: 1em;
+            }
+            li {
+                margin-bottom: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: #02b839;
+                    display: inline;
+                }
+            }
+        }
+        pre {
+            overflow: scroll;
+            padding: 15px;
+            width: auto;
+            display: block;
+            background-color: #e0f3e6;
+            code {
+                font-family: 'Fira Mono', monospace;
+                font-size: 1em;
+                color: #272727;
+                @media #{$media-mobile} {
+                    font-size: 0.9em;
+                }
+                @media #{$media-small} {
+                    font-size: 0.9em;
+                }
+            }
+        }
+        code {
+            background-color: #e0f3e6;
+            font-family: 'Fira Mono', monospace;
+            font-size: 1em;
+            color: #272727;
+            @media #{$media-mobile} {
+                font-size: 0.9em;
+            }
+            @media #{$media-small} {
+                font-size: 0.9em;
+            }
+        }
+    }
+    .bottom-box {
+        display: none;
+        @media #{$media-mobile} {
+            display: flex;
+        }
+        @media #{$media-small} {
+            display: flex;
         }
     }
 }

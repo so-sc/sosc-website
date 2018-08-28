@@ -10,13 +10,13 @@ const logoStyle = {
   
 };
 const IndexPage = () => (
-  <div className="page">
+  <div className="page white-bg">
     <div className="container">
-      <section data-aos="fade-up" className="hero-section">
+      <section className="hero-section">
         <div className="hero-texts">
           <img src={soscLogo} className="sosc-logo" alt="sosc logo"/>
           <p className="sosc-header">
-            Sahyadri<br/>OpenSource Community
+            Sahyadri<br/>Open Source Community
           </p>
           <p>
             A community driven by tech enthusiasts and
@@ -24,7 +24,7 @@ const IndexPage = () => (
             to be part of the open-source ecosystem by providing
             training and skill development.
           </p>
-          <a href="#" className="btn-hero-green">Become a member</a>
+          <a href="https://goo.gl/forms/XH41TwlMxOeRwmdQ2" className="btn-hero-green">Become a member</a>
         </div>
         <div>
           <img src={heroImage} className="hero-image" alt="hero image"/>
@@ -32,7 +32,7 @@ const IndexPage = () => (
       </section>
     </div>
     <div className="container">
-      <section data-aos="fade-up" className="hero-section2 ">
+      <section className="hero-section2 ">
         <div>
           <img src={clubImage} className="hero-image" alt="hero image"/>
         </div>
@@ -51,7 +51,7 @@ const IndexPage = () => (
     </div>
 
     <div className="container">
-      <section data-aos="fade-up" className="hero-section3">
+      <section className="hero-section3">
         <div className="hero-texts">
           <p className="hero-header">Get Trained by Experts</p>
           <div className="dash"/>
@@ -69,7 +69,7 @@ const IndexPage = () => (
       </section>
     </div>
     <div className="container">
-      <section data-aos="fade-up" className="hero-section4">
+      <section className="hero-section4">
       <div>
           <img src={connectImage} className="hero-image" alt="hero image"/>
         </div>

@@ -1,8 +1,6 @@
 import React from 'react'
 import Card from '../components/event_card';
 
-const imgUrl = 'https://zocada.com/wp-content/uploads/2018/07/HLS_EXO-740x370.png';
-
 
 function getEvents(data) {
   let events = [];
@@ -12,7 +10,7 @@ function getEvents(data) {
     events.push(
       <Card 
         slug={node.frontmatter.slug}
-        imgUrl={node.frontmatter.cover.publicURL} 
+        cover={node.frontmatter.cover} 
         title={node.frontmatter.name} 
         date={node.frontmatter.date}/>
     );

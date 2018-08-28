@@ -11,23 +11,30 @@
     @media #{$media-small} {
         flex-direction: column;
     }
+    @media (min-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    }
 
     .member-card {
-        width: 45%;
+        width: 80%;
         height: auto;
         margin: 10px;
-        border: 1px solid#e7e4e4;
-        border-radius: 10px;
+        border-radius: 2px;
         padding: 15px;
         display: flex;
         flex-direction: row;
         align-items: center;
-
+        
         @media #{$media-mobile} {
             width: auto;
         }
         @media #{$media-small} {
             width: auto;
+        }
+        
+        @media (min-width: 768px) {
+            justify-self: center;
         }
 
         .profile-pic {

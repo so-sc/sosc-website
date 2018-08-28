@@ -4,15 +4,19 @@
 @import 'layouts/team';
 
 .page {
-    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 1.5em;
     @media #{$media-mobile} {
-        margin-top: 120px;
+        padding-top: 120px;
     }
     @media #{$media-small} {
-        margin-top: 120px;
+        padding-top: 120px;
     }
 }
 
+.white-bg {
+    background-color: white;
+}
 .container {
     position: relative;
     display: block;
@@ -37,3 +41,4 @@
         width: 93%;
     }
 }
+

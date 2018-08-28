@@ -3,15 +3,15 @@ slug: /events/devhost18
 name: devhost:18
 date: 2018-05-04
 location: Seminar Hall
-cover: './devhost.jpeg'
-link:
+cover: './cover.png'
+link: 'https://devhost18.in'
 ---
 
 ## Event details
 <image src="devhost.jpeg">
 devhost:18 was the first annual Student Developers meet organised by Sahyadri Open-Source Community (SOSC) to bring together young and talented developers from in and around Mangalore. devhost:18 was aimed to create a platform to join together clubs and organizations to spread the information on latest techologies and trends in the IT industry and train the students to be part of it.
 
- devhost:18 was a two day event which took place on 4th and 5th May 2018 and had speakers from various organizations. The event was open-to-all and was free of cost for anyone who was interested. 
+devhost:18 was a two day event which took place on 4th and 5th May 2018 and had speakers from various organizations. The event was open-to-all and was free of cost for anyone who was interested. 
 
 ### DAY 1 
 <image src="day1.jpg" width=400 height=250>
