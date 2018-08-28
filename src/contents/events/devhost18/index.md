@@ -3,7 +3,7 @@ slug: /events/devhost18
 name: devhost:18
 date: 2018-05-04
 location: Seminar Hall
-cover: './devhost.jepg'
+cover: './devhost.jpeg'
 link:
 ---
 
