@@ -13,11 +13,19 @@ devhost:18 was the first annual Student Developers meet organised by Sahyadri Op
 
  devhost:18 was a two days event which took place on 4th and 5th May 2018 which had speakers from various organizations. The event was open-to-all and was free of cost for anyone who was interested. 
 
+<<<<<<< HEAD
 #### DAY 1 
 <img src="day1.jpg">
 	Day 1 started with inauguration of Sahyadri Open Source (SOSC)'s new workspace by Ms. Swathi Bavanaka, then it was followed by a speech from Hon'ble Principal of Sahyadri College of Engineering and Management.
 	
 	Day's first technical session was taken by Women Tech Speaker Ms. Swathi Bavanaka based on Products and User Experience called "UX: Getting your App to Market", this session was mainly focused on how to produce user-friendly apps for the market. This session was followed by another technical session on Machine Learning and Deep Learning by former Microsoft employee Mr.Subash Konda called "Intro to Modern Data Science", this session gave a brief introduction about the Machine Learning and Data Science to the attendees. At the end of the Sessions, and Q&A session took place where swags and prizes were distributed to attendees.
+=======
+### DAY 1 
+Day 1 started with inauguration of Sahyadri Open Source (SOSC)'s new workspace by Ms. Swathi Bavanaka, then it was followed by a speech from Hon'ble Principal of Sahyadri College of Engineering and Management.
+>>>>>>> 7040c0501dc09e84a23b2dec0c80fcfdc29abe37
 
-## ANything in Markdown
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Day's first technical session was taken by Women Tech Speaker Ms. Swathi Bavanaka based on Products and User Experience called "UX: Getting your App to Market", this session was mainly focused on how to produce user-friendly apps for the market. This session was followed by another technical session on Machine Learning and Deep Learning by former Microsoft employee Mr.Subash Konda called "Intro to Modern Data Science", this session gave a brief introduction about the Machine Learning and Data Science to the attendees. At the end of the Sessions, and Q&A session took place where swags and prizes were distributed to attendees.
+
+### DAY 2 
+Day 2 was started with Hands on Modern Application Security session by Defcon Speaker Mr. Madhu Akula. This session was aimed on making safer and reliable applications and avoid data leaks, privacy breaches and other security related issues. This session was followed by another security based technical session by Mr. Mehul Patel (Rowdy Mehul) from Auth0 which was about Authorization and Authenication.
+Day 2's last session was by a Mozilla Rep Speaker Mr.Prathmesh Chava
