@@ -12,7 +12,7 @@ export default function BlogTemplate ({data}) {
     };
     
     return (
-        <div className="page">
+        <div className="page white-bg">
             <Helmet>
                 <title>{post.frontmatter.title}</title>
                 <meta name="description" content={post.frontmatter.description} />

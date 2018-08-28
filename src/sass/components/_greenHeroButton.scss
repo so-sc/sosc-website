@@ -24,4 +24,19 @@
         box-shadow: 0px 7px 20px 0px rgba(15,255,111,0.52);
       }
 }
+
+
+.btn-event-float {
+    @extend .btn-hero-green;
+    align-self: center;
+}
+.float {
+    position: fixed;
+    bottom: 0;
+    width: inherit;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+}
   

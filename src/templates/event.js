@@ -1,7 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import dateIcon from '../images/date.svg';
-import locationIcon from '../images/location.svg';
+import RegistrationLink from '../components/btn_event_link'
 /**
  * Event TEMPLATE
  * @param {data} param0 
@@ -9,23 +8,31 @@ import locationIcon from '../images/location.svg';
 export default function EventTemplate ({data}) {
     const {markdownRemark: post} = data;
     
+    function getLinkButton() {
+        console.log(post.frontmatter.link);
+        if (post.frontmatter.link !== undefined && post.frontmatter.link !== null) {
+            if(post.frontmatter.link.length > 0) {
+                return <RegistrationLink link={post.frontmatter.link}/>
+            }
+        }
+    }
+
     return (
         <div className="page">
             <div className="container">
                 <div className="event-wrapper">
                     <div className="event-page">
                         <img className="cover" src={post.frontmatter.cover.publicURL}/>
-                        <h2 className="title">{post.frontmatter.name}</h2>
-                        <div className="event-details">
-                            <img className="icon" src={dateIcon}/>
-                            {post.frontmatter.date}
-                            <img className="icon" src={locationIcon}/>
-                            {post.frontmatter.location}
+                        <div className="event-data">
+                            <div className="event-details">
+                                <span className="text-details">{post.frontmatter.date}</span>
+                                <span className="text-details">{post.frontmatter.location}</span>
+                            </div>
+                            <div dangerouslySetInnerHTML={{__html: post.html}}></div>
                         </div>
-                        <div dangerouslySetInnerHTML={{__html: post.html}}></div>
-
                     </div>
                 </div>
+                { getLinkButton() }
             </div>
         </div>
     );
@@ -40,6 +47,7 @@ export const postQuery = graphql`
                 name
                 date(formatString: "DD-MMM-YYYY")
                 location
+                link
                 cover {
                     publicURL
                 }
