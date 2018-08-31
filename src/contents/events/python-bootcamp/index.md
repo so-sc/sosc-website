@@ -6,20 +6,18 @@ location: seminar hall
 cover: './cover.png'
 ---
 
-Python Bootcamp Was a series of Python-workshop which was held only for students of Sahyadri
-the main initiative of this series of workshops was to basically to train the attendees from
-biggineer in python to advanced.
-The speakers for this workshop were the seniors of our college- Abhi gatty who is member of
-GDSC(Google Develepor students Club) which also also the part of SOSC.
+Python Bootcamp was a series of Python-workshops which was held for interested students of Sahyadri.
+The main initiative of this series of workshops was to basically train the attendees/participants from
+beginner to advanced level in python.
+This workshop was mainly headed by Abhi Gatty and other members of SOSC.
 
 Day-1
 
-Day-1 was held at one of our class rooms and,more than 40 attendees were present.
-On Day-1 the basic concepts of python was introduced .and also attendees were given up with some 
-some tasks(basic set of programs to solve) to complete and come back for  the day-2 of the python-bootcamp
+Day-1 was held at one of the class rooms and more than 40 attendees were present.
+On Day-1 the basic concepts of python were introduced. Attendees were also given up with some tasks(basic set of programs to solve) to complete and come back for the day-2 of the python-bootcamp
 
 
 Day-2
 
-On the day2 some intermediate and more advanced concepts were covered .and the end of the worksop 
+On Day 2 some intermediate and more advanced concepts were covered and at the end of the workshop 
 Questions were asked to the attendees and swags were given out for the answered attendees.    
