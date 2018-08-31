@@ -1,3 +1,11 @@
+---
+slug: /events/python_bootcamp_2018
+name: Python BootCamp
+date: 2018-12-09
+location: seminar hall
+cover: './cover.png'
+---
+
 Python Bootcamp Was a series of Python-workshop which was held only for students of Sahyadri
 the main initiative of this series of workshops was to basically to train the attendees from
 biggineer in python to advanced.
