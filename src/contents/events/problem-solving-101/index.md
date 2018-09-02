@@ -2,8 +2,26 @@
 slug: /events/2018-problem-solving-101
 name: Problem Solving 101
 date: 2018-09-01
-location: GFloor seminar hall
+location: First Floor seminar hall
 cover: './cover.png'
 ---
-## Event details
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+## Problem Solving 101
+Problem Solving 101 was a workshop dedicated to students to improve their problem solving and analysis skills. Workshop was aimed at students from all the branches and years and we have got the best speaker who knows the crowd, our alumni and favorite [Karthik K Bhat](https://www.linkedin.com/in/thebuzzycoder). He is also an experienced senior software developer at [UniCourt](https://unicourt.com). It was an amazing 3 hours of hands on experience on solving various problems and teaching the students how to crack em.
+
+## Workshop Topics
+- Do's and Don'ts of Problem Solving
+- Learning any Programming language without breaking a sweat.
+
+## Venue
+Saturday, 01-Sep-18 - 2.PM at First Floor Seminar Hall. 
+
+## Post-Event report
+- Total Participants: 119
+
+<image src="img4.jpg"/>
+<image src="img6.jpg"/>
+<image src="img2.jpg"/>
+<image src="img5.jpg"/>
+<image src="img3.jpg"/>
+<image src="img1.jpg"/>
+
