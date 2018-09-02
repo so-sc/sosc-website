@@ -16,7 +16,7 @@ Problem Solving 101 was a workshop dedicated to students to improve their proble
 Saturday, 01-Sep-18 - 2.PM at First Floor Seminar Hall. 
 
 ## Post-Event report
-- Total Participants: 119
+- Total Participants: 190
 
 <image src="img4.jpg"/>
 <image src="img6.jpg"/>
