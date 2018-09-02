@@ -145,6 +145,114 @@
             }
         }
     }
+
+    .event-contents {
+        margin: 10px, 10px 10px 10px;
+        width: auto;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        @media #{$media-mobile} {
+            margin: 0;
+            width: 100%;
+        }
+        @media #{$media-small} {
+            margin: 0;
+            width: 100%;
+        }
+        blockquote {
+            margin: 0;
+            padding: 30px;
+            border-left: 3px solid #02b839;
+        }
+        p {
+            font-size: 1.2em;
+            color: #474747;
+            width: auto;
+            @media #{$media-mobile} {
+                font-size: 1em;
+            }
+            @media #{$media-small} {
+                font-size: 1em;
+            }
+            img {
+                align-self: center;
+                margin: 0 auto;
+                max-width: 100%;
+                display: block;
+            }
+            a {
+                text-decoration: none;
+                color: #02b839;
+                display: inline;
+            }
+        }
+        ol {
+            font-size: 1.2em;
+            color: #474747;
+            width: auto;
+            @media #{$media-mobile} {
+                font-size: 1em;
+            }
+            @media #{$media-small} {
+                font-size: 1em;
+            }
+            li {
+                margin-bottom: 10px;
+            }
+        }
+        ul {
+            font-size: 1.2em;
+            color: #474747;
+            width: auto;
+            @media #{$media-mobile} {
+                font-size: 1em;
+            }
+            @media #{$media-small} {
+                font-size: 1em;
+            }
+            li {
+                margin-bottom: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: #02b839;
+                    display: inline;
+                }
+            }
+        }
+        pre {
+            overflow: scroll;
+            padding: 15px;
+            width: auto;
+            display: block;
+            background-color: #e0f3e6;
+            code {
+                font-family: 'Fira Mono', monospace;
+                font-size: 1em;
+                color: #272727;
+                @media #{$media-mobile} {
+                    font-size: 0.9em;
+                }
+                @media #{$media-small} {
+                    font-size: 0.9em;
+                }
+            }
+        }
+        code {
+            background-color: #e0f3e6;
+            font-family: 'Fira Mono', monospace;
+            font-size: 1em;
+            color: #272727;
+            @media #{$media-mobile} {
+                font-size: 0.9em;
+            }
+            @media #{$media-small} {
+                font-size: 0.9em;
+            }
+        }
+    }
     
 
 }
