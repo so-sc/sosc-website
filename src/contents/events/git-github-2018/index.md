@@ -42,8 +42,6 @@ We'll be giving you hands-on experience on how to use the command line and git t
 
 Follow [this link](https://gist.github.com/derhuerst/1b15ff4652a867391f03) to guide you through the installation.
 
- <script src="https://gist.github.com/derhuerst/1b15ff4652a867391f03.js"></script>
-
 ## Swags Sponsors
 - [GitHub](https://github.com)
 
