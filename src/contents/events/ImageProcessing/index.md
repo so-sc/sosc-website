@@ -1,5 +1,5 @@
 ---
-slug: /events/Image Processing
+slug: /events/image-processing-2018
 name: Image Processing
 date: 2018-07-28
 location: Microsoft Lab
