@@ -1,7 +1,7 @@
 ---
 slug: /events/2018-git-github-workshop
 name: Git + GitHub Workshop
-date: 2018-09-29
+date: 2018-09-30
 location: GFloor seminar hall
 cover: './git_cover.jpg'
 link: 'https://goo.gl/forms/aGjXY2AqeKv15hoA2'
