@@ -30,7 +30,7 @@ We'll be giving you hands-on experience on how to use the command line and git t
 ## Trainers and Mentors
 - [Musthaq Ahamad](https://github.com/haxzie), GitHub Campus Expert | Community Lead - SOSC
 - [Abhishek P](https://github.com/hitoshirenu), Community Lead - SOSC
-- [Rumaan Kalandar](https://github.com/rumaan), Associate Android Dev | Technical Lead - SOSC
+- [Rumaan Khalander](https://github.com/rumaan), Associate Android Dev | Technical Lead - SOSC
 - [Chaman K](https://github.com/chaman-k), Web Dev Lead - SOSC 
 - [Arjun Suvarna](https://github.com/arjunsuvarna1), GDSC Lead | Chairman SOSC 
 
