@@ -1,17 +1,15 @@
-
-
 .event-card-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
 }
+
 .card {
     background: #fff;
     border-radius: 2px;
-    display: inlineBlock;
-    height: 270px;
+    display: inline-block;
+    height: 260px;
     width: 30%;
     margin: 1rem;
     position: relative;
@@ -36,20 +34,15 @@
             border-radius: 2px 2px 0 0;
         }
         .card-text {
-            //  background-color: red;
             display: flex;
             flex-direction: column;
             height: 100%;
             width: 100%;
-
             .card-header-text {
-                
                 width: 100%;
                 text-align: center;
-                -webkit-font-smoothing: subpixel-antialiased;
-                font-size: 1em;
+                font-size: 1.06em;
                 color: #474747;
-
                 a {
                     text-decoration: none;
                     color: #373738;
@@ -59,16 +52,17 @@
                 }
             }
             .card-date {
-                // background-color: yellow;
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
-                align-items: center;
+                align-items: flex-start;
                 font-size: 90%;
             }
             .card-date-text {
-                padding: 0 2%;
-                color: #474747;
+               color: #474747;
+               padding-left: 2%;
+               padding-right: 2%;
+               line-height: 0px;
             }
         }
     }
