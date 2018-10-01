@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const BlogCard = ({data}) => (
-    <div data-aos="fade-up" className="blog-card">
+    <div className="blog-card elevate white-bg">
 
         <div className="cover">
         <img src={data.cover.publicURL}></img>

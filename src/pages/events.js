@@ -1,7 +1,6 @@
 import React from 'react'
 import Card from '../components/event_card';
 
-
 function getEvents(data) {
   let events = [];
   let eventList = data.allMarkdownRemark.edges;
