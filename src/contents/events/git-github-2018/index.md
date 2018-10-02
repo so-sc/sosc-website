@@ -96,7 +96,7 @@ Sahyadri College of Engineering and Management, Mangalore
 - All the contents were easy to understand.
 
 ## Summary
-Even tho we didn't get expected number of attendees we had an energetic and enthusiastic crowd. Most of the students were able to understand Git and GitHub workflow and how it can be used in their academic projects. A good percentage of the attendees were able to submit their very first pull request and were super excited to get into hacktoberfest. Enlightened most of the attendees with the usefuless of linux OS while working with open source technologies.
+Even tho we didn't get expected number of attendees we had an energetic and enthusiastic crowd. Most of the students were able to understand Git and GitHub workflow and how it can be used in their academic projects. A good percentage of the attendees were able to submit their very first pull request and were super excited to get into hacktoberfest. Enlightened most of the attendees with the usefulness of linux OS while working with open source technologies.
 
 ## Photos :camera: 
 
