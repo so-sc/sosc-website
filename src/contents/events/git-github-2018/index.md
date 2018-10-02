@@ -45,22 +45,22 @@ Follow [this link](https://gist.github.com/derhuerst/1b15ff4652a867391f03) to gu
 
 # Post Event Report 
 The workshop was a success in all aspects and the attendees where damn active throughout the session. Had our community members to help the attendees throughout the workshop. We had split the workshop into 3 parts.
-- ### Introduction to Version Control using GitHub. 
+### Introduction to Version Control using GitHub. 
 Explained how to setup a repository on GitHub, how to ad new files, edit files and view commits, and history. Working with branches, Merging branches and Submitting Pull requests. It was quite easy to explain GitHub first and then move on to Git and then back again how to connect both.
-- ### Introduction to Open Source, Linux and CLI
+### Introduction to Open Source, Linux and CLI
 Short session on what open source is, hands on introduction to some of the basic linux commands and how to use the terminal effectively.
-- ### Intro to Git and Connecting with GitHub
+### Intro to Git and Connecting with GitHub
 Gave hands-on training on using git on local machine, setting up repositories locally and pushing it to GitHub, contributing to other's projects and best practices.
 
-#### Attendance
+### Attendance
 80 Students. We expected around 100, since we the college rescheduled exams we got a few students drop-out. 
 
-#### Venue
+### Venue
 September 30th. 9.30 am to 1.45 pm
 Sahyadri College of Engineering and Management, Mangalore
 
 ## Planning vs Implementation
-#### Planning
+### Planning
 - Start with history and need for Git [30 mins]
 - Introduction to GitHub [1 hour]
 - Introduction to Linux and CLI [30 mins]
@@ -89,7 +89,7 @@ Sahyadri College of Engineering and Management, Mangalore
 - We ran out of time since we had exams right after the workshop.
 - Each session took more time than what we expected.
 
-### Feedback from attendees
+## Feedback from attendees
 - Workshop was really helpful for understanding how software is built
 - GitHub will help a lot in collaborating with friends effectively.
 - Mentors were really active in helping out issues we faced while using terminal commands.
@@ -98,7 +98,7 @@ Sahyadri College of Engineering and Management, Mangalore
 ## Summary
 Even tho we didn't get expected number of attendees we had an energetic and enthusiastic crowd. Most of the students were able to understand Git and GitHub workflow and how it can be used in their academic projects. A good percentage of the attendees were able to submit their very first pull request and were super excited to get into hacktoberfest. Enlightened most of the attendees with the usefulness of linux OS while working with open source technologies.
 
-## Photos :camera: 
+## Photos
 
 ![Warming Up](https://lh3.googleusercontent.com/wr896jXXiUaa8fuGnrE_kCAxpw9Sdwja_1wZo4u68THik29khKp4zdDjYg0jytlM39N-FjyWFCnwWB_QtSI5Nw_k_PIol7cGb2kdIPHWgGaNms9ZiI3OR2GbaKC7BiS-YVYIfcbfr07ftUtOwQK-9yD2okqWgkaTJLcKEv28fBk_NQQq_QjdctQDs0ewExFHQ4nmhQtHLqAO23YxQf_-b5n7QqxBgawxsNXFerRbybqBzvozg-kak9UB0Oj_2AxEqn_zrMQ0ojtnHvw-qj983d2_92J_5PBknmcyD2d1ioa-BMdR-9xANzQKb9OlXKfGAJFoj0OtepOK-wpPzQ2qGAaXVgbsOM5bTdS2StCoSumrq_pYx9StAsjZNH3WBq3SjGe418ACNLc6BRvfdNGTy1t_Ir9xAUeClP78YBwjFO5NFKMtPpPKLGnSA0YPejkUrDNnGme0yK2xzCwLxw9FbBONHip04E2eYAgCJjplXTEtVv7Lv4YWHfkHab2zRoO5eKPem4FJPYtQl1hOjarrMSTpd64Vr_Q0i6mDz40Nz507pVTa4293h3vLgONhH8jZyL4OmEDWf-hEcIWKfHjk9SttrBGM-bARZBYZhEk-mxrCRSRmDRfI_M_aboewaQwWlfNfBPtZ_3udu1T_jGRcJ4ywjx4dMUFaoThZNQdnq9zI0TNyp-J-zJ0qUg=w841-h631-no)
 
