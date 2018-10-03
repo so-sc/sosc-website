@@ -18,7 +18,7 @@ class Layout extends React.Component {
 	
 	render() {
 		return(
-			<div>
+			<div id="flexContainer">
 				<Helmet
 					title={this.props.data.site.siteMetadata.title}
 					meta={[
@@ -30,12 +30,9 @@ class Layout extends React.Component {
 				]}
 				/>
 				<Header siteTitle={this.props.data.site.siteMetadata.title} />
-				<div style={{
-					display: 'flex',
-					flexDirection: 'column',
-				}}>
+				<main>
 					{this.props.children()}
-				</div>
+				</main>
 				<Footer/>
 			</div>
 		);

@@ -3,6 +3,15 @@
 @import 'layouts/blogs';
 @import 'layouts/team';
 
+#flexContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex-grow: 1;
+}
+
 .page {
     padding-top: 80px;
     padding-bottom: 1.5em;
