@@ -28,7 +28,7 @@ export default function EventTemplate ({data}) {
                                 <span className="text-details">{post.frontmatter.date}</span>
                                 <span className="text-details">{post.frontmatter.location}</span>
                             </div>
-                            <div dangerouslySetInnerHTML={{__html: post.html}}></div>
+                            <div className="event-contents" dangerouslySetInnerHTML={{__html: post.html}}></div>
                         </div>
                     </div>
                 </div>

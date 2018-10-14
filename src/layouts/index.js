@@ -6,7 +6,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 
 import '../sass/index.scss';
-
+import favicon from '../images/favicon.ico';
 
 
 class Layout extends React.Component {
@@ -18,21 +18,21 @@ class Layout extends React.Component {
 	
 	render() {
 		return(
-			<div>
+			<div id="flexContainer">
 				<Helmet
 					title={this.props.data.site.siteMetadata.title}
 					meta={[
 						{ name: 'description', content: 'Sahyadri Open-Source Community' },
 						{ name: 'keywords', content: 'Community, OpenSource, SOSC, sahyadri, student' },
 					]}
+					link={[
+						{ rel: 'shortcut icon', type: 'image/ico', href: `${favicon}` }
+				]}
 				/>
 				<Header siteTitle={this.props.data.site.siteMetadata.title} />
-				<div style={{
-					display: 'flex',
-					flexDirection: 'column',
-				}}>
+				<main>
 					{this.props.children()}
-				</div>
+				</main>
 				<Footer/>
 			</div>
 		);
