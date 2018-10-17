@@ -8,6 +8,12 @@
     z-index: 99;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+.bottom-nav-bar {
+    @media(min-width: $max-width-mobiles) {
+      display: none;
+    }
+    bottom: 0px;
+}
 .nav-items {
     display: flex;
     margin: auto;
@@ -70,13 +76,11 @@
 
         @media #{$media-mobile} {
           flex-grow: 0;
-          flex-basis: 25%;
           margin: auto;
         }
   
         @media #{$media-small} {
           flex-grow: 0;
-          flex-basis: 25%;
           margin: auto;
         }
           a {

@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
+import BottomNavbar from '../components/bottom_navbar';
 
 import '../sass/index.scss';
 import favicon from '../images/favicon.ico';
@@ -30,6 +31,7 @@ class Layout extends React.Component {
 				]}
 				/>
 				<Header siteTitle={this.props.data.site.siteMetadata.title} />
+				<BottomNavbar />
 				<main>
 					{this.props.children()}
 				</main>
