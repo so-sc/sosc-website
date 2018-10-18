@@ -1,5 +1,7 @@
 import React from 'react'
 import Card from '../components/event_card';
+import Layout from '../components/indexLayout';
+import { graphql } from 'gatsby';
 
 function getEvents(data) {
   let events = [];
@@ -14,33 +16,35 @@ function getEvents(data) {
         date={node.frontmatter.date}/>
     );
   })
-
   return events;
 }
-const EventsPage = ({data}) => (
-  <div className="page">
-    <div className="container">
-      <div className="event-card-container">
-        { getEvents(data) }
+
+const EventsPage = ({ data }) => (
+  <Layout>
+    <div className="page">
+      <div className="container">
+        <div className="event-card-container">
+          { getEvents(data) }
+        </div>
       </div>
     </div>
-  </div>
-)
+  </Layout>
+);
 
-export default EventsPage
+export default EventsPage;
 
-export const query = graphql`
+export const eventsQuery = graphql`
 query eventsQuery {
   allMarkdownRemark(
-		sort: {
-			fields: [frontmatter___date],
-			order: DESC
-		},
-		filter: {
-			fileAbsolutePath: {
-				regex: "/events/.*\\.md$/"
-			}
-		}
+    sort: {
+      fields: [frontmatter___date],
+      order: DESC
+    },
+    filter: {
+      fileAbsolutePath: {
+        regex: "/events/.*md$/"
+      }
+    }
   ) {
     totalCount
     edges {
@@ -57,4 +61,4 @@ query eventsQuery {
     }
   }
 }
-`
+`;
