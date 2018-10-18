@@ -1,6 +1,8 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
 import BlogCard from '../components/blog_card';
+import Layout from '../components/indexLayout';
+import { graphql } from 'gatsby';
+
 
 
 function getBlogs(data) {
@@ -13,29 +15,30 @@ function getBlogs(data) {
   return blogs;
 }
 
-const BlogsPage = ({data}) => (
+const BlogsPage = ({ data }) => (
+	<Layout>
+		<div className="page">
+			<div className="container">
+				<section className="blog-section">
+					<div className="blog-posts">
 
-<div className="page">
-	<div className="container">
-		<section className="blog-section">
-			<div className="blog-posts">
+						{ getBlogs(data) }
 
-      			{ getBlogs(data) }
-
+					</div>
+					<div className="blog-newsletter">
+						<div className="news-card">
+							<img alt="" src=""></img>
+						</div>
+					</div>
+				</section>
 			</div>
-			<div className="blog-newsletter">
-				<div className="news-card">
-					<img src=""></img>
-				</div>
-			</div>
-		</section>
-	</div>
-</div>
+		</div>
+	</Layout>
 )
 
 export default BlogsPage
 
-export const query =  graphql`
+export const blogsQuery = graphql`
 query blogsQuery {
 	allMarkdownRemark(
 		sort: {
@@ -44,7 +47,7 @@ query blogsQuery {
 		},
 		filter: {
 			fileAbsolutePath: {
-				regex: "/blogs/.*\\.md$/"
+				regex: "/blogs/.*md$/"
 			}
 		}
 	) {
@@ -72,4 +75,4 @@ query blogsQuery {
 		}
 	}
 }
-`
+`;

@@ -1,7 +1,10 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import { graphql } from 'gatsby';
+
+import Layout from '../components/indexLayout';
 import MemberCard from '../components/member_card';
 import PrakhyathImage from '../images/prakhyath_rai.jpg'
+
 
 function getMembers(data) {
   let members = [];
@@ -20,47 +23,49 @@ function getMembers(data) {
   return members;
 }
 
-const TeamsPage = ({data}) => (
-  <div className="page">
-    <div className="container">
-    <h2>Co-ordinators</h2>
-      <div className="team-section">
-        { /* Card for coordinators */}
-        <div className="member-card white-bg elevate">
-          <img className="profile-pic" src={PrakhyathImage}/>
-          <div className="member-details">
-              <h3 className="name">Prakhyath Rai</h3>
-              <p className="designation">Faculty Coordinator</p>
+const TeamsPage = ({ data }) => (
+  <Layout>
+    <div className="page">
+      <div className="container">
+      <h2>Co-ordinators</h2>
+        <div className="team-section">
+          { /* Card for coordinators */}
+          <div className="member-card white-bg elevate">
+            <img className="profile-pic" src={PrakhyathImage}/>
+            <div className="member-details">
+                <h3 className="name">Prakhyath Rai</h3>
+                <p className="designation">Faculty Coordinator</p>
+            </div>
           </div>
-        </div>
 
-          <MemberCard 
-            username="manjesh1"
-            full_name="Manjesh P Shetty"
-            designation="Mozilla Regional Coordinator"/>
-      </div>
-      <h2>Core Members</h2>
-      <div className="team-section">
-        { getMembers(data) }
+            <MemberCard 
+              username="manjesh1"
+              full_name="Manjesh P Shetty"
+              designation="Mozilla Regional Coordinator"/>
+        </div>
+        <h2>Core Members</h2>
+        <div className="team-section">
+          { getMembers(data) }
+        </div>
       </div>
     </div>
-  </div>
+  </Layout>
 )
 
-export default TeamsPage
+export default TeamsPage;
 
-export const query = graphql`
+export const teamQuery = graphql`
 query membersQuery {
-	allMarkdownRemark(
-		sort: {
-			fields: [frontmatter___designation],
-			order: ASC
-		},
-		filter: {
-			fileAbsolutePath: {
-				regex: "/members/.*\\.md$/"
-			}
-		}
+  allMarkdownRemark(
+    sort: {
+      fields: [frontmatter___designation],
+      order: ASC
+    },
+    filter: {
+      fileAbsolutePath: {
+        regex: "/members/.*md$/"
+      }
+    }
   ) {
     edges {
       node {
@@ -73,4 +78,4 @@ query membersQuery {
     }
   }
 }
-`
+`;
