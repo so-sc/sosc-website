@@ -8,20 +8,20 @@ cover: './cover.png'
 
 Hacktoberfest Hacknight - A 12 hour hackathon starting oct-13th to 14th overnight at Sahyadri College of Engineering and Management Mangalore. In association with Ktech Innovation Hub Karnataka and Powered by GitHub.
 ## POST EVENT REPORT
-This was one of the most successful event our community conducted! We're planning to host the same for upcoming years too There were lots of ups and downs for hosting this event, but everything went good, thanks to the early arrival of GitHub sponsorship and Sponsorship from our state gov's initiative to promote technical and entrepreneurship activities in colleges. A Big thanks to GitHub for helping us out in understanding the benefits of having non-monetary prizes during hackathons and motivating participants towards hacking, rather than cash prizes.
+This was one of the most successful event our community conducted! We're planning to host the same for upcoming years too. There were lots of ups and downs for hosting this event, but everything went good, thanks to the early arrival of GitHub sponsorship and Sponsorship from our state gov's initiative to promote technical and entrepreneurship activities in colleges. A Big thanks to GitHub for helping us out in understanding the benefits of having non-monetary prizes during hackathons and motivating participants towards hacking, rather than cash prizes.
 
-We had to make a lot of changes to our plans, to get the best out of it, we made the event beginner friendly! We changed the initial plans to conduct ML and AI workshops to AR/VR with the help of mozilla reps and  Git+GitHub workshop which was taken by me, by the end of hackathon, most participants will also be part of hacktoberfest celebration. It wasn't a bad idea to have a hackathon for beginners to help them understand the need of version control systems when working together, and having  backups during time critical situations.
+We had to make a lot of changes to our plans, to get the best out of it, we made the event beginner friendly! We changed the initial plans to conduct ML and AI workshops to AR/VR with the help of Mozilla reps and  Git+GitHub workshop which was taken by me, by the end of hackathon, most participants will also be part of hacktoberfest celebration. It wasn't a bad idea to have a hackathon for beginners to help them understand the need of version control systems when working together, and having backups during time critical situations.
 
 ### Attendance
-We had 140 participants + 30 Mentors/volunteers. The no. of the mentors may seem large, since it is a beginner friendly event, we had to work a little harder to mentor the teams throughout the night. cz most of them were at their very first hackathon or they were building something with their academic knowledge for the first time.
+We had 140 participants + 30 Mentors/volunteers. The no. of the mentors may seem large, since it is a beginner friendly event, we had to work a little harder to mentor the teams throughout the night because most of them were at their very first hackathon or they were building something with their academic knowledge for the first time.
 
 ### Venue
 Sahyadri College of Engineering and Management, Adyar, Mangalore - India
-We started the workshops 2 in the noon and the hackathon started off at 5pm after the Git + GitHub workshop. It was a 18 hour hackathon throughout the night, and winded up next day morning.
+We started the workshops, 2 in the noon and the hackathon started off at 5pm after the Git + GitHub workshop. It was a 18 hour hackathon throughout the night, and winded up next day morning.
 
 ### Planning vs Implementation
 #### Planning
-- we had planned for a full fledged hackathon
+- We had planned for a full fledged hackathon
 - Also had plans to give out cash prizes
 - Expected around 170 participants and 10 Mentors
 - Had ML/AI workshops which was scheduled prior to the event
@@ -39,7 +39,7 @@ We started the workshops 2 in the noon and the hackathon started off at 5pm afte
 - Had a ton of Swags! From GitHub and Mozilla, everyone loved it 
 - We got awesome feedback from students who participated. 
 
-### Negetives
+### Negatives
 - Had to close the registrations once we hit 140, because mentoring all the beginners would be hard. (had to manage the budget too, after including the extra mentors/volunteers :p )
 - Had to take extra efforts to collect consent letters from students' parents to let them stay night at college, since most of them were juniors.
 
