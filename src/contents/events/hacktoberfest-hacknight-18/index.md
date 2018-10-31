@@ -1,6 +1,6 @@
 ---
 slug: /events/2018-hacktoberfest-hacknight
-name: Hacktobrfest HackNight
+name: Hacktoberfest HackNight
 date: 2018-10-13
 location: G Floor Sahyadri Collge
 cover: './cover.png'
@@ -39,7 +39,7 @@ We started the workshops 2 in the noon and the hackathon started off at 5pm afte
 - Had a ton of Swags! From GitHub and Mozilla, everyone loved it 
 - We got awesome feedback from students who participated. 
 
-### Negetives
+### Negatives
 - Had to close the registrations once we hit 140, because mentoring all the beginners would be hard. (had to manage the budget too, after including the extra mentors/volunteers :p )
 - Had to take extra efforts to collect consent letters from students' parents to let them stay night at college, since most of them were juniors.
 
