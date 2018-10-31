@@ -7,7 +7,7 @@
     "@babel/core": "^7.1.2",
     "babel-loader": "^8.0.4",
     "disqus-react": "^1.0.5",
-    "gatsby": "^2.0.25",
+    "gatsby": "^2.0.28",
     "gatsby-image": "^2.0.15",
     "gatsby-link": "^2.0.4",
     "gatsby-plugin-google-analytics": "^2.0.6",
