@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 
 const Header = ({ siteTitle }) => (
-  <div className="nav-bar">
+  <div className="nav-bar top-nav-bar">
     <div className="container">
     <div className="nav-items">
       <span className="brand">

@@ -16,10 +16,10 @@ main {
     padding-top: 80px;
     padding-bottom: 1.5em;
     @media #{$media-mobile} {
-        padding-top: 120px;
+        padding-top: 20px;
     }
     @media #{$media-small} {
-        padding-top: 120px;
+        padding-top: 20px;
     }
 }
 

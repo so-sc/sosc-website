@@ -1,7 +1,6 @@
 @import '../partials/variables';
 
 .nav-bar {
-    display: block;
     background-color: #ffffff;
     position: fixed;
     width: 100%;
@@ -13,6 +12,16 @@
       display: none;
     }
     bottom: 0px;
+}
+.top-nav-bar {
+  
+  @media(max-width: $max-width-mobiles) {
+      display: none;
+  }
+  
+  @media(min-width: $max-width-mobiles) {
+      display: block;
+  }
 }
 .nav-items {
     display: flex;
