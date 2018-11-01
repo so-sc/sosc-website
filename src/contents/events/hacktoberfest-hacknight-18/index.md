@@ -1,6 +1,6 @@
 ---
 slug: /events/2018-hacktoberfest-hacknight
-name: Hacktobrfest HackNight
+name: Hacktoberfest HackNight
 date: 2018-10-13
 location: G Floor Sahyadri Collge
 cover: './cover.png'
