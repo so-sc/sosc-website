@@ -31,7 +31,7 @@ const TeamsPage = ({ data }) => (
         <div className="team-section">
           { /* Card for coordinators */}
           <div className="member-card white-bg elevate">
-            <img className="profile-pic" src={PrakhyathImage}/>
+            <img className="profile-pic" src={PrakhyathImage} height="70" width="70"/>
             <div className="member-details">
                 <h3 className="name">Prakhyath Rai</h3>
                 <p className="designation">Faculty Coordinator</p>
