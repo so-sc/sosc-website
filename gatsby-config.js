@@ -14,7 +14,6 @@ module.exports = {
       title: 'SOSC - Blog',
       siteUrl: 'https://sosc.org.in/blog',
     },
-    siteUrl: 'https://sosc.org.in'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
