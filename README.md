@@ -107,4 +107,5 @@ PS: Only use the prefix before your commit followed by an understandable commit 
 - [rumaan](https://github.com/rumaan)
 - [Chaman](https://github.com/chaman-k)
 - [Shravan](https://github.com/shravan1998)
+- [DominikTrojcak](https://github.com/DominikTrojcak)
 - [David Brunnthaler](https://github.com/davidbru)

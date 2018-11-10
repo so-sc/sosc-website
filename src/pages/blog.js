@@ -2,27 +2,29 @@ import React from 'react';
 import BlogCard from '../components/blog_card';
 import Layout from '../components/indexLayout';
 import { graphql } from 'gatsby';
-
-
+import MainLogo from '../images/logo_main.png';
+import GatsbyConfig from '../../gatsby-config'
+import CustomHelmet from '../components/CustomHelmet';
 
 function getBlogs(data) {
 	let blogs = [];
 	let blogList = data.allMarkdownRemark.edges;
 
 	blogList.map(element => {
-		blogs.push( <BlogCard data={ element.node.frontmatter }/> )
+		blogs.push(<BlogCard data={element.node.frontmatter} />)
 	});
-  return blogs;
+	return blogs;
 }
 
 const BlogsPage = ({ data }) => (
 	<Layout>
+		<CustomHelmet page={GatsbyConfig.siteMetadata.blog} image={MainLogo} />
 		<div className="page">
 			<div className="container">
 				<section className="blog-section">
 					<div className="blog-posts">
 
-						{ getBlogs(data) }
+						{getBlogs(data)}
 
 					</div>
 					<div className="blog-newsletter">

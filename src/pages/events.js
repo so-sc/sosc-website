@@ -2,18 +2,20 @@ import React from 'react'
 import Card from '../components/event_card';
 import Layout from '../components/indexLayout';
 import { graphql } from 'gatsby';
+import MainLogo from '../images/logo_main.png';
+import GatsbyConfig from '../../gatsby-config'
+import CustomHelmet from '../components/CustomHelmet';
 
 function getEvents(data) {
   let events = [];
   let eventList = data.allMarkdownRemark.edges;
-
-  eventList.map(({node}) => {
+  eventList.map(({ node }) => {
     events.push(
-      <Card 
+      <Card
         slug={node.frontmatter.slug}
-        cover={node.frontmatter.cover} 
-        title={node.frontmatter.name} 
-        date={node.frontmatter.date}/>
+        cover={node.frontmatter.cover}
+        title={node.frontmatter.name}
+        date={node.frontmatter.date} />
     );
   })
   return events;
@@ -21,10 +23,11 @@ function getEvents(data) {
 
 const EventsPage = ({ data }) => (
   <Layout>
+    <CustomHelmet page={GatsbyConfig.siteMetadata.events} image={MainLogo} />
     <div className="page">
       <div className="container">
         <div className="event-card-container">
-          { getEvents(data) }
+          {getEvents(data)}
         </div>
       </div>
     </div>

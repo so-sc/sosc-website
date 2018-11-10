@@ -1,26 +1,29 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import { DiscussionEmbed } from "disqus-react";
 import MemberCard from '../components/member_card';
 import Layout from '../components/indexLayout';
 import { graphql } from 'gatsby';
+import CustomHelmet from '../components/CustomHelmet';
+import GatsbyConfig from '../../gatsby-config';
 
-export default function BlogTemplate ({data}) {
-    const {markdownRemark: post} = data;
+export default function BlogTemplate({ data }) {
+    const { markdownRemark: post } = data;
     const disqusShortname = "sosc";
     const disqusConfig = {
-      identifier: post.frontmatter.title,
-      title: post.frontmatter.title,
+        identifier: post.frontmatter.title,
+        title: post.frontmatter.title,
     };
-    
+
     return (
-        
+
         <Layout>
             <div className="page white-bg">
-                <Helmet>
-                    <title>{post.frontmatter.title}</title>
-                    <meta name="description" content={post.frontmatter.description} />
-                </Helmet>
+                <CustomHelmet page={{
+                    title: `${post.frontmatter.name}`,
+                    siteUrl: `${GatsbyConfig.siteMetadata.link}${post.frontmatter.slug}`
+                }}
+                    image={post.frontmatter.cover.publicURL}
+                />
                 <div className="container">
                     <div className="blog-page">
 
@@ -36,16 +39,16 @@ export default function BlogTemplate ({data}) {
                         }
                         <div data-aos="fade-up" className="header">
                             <div className="contents">
-                                <p className="tags"> { post.frontmatter.tags}</p>
+                                <p className="tags"> {post.frontmatter.tags}</p>
                                 <p className="title"> {post.frontmatter.title} </p>
                                 <p className="description"> {post.frontmatter.description} </p>
-                                <div className="dash"/>
+                                <div className="dash" />
 
                                 <div className="author-section">
-                                    <img className="author-img" 
+                                    <img className="author-img"
                                         src={
                                             `https://avatars1.githubusercontent.com/${post.frontmatter.author}?size=100`
-                                            }/>
+                                        } />
                                     <div className="author-details">
                                         <div className="author-name">
                                             <a href={`https://github.com/${post.frontmatter.author}`}
@@ -59,7 +62,7 @@ export default function BlogTemplate ({data}) {
 
                             </div>
                             <div className="cover">
-                                <img src={post.frontmatter.cover.publicURL}/>
+                                <img src={post.frontmatter.cover.publicURL} />
                             </div>
                         </div>
 
@@ -68,9 +71,9 @@ export default function BlogTemplate ({data}) {
                              * Blog page section
                              */
                         }
-                        <div data-aos="fade-up" 
-                            className="blog-contents" 
-                            dangerouslySetInnerHTML={{ __html: post.html}}/>
+                        <div data-aos="fade-up"
+                            className="blog-contents"
+                            dangerouslySetInnerHTML={{ __html: post.html }} />
                         <div className="team-section bottom-box">
                             <MemberCard
                                 username={post.frontmatter.author}
@@ -80,7 +83,7 @@ export default function BlogTemplate ({data}) {
                         <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
                     </div>
                 </div>
-                
+
             </div>
         </Layout>
     );

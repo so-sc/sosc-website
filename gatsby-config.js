@@ -1,9 +1,21 @@
 module.exports = {
   siteMetadata: {
     title: 'SOSC',
-    siteUrl: 'https://sosc.org.in'
+    siteUrl: 'https://sosc.org.in',
+    events: {
+      title: 'SOSC - Events',
+      siteUrl: 'https://sosc.org.in/events',
+    },
+    team: {
+      title: 'SOSC - Team',
+      siteUrl: 'https://sosc.org.in/team',
+    },
+    blog: {
+      title: 'SOSC - Blog',
+      siteUrl: 'https://sosc.org.in/blog',
+    },
   },
-plugins: [
+  plugins: [
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-sass`,
     `gatsby-remark-copy-linked-files`,
