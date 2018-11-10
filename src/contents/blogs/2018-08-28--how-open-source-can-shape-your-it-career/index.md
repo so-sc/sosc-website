@@ -14,9 +14,10 @@ description: A beginner's guide to open source, the benefits of being part of th
 &nbsp; The term open source have been around for quite a long time. From the man who built the Linux Kernel which powers the modern internet to your favorite libraries, which are the effort of hundreds of individuals and organizations, All we know is it's freely modifiable pieces of softwares. But the term holds the definition more than the boundaries of software development. Open source today is a principle which upholds the values of transparency, open initiatives, collaborative participation and community driven development. In other words _the open source_ can be simply termed as an open collaborative effort towards a specific goal.  
 
 It's everywhere! The world's largest encyclopedia which is driven by the content contributed by individuals is a good example for open collaborative effort. The ability of humans to come forward to solve problems for the community is what driving the modern open-source culture. Talking about Open source softwares as Engineers its worth knowing the fact that most of the technologies we use today is vastly built by the lines written by millions of engineers around the world. Even the giants in the tech industry rely on these softwares built by people who contributed to open source for a better future.  
-
-![linux kernal source](https://screenshotscdn.firefoxusercontent.com/images/582d909b-3bbf-4cb6-86e1-733050d13baf.png)
-<center><i>The Linux kernal source on <a href="https://github.com/torvalds/linux">GitHub</a></i></center>
+<p>
+<image src="linux.png"/>
+</p>
+<center><i>The Linux kernel source on <a href="https://github.com/torvalds/linux">GitHub</a></i></center>
 
 ## Why you should care
 Being an open source contributor, there are more benefits than you'd imagine. From improving your programming skills to potentially landing a job, that might happen. Most of the famous and iconic developers in the tech industry became who they are, just because of their involvement in open source development. As budding CS Engineers the golden benefits of open source are quite handsome.  
@@ -28,17 +29,21 @@ These are the valuable rewards to you from open source throughout your journey. 
 
 ![pepe silvia](https://media.giphy.com/media/l0IylOPCNkiqOgMyA/giphy.gif)
 
-Let's start simple. Open sourcing your project on GitHub means opening the ugly lines of code you wrote to the world. Feels bad? Well, open source projects are a good way of improving your programming skills and adhering to best practices. It's a constant reminder of improving your programming patterns and skills. The best tip given to early adopters is to start open sourcing even the silliest project you have built. It doesn't necessarily need to be an operating system, or the next Machine Learning library. It can be anything, maybe a project you built for fun, a project you worked to solve a common problem, even if it doesn't sound helpful to others, its a good habit to put it up on GitHub. Fun fact: this [JavaScript library](https://www.npmjs.com/package/is-even) which checks whether a given number is even has more than a million downloads in [npm](https://npmjs.org) 
+Let's start simple. Open sourcing your project on GitHub means opening the ugly lines of code you wrote to the world. Feels bad? Well, open source projects are a good way of improving your programming skills and adhering to best practices. It's a constant reminder of improving your programming patterns and skills. The best tip given to early adopters is to start open sourcing even the silliest project you have built. It doesn't necessarily need to be an operating system, or the next Machine Learning library. It can be anything, maybe a project you built for fun, a project you worked to solve a common problem, even if it doesn't sound helpful to others, it's a good habit to put it up on GitHub. Fun fact: this [JavaScript library](https://www.npmjs.com/package/is-even) which checks whether a given number is even has more than a million downloads in [npm](https://npmjs.org) 
 
-![](https://screenshotscdn.firefoxusercontent.com/images/5ea62f4e-ff0f-4453-b692-c75773dbdcd0.png)
+<p>
+<image src="iseven.png"/>
+</p>
 
 Or maybe something even more fun!
 A library which checks a given number is 13. Best part is getting it ported to other languages by others. lol.
 
-![](https://screenshotscdn.firefoxusercontent.com/images/6f5a45df-52d1-496f-ac94-d22c65c7e25d.png) 
+<p>
+<image src="isthirteen.png"/>
+</p>
 
 
-From being part of an open source community, you'll be directly exposed to technologies that you'd have never had a good project to work with. You'll sharpen your skills and always be informed about emerging technologies and how you can update your current skill set without leaving the field. In short, technologies are born here! being part of the development is something that's worth spending your time on.  
+From being part of an open source community, you'll be directly exposed to technologies that you'd have never had a good project to work with. You'll sharpen your skills and always be informed about emerging technologies and how you can update your current skill set without leaving the field. In short, technologies are born here! Being part of the development is something that's worth spending your time on.  
 
 Even if you are from a remote area where you can hardly find a person to talk about html or css, open source projects and communities opens the door to interact and work with the best developers from any of your dream company around the world, no barriers! The best part of gazing around open source projects is the opportunity to learn to code and read code written by experts and developers with years of experience (rather than just writing C lab programs from PDFs) and learning from them.
 
@@ -47,10 +52,12 @@ Your contributions to open source projects is more of fun or contribution to com
 ## Making your first contribution
 This might be hard for many people since most of us have our imposter syndrome kicking in whenever we start to do something. But the fact is most of the open source projects are beginner friendly and supportive for new contributors. Having your line of code land in to some of the largest and famous code base might be hard. But that's not the only way to become an open source contributor. Supporting the development, giving feedback, helping others with the issues regarding an open source software, or even open sourcing your project to others can be a little step towards becoming an open source contributor.  
 
-[GitHub](https://github.com) is a great place to start this journey, which is indeed one of the largest developers community and home for largest number of open source projects. Found a bug while using a software? If the software is open source, you can likely submit issues and start working on a fix, this is the most common way of entering into a project. Some of the projects might be complex, or some of your favorite softwares need a good amount of programming skill to make a contribution, but there's always a way to be part of it. From fixing typos to adding or updating documentation can be one way to contribute. Finding issues in a repository with labels `need-help` or `good-first-issue` might be the right place to start as a beginner.  
+[GitHub](https://github.com) is a great place to start this journey, which is indeed one of the largest developers community and home for largest number of open source projects. Found a bug while using a software? If the software is open source, you can likely submit issues and start working on a fix, this is the most common way of entering into a project. Some projects might be complex, or some of your favorite softwares need a good amount of programming skill to make a contribution, but there's always a way to be part of it. From fixing typos to adding or updating documentation can be one way to contribute. Finding issues in a repository with labels `need-help` or `good-first-issue` might be the right place to start as a beginner.  
 
-![react issues](https://screenshotscdn.firefoxusercontent.com/images/fd0d0a38-02b0-4546-826b-77d6ab3e51e6.png)
-<center><i>Open issues in <a href="https://github.com/facebook/react">React.js</a> repository</i></center>
+<p>
+<image src="gatsby.png"/>
+</p>
+<center><i>Open issues in <a href="https://github.com/gatsbyjs/gatsby/issues?q=is%3Aissue+is%3Aopen+label%3A%22status%3A+help+wanted%22">Gatsby.js</a> repository</i></center>
 
 
 Here are few links to get you started!  
