@@ -29,7 +29,7 @@ eg:
 username: haxzie
 name: Musthaq Ahamad
 designation: Community Lead
-email: musthu.gm@gmail.com
+email: example@gmail.com
 linkedin: https://www.linkedin.com/in/haxzie/
 skills: Android, Design, web, Public speaking
 ---
@@ -109,4 +109,4 @@ PS: Only use the prefix before your commit followed by an understandable commit 
 - [Shravan](https://github.com/shravan1998)
 - [DominikTrojcak](https://github.com/DominikTrojcak)
 - [David Brunnthaler](https://github.com/davidbru)
-- [davidgorel](https://github.com/davidgorel)
+- [Davidgorel](https://github.com/davidgorel)
