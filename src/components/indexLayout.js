@@ -1,14 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
-
-
 import Header from './header';
 import Footer from './footer';
 
-import '../sass/index.scss';
-
-
+import '../sass/index.scss'
 
 const Layout = ({ children }) => (
 	<div id="flexContainer">
@@ -18,6 +13,7 @@ const Layout = ({ children }) => (
 		</main>
 		<Footer/>
 	</div>
+	
 );
 
 Layout.propTypes = {
