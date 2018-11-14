@@ -1,6 +1,6 @@
 ---
 slug: /events/intro-to-data-manipulation-and-data-visualization
-name: Intro to data manipulation and data visualization
+name: Intro to Data Science
 date: 2018-11-17
 location: iWave Lab
 cover: './cover.png'
