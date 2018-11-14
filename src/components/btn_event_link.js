@@ -1,10 +1,10 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 const RegistraionLink = ({link}) => (
   <div className="float">
     <a href={link} 
         className="btn-event-float"
+        rel="noopener noreferrer"
         target="_blank">Register Now</a>
   </div>
 )

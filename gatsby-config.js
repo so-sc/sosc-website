@@ -40,14 +40,14 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/contents`,
-        name: 'contents',
-      }
+        path: `${__dirname}/src`,
+        name: 'images',
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-101997744-5",
+        trackingId: 'UA-101997744-5',
         // Puts tracking script in the head instead of the body
         head: true,
         // Setting this parameter is optional
@@ -55,11 +55,11 @@ module.exports = {
         // Setting this parameter is also optional
         respectDNT: true,
         // Avoids sending pageview hits from custom paths
-        exclude: ["/preview/**", "/do-not-track/me/too/"],
+        exclude: ['/preview/**', '/do-not-track/me/too/'],
       },
     },
     {
-      resolve: `gatsby-plugin-sitemap`
+      resolve: `gatsby-plugin-sitemap`,
     },
     {
       resolve: `gatsby-plugin-nprogress`,
@@ -69,6 +69,6 @@ module.exports = {
         // Disable the loading spinner.
         showSpinner: false,
       },
-    }
+    },
   ],
 }
