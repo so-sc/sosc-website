@@ -28,7 +28,6 @@ We'll be giving you hands-on experience on how to work with Jupyter notebooks. S
 - plotly
 - seaborn
 - jupyter
-
 ## Trainers and Mentors
 - [Shreyas Baliga](https://github.com/ShreyasBaliga), Co-Project Coordinator - SOSC
 - [Melwin Lobo](https://github.com/melwinlobo18), Project Head

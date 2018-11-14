@@ -19,7 +19,7 @@ const CustomHelmet = ({ page, image }) => (
         {image && (
             <meta
                 property="og:image"
-                content={<img src={image} />}
+                content={image}
             />
         )}
         <html lang="en" />
