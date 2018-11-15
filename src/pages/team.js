@@ -33,10 +33,12 @@ const TeamsPage = ({ data }) => (
         <div className="team-section">
           {/* Card for coordinators */}
           <div className="member-card white-bg elevate">
+
             <Img
               fluid={data.imageCoord1.childImageSharp.fluid}
               className="profile-pic"
             />
+
             <div className="member-details">
               <h3 className="name">Prakhyath Rai</h3>
               <p className="designation">Faculty Coordinator</p>
@@ -84,4 +86,7 @@ export const teamQuery = graphql`
       }
     }
   }
+
 `
+
+
