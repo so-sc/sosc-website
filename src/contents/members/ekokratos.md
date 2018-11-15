@@ -1,8 +1,8 @@
 ---
 username: ekokratos
 name: Adithya M Suvarna
-designation: Co-Sponsor Head
+designation: Community Lead
 email: adithyams.adi@gmail.com
-linkedin: https:www.linkedin.com/in/adithya-suvarna-5a933b156
-skills: Python, Game development, Arduino 
+linkedin: https:www.linkedin.com/in/adithya-suvarna
+skills: Python, Game development, Arduino
 ---
