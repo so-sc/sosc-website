@@ -21,12 +21,9 @@ export default function EventTemplate({ data }) {
   function getLinkButton() {
     let eventDate = moment(post.frontmatter.date, 'DD-MMM-YYYY')
     var week = new Date(eventDate._d.getFullYear(), eventDate._d.getMonth(), eventDate._d.getDate()+7);
-    console.log(week);
-
     let today = new Date();
     today.setHours(0, 0, 0, 0);
-    console.log(today);
-
+    
     function registration_link(){
       if(post.frontmatter.link !== undefined && post.frontmatter.link !== null) {
         if (post.frontmatter.link.length > 0) {
