@@ -1,8 +1,8 @@
 import React from 'react'
 
-const FeedbackLink = ({link}) => (
+const FeedbackLink = ({feedback_link}) => (
   <div className="float">
-    <a href={link} 
+    <a href={feedback_link} 
         className="btn-event-float"
         rel="noopener noreferrer"
         target="_blank">Give Feedback</a>
