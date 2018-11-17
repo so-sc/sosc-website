@@ -81,6 +81,7 @@ date: 2018-12-02
 location: Seminar Hall
 cover: './cover.png'
 link: REGISTRATION_LINK (leave empty if not needed)
+feedback_link: LINK_TO_SUBMIT_THE_FEEDBACK (leave empty if not needed)
 ---
 
 # Other event details
@@ -107,6 +108,7 @@ PS: Only use the prefix before your commit followed by an understandable commit 
 - [rumaan](https://github.com/rumaan)
 - [Chaman](https://github.com/chaman-k)
 - [Shravan](https://github.com/shravan1998)
+- [Afroz Hussain](https://github.com/coderhawk999)
 - [DominikTrojcak](https://github.com/DominikTrojcak)
 - [David Brunnthaler](https://github.com/davidbru)
 - [Davidgorel](https://github.com/davidgorel)
