@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 const FeedbackLink = ({link}) => (
   <div className="float">
     <a href={link} 

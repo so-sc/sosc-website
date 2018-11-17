@@ -13,53 +13,46 @@ import CustomHelmet from '../components/CustomHelmet';
  * @param {data} param0
  */
 export default function EventTemplate({ data }) {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
 
+  /**
+   * Function to return Feedback link or Registration link based on the Date
+   */
   function getLinkButton() {
-
     let eventDate = moment(post.frontmatter.date, 'DD-MMM-YYYY')
-    let today = new Date()
-    console.log(eventDate)
-    today.setHours(0, 0, 0, 0)
+    let today = new Date();
+    today.setHours(0, 0, 0, 0);
 
-   function registration_link(){
-        console.log(post.frontmatter.link)
-        if(post.frontmatter.link !== undefined && post.frontmatter.link !== null) {
+    function registration_link(){
+      if(post.frontmatter.link !== undefined && post.frontmatter.link !== null) {
         if (post.frontmatter.link.length > 0) {
-        return <RegistrationLink link={post.frontmatter.link} />
+          return <RegistrationLink link={post.frontmatter.link} />
+        }
       }
     }
 
-  }
- function feedbac_link(){
-      console.log(post.frontmatter.feedback_link)
+    function feedback_link(){
       if(post.frontmatter.feedback_link !== undefined && post.frontmatter.feedback_link !== null) {
-      if (post.frontmatter.feedback_link.length > 0) {
-      return <FeedbackLink feedback_link={post.frontmatter.feedback_link} />
+        if (post.frontmatter.feedback_link.length > 0) {
+          return <FeedbackLink feedback_link={post.frontmatter.feedback_link} />
+        }
+      }
     }
-  }
-}
 
-    if(today<eventDate._d){
-
+    if(today < eventDate._d){
       return registration_link();  
-      
+    } else {
+      return feedback_link();
     }
-
-    else {
-      return feedbac_link();
-
   }
-}
 
   return (
     <Layout>
     <CustomHelmet page={{
             title: `${post.frontmatter.name}`,
             siteUrl: `${GatsbyConfig.siteMetadata.link}${post.frontmatter.slug}`
-        }}
-            image={post.frontmatter.cover.publicURL}
-      />
+          }}
+          image={post.frontmatter.cover.publicURL}/>
       <div className="page">
         <div className="container">
           <div className="event-wrapper">
