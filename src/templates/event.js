@@ -1,5 +1,7 @@
 import React from 'react'
 import RegistrationLink from '../components/btn_event_link'
+import FeedbackLink from '../components/btn_event_feedback_link'
+import moment from 'moment' 
 import Layout from '../components/indexLayout'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
@@ -14,13 +16,41 @@ export default function EventTemplate({ data }) {
   const { markdownRemark: post } = data
 
   function getLinkButton() {
-    console.log(post.frontmatter.link)
-    if (post.frontmatter.link !== undefined && post.frontmatter.link !== null) {
-      if (post.frontmatter.link.length > 0) {
+
+    let eventDate = moment(post.frontmatter.date, 'DD-MMM-YYYY')
+    let today = new Date()
+    console.log(eventDate)
+    today.setHours(0, 0, 0, 0)
+
+   function registration_link(){
+        console.log(post.frontmatter.link)
+        if(post.frontmatter.link !== undefined && post.frontmatter.link !== null) {
+        if (post.frontmatter.link.length > 0) {
         return <RegistrationLink link={post.frontmatter.link} />
       }
     }
+
   }
+ function feedbac_link(){
+      console.log(post.frontmatter.feedback_link)
+      if(post.frontmatter.feedback_link !== undefined && post.frontmatter.feedback_link !== null) {
+      if (post.frontmatter.feedback_link.length > 0) {
+      return <FeedbackLink feedback_link={post.frontmatter.feedback_link} />
+    }
+  }
+}
+
+    if(today<eventDate._d){
+
+      return registration_link();  
+      
+    }
+
+    else {
+      return feedbac_link();
+
+  }
+}
 
   return (
     <Layout>
@@ -66,6 +96,7 @@ export const postQuery = graphql`
         date(formatString: "DD-MMM-YYYY")
         location
         link
+        feedback_link
         cover {
           publicURL
           childImageSharp {
