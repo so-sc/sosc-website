@@ -1,6 +1,6 @@
 ![sosc logo](https://raw.githubusercontent.com/haxzie/sosc-website/master/src/images/logo_main.png)
 # Sahyadri OpenSource Community
-Official website for Sahyadri OpenSource Community.  
+Official website for Sahyadri Open Source Community.  
 All contribution to this website including contents are made through Pull Requests.  
 If you are new to Git and GitHub and don't know how to submit a Pull Request(PR), please refer our friendly guide
 on submitting your first pull request at [gitme.js.org](https://gitme.js.org).  
@@ -90,6 +90,7 @@ And descriptions in Markdown
 We welcome Pull Requests for Bug Fixes, Missing or Fixing Documentation or even a brand new feature.  
 Open an issue with your concern and we'll help you out in the way.  
 While submitting the Pull Request make sure you have added proper comments in the code. Having a proper PR message will help us review your PR fast. Please follow consistent commit message throughout development, we follow Highlight with prefix guideline for commit messages where you need add a prefix text indicating what you have made changes in the commit.  
+
 A few of the prefixes are listed below.
 - FIX: Bug fix or correction
 - SFIX: Security fix
