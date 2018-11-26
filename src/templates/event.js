@@ -21,7 +21,7 @@ export default function EventTemplate({ data }) {
   function getLinkButton() {
     let eventDate = moment(post.frontmatter.date, 'DD-MMM-YYYY')
     let week=moment(post.frontmatter.date, 'DD-MMM-YYYY').add(7,'days');
-    console.log(week._d);
+    
 
     let today = new Date();
     today.setHours(0, 0, 0, 0);
