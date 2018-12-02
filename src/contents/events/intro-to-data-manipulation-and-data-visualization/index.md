@@ -5,6 +5,7 @@ date: 2018-11-17
 location: iWave Lab
 cover: './cover.png'
 link: https://goo.gl/Ny4cJB
+feedback_link: https://goo.gl/Ny4cJB
 ---
 
 ## Introduction to Data Manipulation and Data Visualization
