@@ -16,7 +16,7 @@
     "gatsby-plugin-page-transitions": "^1.0.7",
     "gatsby-plugin-react-helmet": "^3.0.2",
     "gatsby-plugin-sass": "^2.0.1",
-    "gatsby-plugin-sharp": "^2.0.13",
+    "gatsby-plugin-sharp": "^2.0.14",
     "gatsby-plugin-sitemap": "^2.0.1",
     "gatsby-remark-copy-linked-files": "^2.0.5",
     "gatsby-remark-images": "^3.0.0",
