@@ -1,6 +1,3 @@
-module.exports ={
-    feedback_days:7,
-  
-        
-    }
-
+module.exports = {
+  feedback_days: 7,
+}
