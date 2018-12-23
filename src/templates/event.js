@@ -5,6 +5,7 @@ import moment from 'moment'
 import Layout from '../components/indexLayout'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import feedback from '../../config'
 import GatsbyConfig from '../../gatsby-config'
 import CustomHelmet from '../components/CustomHelmet';
 
@@ -20,12 +21,14 @@ export default function EventTemplate({ data }) {
    */
   function getLinkButton() {
     let eventDate = moment(post.frontmatter.date, 'DD-MMM-YYYY')
-    let week=moment(post.frontmatter.date, 'DD-MMM-YYYY').add(7,'days');
-    
+    let week=moment(post.frontmatter.date, 'DD-MMM-YYYY').add(feedback.feedback_days,'days');
+
+   
 
     let today = new Date();
     today.setHours(0, 0, 0, 0);
     
+
 
     function registration_link(){
       if(post.frontmatter.link !== undefined && post.frontmatter.link !== null) {
