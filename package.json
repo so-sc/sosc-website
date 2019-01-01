@@ -18,7 +18,7 @@
     "gatsby-plugin-sass": "^2.0.1",
     "gatsby-plugin-sharp": "^2.0.13",
     "gatsby-plugin-sitemap": "^2.0.1",
-    "gatsby-remark-copy-linked-files": "^2.0.5",
+    "gatsby-remark-copy-linked-files": "^2.0.8",
     "gatsby-remark-images": "^3.0.0",
     "gatsby-source-filesystem": "^2.0.10",
     "gatsby-transformer-remark": "^2.1.13",
