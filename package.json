@@ -12,7 +12,7 @@
     "gatsby-image": "^2.0.21",
     "gatsby-link": "^2.0.4",
     "gatsby-plugin-google-analytics": "^2.0.6",
-    "gatsby-plugin-nprogress": "^2.0.5",
+    "gatsby-plugin-nprogress": "^2.0.7",
     "gatsby-plugin-page-transitions": "^1.0.7",
     "gatsby-plugin-react-helmet": "^3.0.5",
     "gatsby-plugin-sass": "^2.0.1",
