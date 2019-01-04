@@ -10,7 +10,7 @@
     "disqus-react": "^1.0.5",
     "gatsby": "^2.0.55",
     "gatsby-image": "^2.0.21",
-    "gatsby-link": "^2.0.4",
+    "gatsby-link": "^2.0.7",
     "gatsby-plugin-google-analytics": "^2.0.6",
     "gatsby-plugin-nprogress": "^2.0.7",
     "gatsby-plugin-page-transitions": "^1.0.7",
