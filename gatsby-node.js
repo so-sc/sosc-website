@@ -5,7 +5,8 @@ exports.createPages = ({actions, graphql}) => {
 
     const blogTemplate = path.resolve('src/templates/blog.js');
     const eventTemplate = path.resolve('src/templates/event.js');
-
+    
+    // create blog pages
     return graphql(
         `{
             allMarkdownRemark {
