@@ -10,7 +10,7 @@ const state18 = () => (
             <p>2018 was a truly memorable year for us, at Sahyadri Open Source Community.<br />
             We watched our community increase in size and many members developed and learnt new skills;<br />
             We also provided mentorship, organised a handful of Events, Workshops, and an OverNight Hackathon!<br /><br />
-            A report of SOSC's 2018:
+            Here's a report of SOSC's 2018:
               <ul>
                 <li><h1>Rustathon 2k18</h1>
                   <br />
