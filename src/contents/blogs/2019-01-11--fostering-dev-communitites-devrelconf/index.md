@@ -3,7 +3,7 @@ slug: /blog/fostering-developer-communities-through-devrel-confs
 date: 2019-01-11
 author: haxzie
 name: Musthaq Ahamad
-title: Fostering Developer Communities through DevRel Confs
+title: Hackference India - Fostering Developer Communities through DevRel Confs
 tags: Conference Experience
 cover: './cover.png'
 description: Developer Relation Conferences are events aimed at assimilation of developer advocates and Evangelists of multiple organizations, sharing their knowledge and experiences.
