@@ -19,10 +19,11 @@ export default function BlogTemplate({ data }) {
     <Layout>
       <div className="page white-bg">
       <CustomHelmet page={{
-            title: `${post.frontmatter.name}`,
-            siteUrl: `${GatsbyConfig.siteMetadata.link}${post.frontmatter.slug}`
+            title: `${post.frontmatter.title}`,
+            siteUrl: `${GatsbyConfig.siteMetadata.link}${post.frontmatter.slug}`,
+            image: `${post.frontmatter.cover.publicURL}`
         }}
-            image={post.frontmatter.cover.publicURL}
+        image={post.frontmatter.cover.publicURL}
         />
         <div className="container">
           <div className="blog-page">
