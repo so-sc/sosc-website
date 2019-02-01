@@ -4,8 +4,8 @@ name: Flutter Workshop
 date: 2019-02-02
 location: Microsoft Lab
 cover: './cover.png'
-link: https://goo.gl/Ny4cJB
-feedback_link: https://goo.gl/forms/Okrk07VZY4E4yI9I2
+link: https://goo.gl/forms/PeglGKfPCQgsbPAk2
+feedback_link: https://goo.gl/forms/nFZc0yE5VkRJEA8f2
 ---
 
 ## Flutter Workshop 
