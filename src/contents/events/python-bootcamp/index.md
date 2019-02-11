@@ -2,7 +2,7 @@
 slug: /events/python_bootcamp_2018
 name: Python BootCamp
 date: 2018-05-09
-location: seminar hall
+location: Seminar Hall / Classroom 
 cover: './cover.png'
 ---
 
