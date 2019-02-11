@@ -27,7 +27,7 @@ The Day-1 of the bootcamp covered the basic concepts of Python where the attende
 - Functions (Brief)
 Presentation Slides: [https://slides.com/abhiigatty/python-bootcamp-day-1/](https://slides.com/abhiigatty/python-bootcamp-day-1/edit)
 
-## Day-1
+## Day-2
 Day-2 was held at the same venue as Day-1 where more focus was on intermediate concepts that were covered in detail and at the end of the workshop we asked a few questions to the attendees and asked them to come forth and share their experience and they gave us positive feedback as this was the first major workshop and stepping stone for SOSC, it was vital to understand the attendees and swags were given out for the attendees who came forth. 💖    
 ### Topics Covered were
 - Functions
