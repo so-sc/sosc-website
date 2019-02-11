@@ -37,7 +37,7 @@ Day-2 was held at the same venue as Day-1 where more focus was on intermediate c
 - Try & Exceptions
 
 ## Trainers and Mentors
-- [Abhishek P](https://github.com/hitoshirenu), Community Lead - SOSC
+- [Abhishek P](https://github.com/AbhiiGatty), Community Lead - SOSC
 - [Musthaq Ahamad](https://github.com/haxzie), GitHub Campus Expert | Community Lead - SOSC
 - [Rumaan Khalander](https://github.com/rumaan), Associate Android Dev | Technical Lead - SOSC
 - [Arjun Suvarna](https://github.com/arjunsuvarna1), Community Lead - SOSC
