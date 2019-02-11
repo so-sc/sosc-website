@@ -18,5 +18,5 @@ This Study Jam is concentrated on clearing all the doubts and questions in your 
 - VIVA questions related to each program
 
 ## Trainers and Mentors
-- [Abhishek P](https://github.com/hitoshirenu), Community Lead - SOSC
+- [Abhishek P](https://github.com/AbhiiGatty), Community Lead - SOSC
 - [Musthaq Ahamad](https://github.com/haxzie), GitHub Campus Expert | Community Lead - SOSC
