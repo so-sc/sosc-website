@@ -17,7 +17,7 @@ Python is a general-purpose language which is designed to be simple to read and 
 
 ## Day-1
 Day-1 was held at one of the class rooms and more than 40 attendees were present for the workshop.
-The Day-1 of the bootcamp covered the basic concepts of Python where the attendees had hands on experience with installations and running the programs and learning the data structure. Attendees were also given up with some [excercises](https://drive.google.com/open?id=1Hpi9sASLKnaVDHfva83LWynmWC1FhkVx)to complete and submit before the day-2 of the python-bootcamp.
+The Day-1 of the bootcamp covered the basic concepts of Python where the attendees had hands on experience with installations and running the programs and learning the data structure. Attendees were also given up with some [excercises](https://drive.google.com/open?id=1Hpi9sASLKnaVDHfva83LWynmWC1FhkVx) to complete and submit before the day-2 of the python-bootcamp.
 ### Topics Covered were
 - Variables
 - Data Structures
