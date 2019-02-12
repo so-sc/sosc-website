@@ -10,6 +10,7 @@ const state18 = (props) => (
       <div className="page">
         <section className="2018-Report" style={{
           fontSize: '20px',
+          background: 'white',
         }}>
           <div className="container">
           <Img
@@ -23,13 +24,13 @@ const state18 = (props) => (
             />
             <h1 
               style={{
-              fontSize: '35px',
+              fontSize: '27px',
               }}
               >2018 Yearly Report<div className="dash" />
             </h1>
               <p 
               style = {{ 
-                fontSize:'22px',
+                fontSize:'16px',
               }}
               >
               2018 was a truly memorable year for us, at Sahyadri Open Source Community.<br />
@@ -38,7 +39,7 @@ const state18 = (props) => (
                 Here's a report of SOSC's 2018:
                 <p 
                   style = {{ 
-                    fontSize:'20px',
+                    fontSize:'15px',
                   }}
                 >
                   <ul>
