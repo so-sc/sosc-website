@@ -30,6 +30,9 @@ Day-1 Slides: [https://slides.com/abhiigatty/python-bootcamp-day-1/](https://sli
 
 ## Day-2
 Day-2 was held at the same venue as Day-1 where more focus was on intermediate concepts that were covered in detail and at the end of the workshop we asked a few questions to the attendees and asked them to come forth and share their experience and they gave us positive feedback as this was the first major workshop and stepping stone for SOSC, it was vital to understand the attendees and swags were given out for the attendees who came forth. 💖    
+
+Day-2 Slides: [Python Requests](https://docs.google.com/presentation/d/1FovT8Y9nyk_adC1neAluRdei3iLJ0XHzP4jKmrvEItY/edit?usp=sharing)
+
 ### Topics Covered were
 - Functions
 - Files I/O
