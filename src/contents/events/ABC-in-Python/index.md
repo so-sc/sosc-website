@@ -1,7 +1,7 @@
 ---
 slug: /events/ABC-in-python
 name: ABC in Python
-date: 2019-02-18
+date: 2019-02-16
 location: iwave Lab (tentaive)
 cover: './cover.png'
 link: https://goo.gl/forms/4QAuyyW1AuBWIgrg2
