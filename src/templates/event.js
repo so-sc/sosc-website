@@ -7,8 +7,7 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import feedback from '../../config'
 import GatsbyConfig from '../../gatsby-config'
-import CustomHelmet from '../components/CustomHelmet';
-
+import Helmet from 'react-helmet'
 /**
  * Event TEMPLATE
  * @param {data} param0
@@ -25,8 +24,6 @@ export default function EventTemplate({ data }) {
     let today = new Date();
     today.setHours(0, 0, 0, 0);
     
-
-
     function registration_link(){
       if(post.frontmatter.link !== undefined && post.frontmatter.link !== null) {
         if (post.frontmatter.link.length > 0) {
@@ -52,11 +49,17 @@ export default function EventTemplate({ data }) {
 
   return (
     <Layout>
-    <CustomHelmet page={{
-            title: `${post.frontmatter.name}`,
-            siteUrl: `${GatsbyConfig.siteMetadata.link}${post.frontmatter.slug}`
-          }}
-          image={post.frontmatter.cover.publicURL}/>
+      <Helmet>
+        <title>{`${post.frontmatter.name} | Sahyadri Open Source Community`}</title>
+        <link rel="canonical" href="https://sosc.org.in"/>
+        <meta name="description" content={post.excerpt} />
+        <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#"/>
+        <meta property="og:type"   content="article" /> 
+        <meta property="og:url"    content={`${GatsbyConfig.siteMetadata.link}${post.frontmatter.slug}`} /> 
+        <meta property="og:title"  content={`${post.frontmatter.name} | Sahyadri Open Source Community`} /> 
+        <meta property="og:image"  content={post.frontmatter.cover.publicURL} /> 
+        <meta property="og:site_name" content="SOSC" />
+      </Helmet>
       <div className="page">
         <div className="container">
           <div className="event-wrapper">
@@ -86,6 +89,7 @@ export default function EventTemplate({ data }) {
 export const postQuery = graphql`
   query BlogPostBySlug($path: String!) {
     markdownRemark(frontmatter: { slug: { eq: $path } }) {
+      excerpt(pruneLength: 280)
       html
       frontmatter {
         slug
