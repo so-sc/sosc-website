@@ -42,11 +42,6 @@ const Header = ({ siteTitle }) => (
               Team
             </Link>
           </li>
-          <li>
-            <Link to="/member_details" exact={true} activeClassName="active">
-              Member
-            </Link>
-          </li>
         </ul>
       </div>
     </div>
