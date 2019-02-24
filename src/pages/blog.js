@@ -4,14 +4,14 @@ import Layout from '../components/indexLayout'
 import { graphql } from 'gatsby'
 
 function getBlogs(data) {
-  let blogs = [];
-  let blogList = data.allMarkdownRemark.edges;
+  let blogs = []
+  let blogList = data.allMarkdownRemark.edges
 
   blogList.forEach(element => {
-    blogs.push(<BlogCard data={element.node.frontmatter} />);
-  });
-  
-  return blogs;
+    blogs.push(<BlogCard data={element.node.frontmatter} />)
+  })
+
+  return blogs
 }
 
 const BlogsPage = ({ data }) => (
@@ -20,14 +20,14 @@ const BlogsPage = ({ data }) => (
       <div className="container">
         <section className="blog-section">
           <div className="blog-posts">{getBlogs(data)}</div>
-          { /*
+          {/*
+          
             <div className="blog-newsletter">
               <div className="news-card">
                 <img alt="" src="" />
               </div>
             </div>
-            */
-          }
+            */}
         </section>
       </div>
     </div>
