@@ -23,7 +23,7 @@
     "gatsby-source-filesystem": "^2.0.10",
     "gatsby-transformer-remark": "^2.1.13",
     "gatsby-transformer-sharp": "^2.1.9",
-    "moment": "^2.22.2",
+    "moment": "^2.24.0",
     "node-sass": "^4.11.0",
     "react": "^16.6.3",
     "react-dom": "^16.5.2",
