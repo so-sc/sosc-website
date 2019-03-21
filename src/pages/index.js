@@ -58,6 +58,7 @@ const IndexPage = props => (
               to be pro-active. Mozilla Campus Clubs, Developer Students clubs,
               and the GitHub Campus Expert are to name a few.
             </p>
+            <Link className="btn-hero-green" to="/clubs">Learn More →  </Link>
           </div>
         </section>
       </div>
