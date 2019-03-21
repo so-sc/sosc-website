@@ -1,0 +1,26 @@
+@import '../../sass/partials/variables';
+
+.container {
+    position: relative;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    @media #{$media-large} {
+        width: 80%;
+    }
+    @media #{$media-desktop} {
+        width: 80%;
+    }
+    @media #{$media-tablet-p} {
+        width: 80%;
+    }
+    @media #{$media-tablet-l} {
+        width: 90%;
+    }
+    @media #{$media-mobile} {
+        width: 90%;
+    }
+    @media #{$media-small} {
+        width: 93%;
+    }
+}
