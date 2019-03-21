@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     margin: 50px 10px 10px 10px;
-    min-width: 250px;
+    min-width: 230px;
 
     @media #{$media-mobile} {
       width: 100%;
@@ -66,7 +66,7 @@
 
     .card {
       width: 200px;
-      min-width: 250px;
+      min-width: 220px;
       height: 200px;
       margin: 10px;
       background-color: white;
@@ -105,7 +105,7 @@
           width: 60px;
           margin: 0 20px 0 0;
         }
-        @media #{$media-mobile} {
+        @media #{$media-small} {
           height: 60px;
           width: 60px;
           margin: 0 20px 0 0;
@@ -114,12 +114,13 @@
 
       p {
         text-align: center;
+        padding: 10px;
       }
     }
 
     .profileCard {
         width: 200px;
-        min-width: 250px;
+        min-width: 220px;
         height: 230px;
         margin: 10px;
         background-color: white;
