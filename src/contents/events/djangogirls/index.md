@@ -1,5 +1,5 @@
 ---
-slug: /events/DjangoGirls
+slug: /events/DjangoGirls19
 name: DjangoGirls
 date: 2019-03-24
 location: GFloor Seminar Hall
