@@ -2,8 +2,10 @@
 slug: /events/DjangoGirls
 name: DjangoGirls
 date: 2019-03-24
-location: Seminar Hall
+location: GFloor Seminar Hall
 cover: './djangogirls.png'
+link: https://djangogirls.org/managaluru
+feedback_link: https://forms.gle/BS8sGxXRkFSydpKL8
 ---
 
 ## DjangoGirls
