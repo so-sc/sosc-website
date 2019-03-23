@@ -11,7 +11,7 @@ const NavBar = ({ data }) => {
                 <div className={Styles.navItems}>
                     <Link to="/" className={Styles.brand}><span >SOSC</span></Link>
                     <a className={Styles.githubLogo} href="https://github.com/so-sc">
-                        <img src={GitHubLogo} />
+                        <img src={GitHubLogo} alt="GitHub"/>
                     </a>
                 </div>
             </Container>
