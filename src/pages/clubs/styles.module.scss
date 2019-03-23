@@ -1,4 +1,4 @@
-@import "../partials/variables";
+@import "../../sass/partials/variables";
 
 .section {
   display: flex;
@@ -58,10 +58,12 @@
 
     @media #{$media-mobile} {
       flex-direction: column;
+      padding: 0;
     }
 
     @media #{$media-small} {
       flex-direction: column;
+      padding: 0;
     }
 
     .card {
@@ -96,7 +98,7 @@
         height: auto;
       }
 
-      img {
+      .clubLogo {
         height: 100px;
         width: 100px;
 
