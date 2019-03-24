@@ -5,7 +5,7 @@ date: 2018-11-17
 location: iWave Lab
 cover: './cover.png'
 link: http://bit.ly/2Yj27lX
-feedback_link: 
+feedback_link: http://bit.ly/2FxYy3W
 ---
 ## Android 101
 Seeing as a large majority of our audience preferred working on Android for the initial Developer Student Club Workshop, we have decided to come up with  fun filled Android workshop designed to get you up and running in the world of Android development. This is the first in a series of workshops to learn building Android applications from scratch.
