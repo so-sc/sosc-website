@@ -3,7 +3,7 @@ slug: /events/android-101
 name: Android 101
 date: 2019-03-30
 location: iWave Lab
-cover: './cover.png'
+cover: './cover.jpg'
 link: http://bit.ly/2Yj27lX
 feedback_link: http://bit.ly/2FxYy3W
 ---
