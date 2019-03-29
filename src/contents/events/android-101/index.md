@@ -2,7 +2,7 @@
 slug: /events/android-101
 name: Android 101
 date: 2019-03-30
-location: iWave Lab
+location: LH 201
 cover: './cover.jpg'
 link: http://bit.ly/2Yj27lX
 feedback_link: http://bit.ly/2FxYy3W
@@ -32,4 +32,4 @@ We'll be giving you hands-on experience on how to work with Android. So the even
 - [Shreyas Baliga](https://github.com/ShreyasBaliga), Flutter Lead - DSC
 - [Melwin Lobo](https://github.com/melwinlobo18), GCP Lead - DSC
 - [Afroz](https://github.com/coderhawk999), PWA Lead - DSC
-- [Akshay Ram Bhat](https://github.com/akshayrb22), Technical Lead - SOSC
+- [Akshay Ram Bhat](https://github.com/akshayrb22), Lead - DSC
