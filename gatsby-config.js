@@ -14,6 +14,10 @@ module.exports = {
       title: 'SOSC - Blog',
       siteUrl: 'https://sosc.org.in/blog',
     },
+    memberDetails: {
+      title: 'SOSC - Member Details',
+      siteUrl: 'https://sosc.org.in/member-details',
+    },
   },
   plugins: [
     'gatsby-plugin-react-helmet',

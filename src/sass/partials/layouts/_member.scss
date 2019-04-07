@@ -1,0 +1,61 @@
+.profile-container {
+  background: red;
+  width: 100%;
+  height: calc(100vh - 10px);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  // grid-template-columns: 0.4fr 1fr;
+
+  .profile-details {
+    background-color: black;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    .avatar {
+      flex: 1 1 auto;
+      background-color: aqua;
+    }
+    .links {
+      flex: 1 1 auto;
+      background-color: blue;
+    }
+    .random-info {
+      flex: 1 1 auto;
+      background-color: green;
+    }
+    .quote {
+      flex: 1 1 auto;
+      background-color: red;
+    }
+  }
+
+  .profile-content {
+    background-color: yellow;
+    flex: 3 1 auto;
+    .section {
+        display: flex;
+        flex-direction: column;
+        .skills {
+            flex: 1 1 auto;
+        }
+        .about {
+            flex: 1 1 auto;
+        }
+        .blogs {
+            flex: 1 1 auto;
+        }
+    }
+  }
+
+  @media #{$media-mobile} {
+    flex-direction: column;
+    width: 100%;
+  }
+  @media #{$media-small} {
+    flex-direction: column;
+    width: 100%;
+  }
+}

@@ -1,0 +1,117 @@
+@import "../../sass/partials/variables";
+
+.navBar {
+  display: block;
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
+}
+
+.navItems {
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-grow: 1;
+
+  .brand {
+    color: #404140;
+    font-size: 1.8em;
+    font-family: "organo";
+    padding: 20px 0 20px 0;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+      color: #02b839;
+    }
+
+    @media #{$media-mobile} {
+      font-size: 1.6em;
+      padding-top: 20px;
+      margin-left: 20px;
+    }
+
+    @media #{$media-small} {
+      font-size: 1.6em;
+      padding-top: 20px;
+      margin-left: 15px;
+    }
+  }
+
+  .githubLogo {
+    margin: 0 10px 0 auto;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      transform: scale(0.95, 0.95);
+    }
+    img {
+      width: 35px;
+      height: 35px;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px 0px 0px auto;
+    flex-direction: row;
+
+    @media #{$media-mobile} {
+      width: 100%;
+      align-self: center;
+      justify-content: space-between;
+      padding: 0;
+      margin: 0;
+    }
+
+    @media #{$media-small} {
+      width: 100%;
+      align-self: center;
+      justify-content: space-between;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      @media #{$media-mobile} {
+        flex-grow: 0;
+        flex-basis: 25%;
+        margin: auto;
+      }
+
+      @media #{$media-small} {
+        flex-grow: 0;
+        flex-basis: 25%;
+        margin: auto;
+      }
+      a {
+        display: inline-block;
+        text-decoration: none;
+        margin: 0;
+        padding: 25px;
+        color: #373738;
+        font-size: 1em;
+
+        :hover {
+          color: #02b839;
+        }
+
+        @media #{$media-mobile} {
+          padding: 20px;
+        }
+
+        @media #{$media-small} {
+          padding: 15px;
+        }
+      }
+      a.active {
+        color: #02b839;
+        border-bottom: 2px solid #02b839;
+      }
+    }
+  }
+}

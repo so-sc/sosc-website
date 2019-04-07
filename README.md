@@ -1,9 +1,10 @@
-![sosc logo](https://raw.githubusercontent.com/haxzie/sosc-website/master/src/images/logo_main.png)
-# Sahyadri OpenSource Community
+<p align="center">
+<img src="https://raw.githubusercontent.com/haxzie/sosc-website/master/src/images/logo_main.png"/>
+</p>
+<h1 align="center">Sahyadri OpenSource Community</h1>
+
 Official website for Sahyadri OpenSource Community.  
-All contribution to this website including contents are made through Pull Requests.  
-If you are new to Git and GitHub and don't know how to submit a Pull Request(PR), please refer our friendly guide
-on submitting your first pull request at [gitme.js.org](https://gitme.js.org).  
+All contribution to this website including contents are made through Pull Requests. If you are new to Git and GitHub and don't know how to submit a Pull Request(PR), please refer our friendly guide on submitting your first pull request at [gitme.js.org](https://gitme.js.org).  
 
 All the contents to the website is in Markdown format, Please follow the below guidelines for any contributions.  
 If you don't know how to write a markdown file, take quick look at [GitHub's markdown](https://guides.github.com/features/mastering-markdown/) guide.

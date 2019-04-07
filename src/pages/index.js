@@ -26,7 +26,7 @@ const IndexPage = props => (
               ecosystem by providing training and skill development.
             </p>
             <a
-              href="https://goo.gl/forms/XH41TwlMxOeRwmdQ2"
+              href="https://goo.gl/forms/aUAhUoOI7a4taYPc2"
               className="btn-hero-green"
             >
               Become a member
@@ -58,6 +58,7 @@ const IndexPage = props => (
               to be pro-active. Mozilla Campus Clubs, Developer Students clubs,
               and the GitHub Campus Expert are to name a few.
             </p>
+            <Link className="btn-hero-green" to="/clubs">Learn More →  </Link>
           </div>
         </section>
       </div>
