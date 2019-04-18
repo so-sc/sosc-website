@@ -1,7 +1,7 @@
 ---
 slug: /events/javascript-workshop-19
 name: NodeSchool - JavaScript Workshop
-date: 2019-05-01
+date: 2019-04-21
 location: GFloor Seminar Hall
 cover: './cover.png'
 link: https://forms.gle/F4WWfGikVuczXHWx8 
