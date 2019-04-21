@@ -5,7 +5,7 @@ date: 2019-04-26
 location: Ground Floor Seminar Hall
 cover: './Add-Ons-Cover.png'
 link: https://forms.gle/z7Z7RaCz8d91B5DY8
-feedback_link: 
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdBb5V61Ap3G9ShxGIkKG0QFYPYis4hazNfmDvM-QfVag8e1Q/viewform?usp=sf_link
 ---
 
 ## Step Into a New World: Web VR/AR Workshop
