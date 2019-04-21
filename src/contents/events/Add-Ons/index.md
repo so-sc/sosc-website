@@ -1,0 +1,29 @@
+---
+slug: /events/Add-Ons-Workshop
+name: Mozilla Add-Ons
+date: 2019-04-26
+location: Ground Floor Seminar Hall
+cover: './Add-Ons-Cover.png'
+link: https://forms.gle/z7Z7RaCz8d91B5DY8
+feedback_link: 
+---
+
+## Step Into a New World: Web VR/AR Workshop
+An introduction to the world of Web VR/AR, in collaboration with ACM Mozilla Interest Group for Open Source, where participants will learn to use and develop their own Browser Add-ons
+
+##Time
+11:00 AM to 6:00 PM
+
+## Prerequisites
+* Laptop
+
+## Speakers
+- Adithya Karia
+- Bharath
+
+## Topics covered:
+* Introduction to Add-On Development
+* Demo and overview of APIs
+* Hands on Session
+* Review & publishing them to AMO
+
