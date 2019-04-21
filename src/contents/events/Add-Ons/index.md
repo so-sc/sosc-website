@@ -1,7 +1,7 @@
 ---
 slug: /events/Add-Ons-Workshop
 name: Mozilla Add-Ons
-date: 2019-04-26
+date: 2019-04-27
 location: Ground Floor Seminar Hall
 cover: './Add-Ons-Cover.png'
 link: https://forms.gle/z7Z7RaCz8d91B5DY8
