@@ -7,7 +7,7 @@ cover: './fundamentals_of_cloud2.jpg'
 link: http://bit.ly/CloudFundamentals
 feedback_link: http://bit.ly/fundamentalsofcloudfeedback
 ---
-## Cloud Study Jam
+## Fundamentals of Cloud
 The cloud is a term referring to accessing computer, information technology (IT), and software applications through a network connection, often by accessing data centers using wide area networking (WAN) or Internet connectivity. With all the major tech stacks being moved to the cloud to facilate usage of resources, being a cloud specialist has never been more in demand. Come with us and learn the basics and fundamentals required to develop and deploy solutions on the cloud.
 ### Time: 1:15 PM IST
 
