@@ -3,6 +3,6 @@ date: 2019-04-24
 name: Basavarajeshwari Ambi
 title: Mozilla Club Captian
 github:  Basavarajeshwari-Ambi
-twitter: ''
-linkedin: ''
+twitter: 'https://twitter.com/99Sony18'
+linkedin: 'https://www.linkedin.com/in/basavarajeshwari-ambi-1b223016a'
 ---
