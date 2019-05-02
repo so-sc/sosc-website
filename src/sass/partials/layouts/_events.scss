@@ -59,11 +59,17 @@
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
+        width: 100%;
         font-size: 90%;
       }
       .card-date-text {
+        min-width: 100px;
         color: #474747;
         padding-left: 2%;
+        line-height: 0px;
+      }
+      .card-upcoming{
+        color: #474747;
         padding-right: 2%;
         line-height: 0px;
       }

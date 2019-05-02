@@ -3,7 +3,7 @@ slug: /events/fundamentals-of-cloud
 name: Fundamentals of Cloud
 date: 2019-05-04
 location: Ground Floor Seminar Hall
-cover: './cover.jpg'
+cover: './dsc_cover.png'
 link: http://bit.ly/CloudFundamentals
 feedback_link: http://bit.ly/fundamentalsofcloudfeedback
 ---
