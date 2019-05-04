@@ -10,6 +10,8 @@ feedback_link: https://forms.gle/T8CbVBZXDcoVnqam6
 
 ## COGNIT - Cyber Security Workshop
 
+### [Register Now](http://bit.ly/CyberSecWorkshop-COGNIT)
+
 Cybersecurity is the convergence of people, processes and technology that come together to protect organizations, individuals or networks from digital attacks.
 
 We will learn how to get you started with understanding cyber security as a domain, 🧠 Basic knowledge required for a strong foundation, 📚 Summary on cyber laws and punishments, 💰Brief on Jobs and earnings through bugs and bounty hunting and  💻 We will dive right into a hands on session.
