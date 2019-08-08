@@ -34,6 +34,6 @@ We'll be giving you hands-on experience on Designing using Adobe XD. So the even
 Since this is a community driven event, there is no fee to attend the workshop but attendance is mandatory if you are registering for the workshop to avoid blacklisting for future workshops.
 
 ## Trainers and Mentors
-- [Jehad Mohamed](https://github.com/imhighoncoffee), Ex-Mozilla Club Captain
-- [Nathaniel Ryan Mathew](https://github.com/nathanielmathew), Mozilla Club Vice-Captain
-- [Dhanush Bangera](https://github.com/Dhanush-Bangera), Co-Design Head -SOSC
+- [Jehad Mohamed](https://github.com/imhighoncoffee), Ex-Club Captain - Mozilla
+- [Nathaniel Ryan Mathew](https://github.com/nathanielmathew), Club Vice-Captain - Mozilla
+- [Dhanush Bangera](https://github.com/Dhanush-Bangera), Co-Design Head - SOSC
