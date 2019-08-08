@@ -5,7 +5,7 @@ date: 2019-08-10
 location: Second Floor Seminar Hall
 cover: './cover.png'
 link: https://forms.gle/LXUkSBA1q3whVVzB8
-feedback_link: 
+feedback_link: https://forms.gle/MHDwXyiXGG2frbxe8
 ---
 ## Design 101
 Come join us in the exploration of the vast and creative domain of Design. We are excited and thrilled to announce our very first workshop for this academic year - Design 101, conducted by the Mozilla Club of Sahyadri. Experience learning with hands-on experience while keeping the spark of inquisitiveness in you alive.
@@ -24,7 +24,8 @@ Come join us in the exploration of the vast and creative domain of Design. We ar
 - Photo Vault
 
 ## Installation
-- Adobe XD Installed on your computer. [Follow this link](https://www.adobe.com/in/products/xd.html) to install Adobe XD. Note: THIS SOFTWARE IS ONLY FOR WINDOWS AND MACOS USERS.
+- Adobe XD Installed on your computer. [Follow this link](https://www.adobe.com/in/products/xd.html) to install Adobe XD. 
+Note: THIS SOFTWARE IS ONLY FOR WINDOWS AND MACOS USERS.
 - Make sure you have Adobe Creative Cloud account, if not [Click here](https://adobe.ly/2YZ2pSl) to Sign up!
 
 ## This is a BYOC event
