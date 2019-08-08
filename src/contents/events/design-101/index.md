@@ -8,7 +8,7 @@ link: https://forms.gle/LXUkSBA1q3whVVzB8
 feedback_link: 
 ---
 ## Design 101
-Come join us in the exploration of the vast and creative domain of design. We are excited and thrilled to announce our very first workshop for this academic year - Design 101, conducted by the Mozilla Club of Sahyadri. Experience learning with hands-on experience while keeping the spark of inquisitiveness in you alive
+Come join us in the exploration of the vast and creative domain of Design. We are excited and thrilled to announce our very first workshop for this academic year - Design 101, conducted by the Mozilla Club of Sahyadri. Experience learning with hands-on experience while keeping the spark of inquisitiveness in you alive.
 ### Time: 12:30 PM IST
 
 ## Topics Covered
