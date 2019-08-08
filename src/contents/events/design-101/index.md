@@ -36,4 +36,4 @@ Since this is a community driven event, there is no fee to attend the workshop b
 ## Trainers and Mentors
 - [Jehad Mohamed](https://github.com/imhighoncoffee), Ex-Mozilla Club Captain
 - [Nathaniel Ryan Mathew](https://github.com/nathanielmathew), Mozilla Club Vice-Captain
-- [Dhanush Bangera](https://github.com/Dhanush-Bangera), Co-Design Head
+- [Dhanush Bangera](https://github.com/Dhanush-Bangera), Co-Design Head -SOSC
