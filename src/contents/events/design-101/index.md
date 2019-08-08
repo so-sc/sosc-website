@@ -1,5 +1,5 @@
 ---
-slug: /events/design 101
+slug: /events/design-101
 name: Design 101
 date: 2019-08-10
 location: Second Floor Seminar Hall
