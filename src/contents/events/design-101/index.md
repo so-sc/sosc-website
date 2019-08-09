@@ -23,10 +23,14 @@ Come join us in the exploration of the vast and creative domain of Design. We ar
 - Setup and Nav
 - Photo Vault
 
-## Installation
+## Prerequisites
+- Laptop
+- Internet connection
+- Mouse
 - Adobe XD Installed on your computer. [Follow this link](https://www.adobe.com/in/products/xd.html) to install Adobe XD. 
 Note: THIS SOFTWARE IS ONLY FOR WINDOWS AND MACOS USERS.
 - Make sure you have Adobe Creative Cloud account, if not [Click here](https://adobe.ly/2YZ2pSl) to Sign up!
+
 
 ## This is a BYOC event
 We'll be giving you hands-on experience on Designing using Adobe XD. So the event is Bring Your Own Computer workshop, your Laptops will be of great help here.
