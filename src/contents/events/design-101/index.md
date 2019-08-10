@@ -1,7 +1,7 @@
 ---
 slug: /events/design-101
 name: Design 101
-date: 2019-08-10
+date: 2019-08-31
 location: Second Floor Seminar Hall
 cover: './mozilla.png'
 link: https://forms.gle/LXUkSBA1q3whVVzB8
