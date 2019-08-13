@@ -8,7 +8,7 @@ link: http://bit.ly/scemcloudstudyjam
 feedback_link: http://bit.ly/cloudstudyfeedback
 ---
 ## Cloud Study Jam
-The session is to bring awareness of cloud technologies available through the Google Cloud Platform and to familiarize them with the working of these technologies. :cloud:
+The session is to bring awareness of cloud technologies available through the Google Cloud Platform and to familiarize them with the working of these technologies. ☁
 ### Time: 10:00 AM IST
 
 ## Topics Covered
@@ -23,10 +23,10 @@ The session is to bring awareness of cloud technologies available through the Go
 
 ## Installation
  You need to have a browser installed and access to net. 
-## This is a BYOC event :computer:
+## This is a BYOC event 💻
 We'll be giving you hands-on experience on how to work with Cloud. So the event is Bring Your Own Computer workshop, your Laptops will be of great help here.
 
-**On completion of tasks assigned, you could upgrade your LinkedIn profile and also get swags in addition to it, get a chance to win goodies from Google!! :sparkles: :gift:** 
+**On completion of tasks assigned, you could upgrade your LinkedIn profile and also get swags in addition to it, get a chance to win goodies from Google!! ✨ 🎁** 
 
 ## Prerequisites
 - No prerequisites, it's an introductory workshop
