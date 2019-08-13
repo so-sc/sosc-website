@@ -4,7 +4,7 @@ name: Cloud Study Jam
 date: 2019-08-17
 location: First Floor Seminar Hall
 cover:'./cloud-study-jam.png'
-Registration link: http://bit.ly/scemcloudstudyjam
+link: http://bit.ly/scemcloudstudyjam
 feedback_link: http://bit.ly/cloudstudyfeedback
 ---
 ## Cloud Study Jam
