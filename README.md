@@ -1,9 +1,10 @@
-![sosc logo](https://raw.githubusercontent.com/haxzie/sosc-website/master/src/images/logo_main.png)
-# Sahyadri OpenSource Community
+<p align="center">
+<img src="https://raw.githubusercontent.com/haxzie/sosc-website/master/src/images/logo_main.png"/>
+</p>
+<h1 align="center">Sahyadri OpenSource Community</h1>
+
 Official website for Sahyadri OpenSource Community.  
-All contribution to this website including contents are made through Pull Requests.  
-If you are new to Git and GitHub and don't know how to submit a Pull Request(PR), please refer our friendly guide
-on submitting your first pull request at [gitme.js.org](https://gitme.js.org).  
+All contribution to this website including contents are made through Pull Requests. If you are new to Git and GitHub and don't know how to submit a Pull Request(PR), please refer our friendly guide on submitting your first pull request at [gitme.js.org](https://gitme.js.org).  
 
 All the contents to the website is in Markdown format, Please follow the below guidelines for any contributions.  
 If you don't know how to write a markdown file, take quick look at [GitHub's markdown](https://guides.github.com/features/mastering-markdown/) guide.
@@ -29,7 +30,7 @@ eg:
 username: haxzie
 name: Musthaq Ahamad
 designation: Community Lead
-email: musthu.gm@gmail.com
+email: example@gmail.com
 linkedin: https://www.linkedin.com/in/haxzie/
 skills: Android, Design, web, Public speaking
 ---
@@ -81,6 +82,7 @@ date: 2018-12-02
 location: Seminar Hall
 cover: './cover.png'
 link: REGISTRATION_LINK (leave empty if not needed)
+feedback_link: LINK_TO_SUBMIT_THE_FEEDBACK (leave empty if not needed)
 ---
 
 # Other event details
@@ -107,4 +109,7 @@ PS: Only use the prefix before your commit followed by an understandable commit 
 - [rumaan](https://github.com/rumaan)
 - [Chaman](https://github.com/chaman-k)
 - [Shravan](https://github.com/shravan1998)
+- [Afroz Hussain](https://github.com/coderhawk999)
+- [DominikTrojcak](https://github.com/DominikTrojcak)
 - [David Brunnthaler](https://github.com/davidbru)
+- [Davidgorel](https://github.com/davidgorel)
