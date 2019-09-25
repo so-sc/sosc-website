@@ -21,13 +21,13 @@ With this in mind, we have bought out a series of Flutter workshops! Flutter 101
 
 #### Afternoon Session (2:00 - 5:00)
 - Flutter widgets
-    Mi Card (Flutter App)
+  - Mi Card (Flutter App)
     - Scaffold
     - Container
     - ListTile
-        - Card
-        - Text
-        - Icon
+      - Card
+      - Text
+      - Icon
     - Column
     - Row
 
