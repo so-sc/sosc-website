@@ -8,7 +8,7 @@ link: http://bit.ly/flutter101
 feedback_link: http://bit.ly/flutterfeedbackscem
 ---
 ## Flutter 101
-Flutter is Google's UI toolkit to build visually stunning applications for mobile, web and desktop applications - *all in a single codebase!* Bringing your app to life has never been faster with it's fully customizable widgets to build native interfaces in a minute. Build expressive and beautiful UI's for your users with rich motion APIs and smooth natural scrolling. And with Flutter, you can avoid keeping multiple codebases for iOS and Android! What's not to love? 🤩
+Flutter is Google's UI toolkit to build visually stunning applications for **mobile**, **web** and **desktop applications** - **all in a single codebase!** Bringing your app to life has never been faster with it's fully customizable widgets to build native interfaces in a minute. Build expressive and beautiful UI's for your users with rich motion APIs and smooth natural scrolling. And with Flutter, you can avoid keeping multiple code bases for iOS and Android! What's not to love? 🤩
 
 With this in mind, we have bought out a series of Flutter workshops! Flutter 101 will be the first in 3 workshops where we will delve into Flutter development with the basics and eventually come out with an app. 😍
 ### Time: 10:00 AM IST
