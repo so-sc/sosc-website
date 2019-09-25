@@ -3,7 +3,7 @@ slug: /events/flutter-101
 name: Flutter 101
 date: 2019-09-20
 location: 2nd Floor Seminar Hall
-cover: './cover.jpg'
+cover: './cover.png'
 link: http://bit.ly/flutter101
 feedback_link: http://bit.ly/flutterfeedbackscem
 ---
