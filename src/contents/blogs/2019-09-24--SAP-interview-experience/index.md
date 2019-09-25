@@ -32,13 +32,13 @@ We had to go to Alva's Institute of Engineering and Technology, Moodbidri for th
 
 In the first round of the interview, I was asked to name my favourite subject. I mentioned that it was OOP wherein the panel asked me to explain the four pillars of OOP by citing an example for each. Once I was done explaining ,she asked me the various elements I had mentioned in my resume. By the end of the process she asked me whether I have any questions for her and I asked her for the introduction. With that I was done with first round of my interview.
 
-After a while they announced the results of first round and I was shortlisted for the next round.:smiley:
+After a while they announced the results of first round and I was shortlisted for the next round.😃
 
 ### Round 3
 
-In the second round of the interview which went on for about 30-40 minutes I was asked to explain each and every point I had mentioned in my resume. It began with me explaining about all the projects I had done with the utmost details.Followed by that,I was asked to write a pseudocode to check whether the number of brackets in a given string is balanced or not. He asked me a question on database wherein a table was given to me and I had to write an SQL query to access specific tuples. After this I was asked basic questions on networking like how to share files over FTP and how to detect a PC over the network. At the end he asked me a [puzzle](https://www.geeksforgeeks.org/puzzle-18-torch-and-bridge/), which I failed to answer.:sweat_smile:
+In the second round of the interview which went on for about 30-40 minutes I was asked to explain each and every point I had mentioned in my resume. It began with me explaining about all the projects I had done with the utmost details.Followed by that,I was asked to write a pseudocode to check whether the number of brackets in a given string is balanced or not. He asked me a question on database wherein a table was given to me and I had to write an SQL query to access specific tuples. After this I was asked basic questions on networking like how to share files over FTP and how to detect a PC over the network. At the end he asked me a [puzzle](https://www.geeksforgeeks.org/puzzle-18-torch-and-bridge/), which I failed to answer.😅
 
-As a whole,the entire interview process went pretty smooth :blush: and I was able to answer most of the questions. So the interviewer told me that I can proceed to the HR round.:heart_eyes:
+As a whole,the entire interview process went pretty smooth 😊 and I was able to answer most of the questions. So the interviewer told me that I can proceed to the HR round.🤩
 
 ### Round 4
 
