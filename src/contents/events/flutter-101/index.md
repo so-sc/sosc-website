@@ -14,7 +14,7 @@ With this in mind, we have bought out a series of Flutter workshops! Flutter 101
 ### Time: 10:00 AM IST
 
 ## Topics Covered
-####  Morning Session (10:30 - 1:00)
+####  Morning Session (10:00 - 1:00)
 - Introduction to Flutter & Dart
 - Stateful and Stateless Widgets
 - Basic Flutter app (Structure of the code)
@@ -41,10 +41,13 @@ We'll be giving you hands-on experience on how to work with Flutter. So the even
 ## Prerequisites
 - Android Studio or Visual Studio Code with Flutter and Dart SDK installed
 - A willingness to learn!
+## Contact
+For any issues with installation, please drop an email to melwinlobo692@gmail.com and we will be able to help you out.
 
 ## Trainers and Mentors
 - [Akashdeep Bhagat](https://github.com/akashdeepb), Android Lead - DSC
 - [Shreyas Baliga](https://github.com/ShreyasBaliga), Flutter Lead - DSC
 - [Melwin Lobo](https://github.com/melwinlobo18), GCP Lead - DSC
 - [Afroz](https://github.com/coderhawk999), PWA Lead - DSC
+- [Adithya Suvarna](https://github.com/ekokratos), SOSC Community Lead
 - [Akshay Ram Bhat](https://github.com/akshayrb22), Lead - DSC
