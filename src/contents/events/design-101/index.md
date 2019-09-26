@@ -38,6 +38,32 @@ We'll be giving you hands-on experience on Designing using Adobe XD. So the even
 ## Absolutely Free!
 Since this is a community driven event, there is no fee to attend the workshop but attendance is mandatory if you are registering for the workshop to avoid blacklisting for future workshops.
 
+## Post Event Report
+	The workshop was good kickstart for this academic year. We had our most cheering Club members to guide the audience all throughout the workshop. 
+
+## Introduction to Open Design
+The first session of the workshop was conducted by Jehad Mohamed, Co-Design Head SOSC and ex-Club Captain Mozilla and he covered topics on Open Design and how we can contribute to it, Designing and Designers and basics of Adobe XD.
+
+## Hands-on on Designing with Fun games. 
+The second session was conducted by Nathaniel Ryan Mathew, Vice-Club Captain Mozilla and he covered topics regarding Colours and its significance in designing. He also had fun and interesting games related to Kerning and Leading. 
+The Last session of the workshop was conducted by Dhanush Bangera, Co-Design Head SOSC and he covered topics regarding animation. The workshop was organised by Club Captain Basavarajeshwari.
+
+## Attendance
+130 Students. We expected around 100, that was really good number to begin with designing. 
+
+## Venue
+September 30th. 9.30 am to 1.45 pm Sahyadri College of Engineering and Management, Mangalore
+
+## Summary
+The participants learned about front end designing (UI/UX) in this session using Adobe XD. The participants learned about front end designing (UI/UX) in this session using Adobe XD. 
+	The Workshop was conducted by core team members of Sahyadri Open Source Community and Mozilla Club Sahyadri. 
+
+## Feedback from attendees
+•	Workshop was fun and useful.
+•	Designs designed by speakers were really cool.
+•	Looking forward for advanced workshops. 
+•	Always just saw designs, feeling happy to design myself.
+
 ## Trainers and Mentors
 - [Jehad Mohamed](https://github.com/imhighoncoffee), Ex-Club Captain - Mozilla
 - [Nathaniel Ryan Mathew](https://github.com/nathanielmathew), Club Vice-Captain - Mozilla
