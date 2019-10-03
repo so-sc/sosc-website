@@ -39,7 +39,7 @@ We'll be giving you hands-on experience on Designing using Adobe XD. So the even
 Since this is a community driven event, there is no fee to attend the workshop but attendance is mandatory if you are registering for the workshop to avoid blacklisting for future workshops.
 
 ## Post Event Report
-	The workshop was good kickstart for this academic year. We had our most cheering Club members to guide the audience all throughout the workshop. 
+The workshop was good kickstart for this academic year. We had our most cheering Club members to guide the audience all throughout the workshop. 
 
 ## Introduction to Open Design
 The first session of the workshop was conducted by Jehad Mohamed, Co-Design Head SOSC and ex-Club Captain Mozilla and he covered topics on Open Design and how we can contribute to it, Designing and Designers and basics of Adobe XD.
