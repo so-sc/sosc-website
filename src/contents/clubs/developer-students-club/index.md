@@ -2,8 +2,8 @@
 slug: /clubs/dsc
 name: Developer Students Club
 logo: './dsc-logo.png'
-contact_phone: '9876543210'
-contact_email: 'example@mail.com'
+contact_phone: '8762317931'
+contact_email: 'akshay.bhat981222@gmail.com'
 members: 
-    - githubUserName
+    - akshayrb22
 ---
