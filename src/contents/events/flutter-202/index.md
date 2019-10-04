@@ -2,12 +2,12 @@
 slug: /events/flutter-202
 name: Flutter 202
 date: 2019-10-03
-location: 2nd Floor Seminar Hall
+location: Ground Floor Seminar Hall
 cover: './cover.png'
 link: http://bit.ly/flutter-201
 feedback_link: http://bit.ly/f201-fb
 ---
-## Flutter 201
+## Flutter 202
 Flutter is Google's UI toolkit to build visually stunning applications for **mobile**, **web** and **desktop applications** - **all in a single codebase!** Bringing your app to life has never been faster with it's fully customizable widgets to build native interfaces in a minute. Build expressive and beautiful UI's for your users with rich motion APIs and smooth natural scrolling. And with Flutter, you can avoid keeping multiple code bases for iOS and Android! What's not to love? 🤩
 
 With this in mind, we have bought out a series of Flutter workshops! Flutter 202 is the second of the 3 workshops where we will work on a little more of the advanced topics in Flutter and learn . 😍
@@ -38,8 +38,6 @@ We'll be giving you hands-on experience on how to work with Flutter. So the even
 ## Contact
 For any issues with installation, please drop an email to melwinlobo692@gmail.com and we will be able to help you out. 
 
-## Venue
-Ground Floor Seminar Hall
 
 ## Trainers and Mentors
 - [Akashdeep Bhagat](https://github.com/akashdeepb), Android Lead - DSC
