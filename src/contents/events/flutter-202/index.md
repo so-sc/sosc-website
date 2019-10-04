@@ -1,7 +1,7 @@
 ---
 slug: /events/flutter-202
 name: Flutter 202
-date: 2019-10-03
+date: 2019-10-06
 location: Ground Floor Seminar Hall
 cover: './cover.png'
 link: http://bit.ly/flutter-201
