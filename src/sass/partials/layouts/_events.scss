@@ -218,6 +218,20 @@
       @media #{$media-small} {
         font-size: 1em;
       }
+      ul{
+        font-size: 1em;
+      }
+      ul ul{
+        margin-top: 10px;
+      }
+      ul li{
+        a {
+          text-decoration: none;
+          color: #02b839;
+          display: inline;
+        }
+      }
+
       li {
         a {
           text-decoration: none;
