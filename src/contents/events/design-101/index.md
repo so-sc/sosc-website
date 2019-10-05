@@ -59,12 +59,17 @@ The participants learned about front end designing (UI/UX) in this session using
 	The Workshop was conducted by core team members of Sahyadri Open Source Community and Mozilla Club Sahyadri. 
 
 ## Feedback from attendees
-•	Workshop was fun and useful.
-•	Designs designed by speakers were really cool.
-•	Looking forward for advanced workshops. 
-•	Always just saw designs, feeling happy to design myself.
+- Workshop was fun and useful.
+- Designs designed by speakers were really cool.
+- Looking forward for advanced workshops. 
+- Always just saw designs, feeling happy to design myself.
 
 ## Trainers and Mentors
 - [Jehad Mohamed](https://github.com/imhighoncoffee), Ex-Club Captain - Mozilla
 - [Nathaniel Ryan Mathew](https://github.com/nathanielmathew), Club Vice-Captain - Mozilla
 - [Dhanush Bangera](https://github.com/Dhanush-Bangera), Co-Design Head - SOSC
+
+## Photos
+<img src="attendees.jpg" alt="Design-101 attendees">
+<br />
+<img src="post-event.jpg" alt="Post-Event Group Picture">
