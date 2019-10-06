@@ -22,6 +22,7 @@
   }
 
   .card-container {
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -218,6 +219,24 @@
       @media #{$media-small} {
         font-size: 1em;
       }
+      ul{
+        font-size: 1em;
+      }
+      ul p{
+        font-size: 1em;
+        margin: 0px;
+      }
+      ul ul{
+        margin-top: 10px;
+      }
+      ul li{
+        a {
+          text-decoration: none;
+          color: #02b839;
+          display: inline;
+        }
+      }
+
       li {
         a {
           text-decoration: none;
