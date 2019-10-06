@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import Img from 'gatsby-image'
 
 const BlogCard = ({ data }) => (
-  <div className="blog-card elevate white-bg">
+  <Link className="blog-card elevate white-bg" to={data.slug}>
     <div className="cover">
       <Img style={{height: '100%'}} fluid={data.cover.childImageSharp.fluid} />
     </div>
@@ -25,7 +25,7 @@ const BlogCard = ({ data }) => (
         </div>
       </div>
     </div>
-  </div>
+  </Link>
 )
 
 export default BlogCard

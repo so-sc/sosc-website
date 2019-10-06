@@ -110,6 +110,7 @@ PS: Only use the prefix before your commit followed by an understandable commit 
 - [Chaman](https://github.com/chaman-k)
 - [Shravan](https://github.com/shravan1998)
 - [Afroz Hussain](https://github.com/coderhawk999)
+- [Nathaniel Ryan Mathew](https://github.com/nathanielmathew)
 - [DominikTrojcak](https://github.com/DominikTrojcak)
 - [David Brunnthaler](https://github.com/davidbru)
 - [Davidgorel](https://github.com/davidgorel)
