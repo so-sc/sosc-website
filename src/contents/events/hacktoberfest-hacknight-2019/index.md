@@ -15,7 +15,7 @@ Hacktoberfest Hacknight 2019 is an 18 hour overnight hackathon being held on oct
 
 First year teams will be assigned with a mentor who'll help them throughout the Hackathon. Don't have a team? Don't worry, we'll assign you a team.
 
-<b>Registration fee is Rs.100/- per participant</b>.<br /> Each team can have maximum of 4 participants. (If registering in a team, make sure there are no typos in the team name and that your team members' team-names match).
+<b>Registration fee is Rs.100/- per participant</b>.<br /> Since We have Limited Seats, Registration forms will close as soon as seats are full. Each team can have maximum of 4 participants. (If registering in a team, make sure there are no typos in the team name and that your team members' team-names match).
 
 The theme and problem statement will be given on-spot.
 
