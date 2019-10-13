@@ -71,16 +71,24 @@
     font-weight: bold;
     color: #373738;
     padding: 10px 10px 10px 0;
-    a {
-      text-decoration: none;
-      color: #373738;
-      &:hover {
-        color: #02b839;
-      }
+    text-decoration: none;
+    color: #373738;
+    &:hover {
+      color: #02b839;
+    }
+
+    h2 {
+      font-size: 1em;
+      margin: 0;
     }
   }
   .description {
     display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
   }
   .author-box {
     flex-grow: 1;
@@ -89,6 +97,10 @@
     flex-direction: row;
     align-items: center;
     margin-top: 15px;
+
+    p {
+      margin: 0;
+    }
     .author-img {
       width: 40px;
       border-radius: 50%;
@@ -108,9 +120,6 @@
     }
   }
 }
-
-
-
 
 // Blog template
 .blog-page {
@@ -170,7 +179,6 @@
       }
     }
 
-    
     .author-section {
       display: flex;
       flex-direction: row;
