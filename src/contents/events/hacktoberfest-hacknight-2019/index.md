@@ -5,7 +5,7 @@ date: 2019-10-12
 location: Ground Floor, Sahyadri College
 cover: './cover.png'
 link: https://forms.gle/6VCHHG2tYPYgq8wF6
-feedback_link:
+feedback_link: https://forms.gle/caTzqafx7TRLVV9T7
 ---
 
 ## About the Event 
