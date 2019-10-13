@@ -7,7 +7,6 @@ import Img from 'gatsby-image'
 function isUpcoming(date) {
   let eventDate = moment(date, 'DD-MMM-YYYY')
   let today = new Date()
-  console.log(eventDate)
   today.setHours(0, 0, 0, 0)
   if (today < eventDate._d) {
     return `(Upcoming)`
