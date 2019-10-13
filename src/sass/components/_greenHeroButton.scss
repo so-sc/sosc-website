@@ -29,6 +29,7 @@
 .btn-event-float {
     @extend .btn-hero-green;
     align-self: center;
+    cursor: pointer;
 }
 .float {
     position: fixed;

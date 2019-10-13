@@ -10,7 +10,7 @@ function isUpcoming(date) {
   console.log(eventDate)
   today.setHours(0, 0, 0, 0)
   if (today < eventDate._d) {
-    return ` <span color="#02b839">(Upcoming)</span>`
+    return `(Upcoming)`
   } else {
     return ``
   }
@@ -18,7 +18,7 @@ function isUpcoming(date) {
 
 const Card = props => (
   <div className="card elevate white-bg">
-    <div className="card-container">
+    <Link className="card-container" to={props.slug}>
       <Img
         className="card-header-img"
         alt="Card Image Text"
@@ -33,12 +33,13 @@ const Card = props => (
           <p
             className="card-date-text"
             dangerouslySetInnerHTML={{
-              __html: `${props.date}${isUpcoming(props.date)}`,
+              __html: `${props.date}`,
             }}
           />
+         <p className="card-upcoming">{isUpcoming(props.date)}</p>
         </div>
       </div>
-    </div>
+    </Link>
   </div>
 )
 

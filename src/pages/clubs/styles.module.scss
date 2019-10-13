@@ -1,0 +1,200 @@
+@import "../../sass/partials/variables";
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  @media #{$media-mobile} {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media #{$media-small} {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sectionHead {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 10px 10px 10px;
+    min-width: 230px;
+
+    @media #{$media-mobile} {
+      width: 100%;
+      margin: 20px 10px 10px 10px;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    @media #{$media-small} {
+      width: 100%;
+      margin: 20px 10px 10px 10px;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: white;
+    }
+
+    span {
+      color: white;
+    }
+  }
+
+  .sectionColumns {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    flex-wrap: wrap;
+
+    @media #{$media-mobile} {
+      flex-direction: column;
+      padding: 0;
+    }
+
+    @media #{$media-small} {
+      flex-direction: column;
+      padding: 0;
+    }
+
+    .card {
+      width: 200px;
+      min-width: 220px;
+      height: 200px;
+      margin: 10px;
+      background-color: white;
+      box-shadow: 0 3px 5px #2525252d;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      @media #{$media-mobile} {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 10px 0 10px 0;
+        width: auto;
+        padding: 20px;
+        height: auto;
+      }
+
+      @media #{$media-small} {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 10px 0 10px 0;
+        width: auto;
+        padding: 20px;
+        height: auto;
+      }
+
+      .clubLogo {
+        height: 100px;
+        width: 100px;
+
+        @media #{$media-mobile} {
+          height: 60px;
+          width: 60px;
+          margin: 0 20px 0 0;
+        }
+        @media #{$media-small} {
+          height: 60px;
+          width: 60px;
+          margin: 0 20px 0 0;
+        }
+      }
+
+      p {
+        text-align: center;
+        padding: 10px;
+      }
+    }
+
+    .profileCard {
+        width: 200px;
+        min-width: 220px;
+        height: 230px;
+        margin: 10px;
+        background-color: white;
+        box-shadow: 0 3px 5px #2525252d;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+  
+        @media #{$media-mobile} {
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-start;
+          margin: 10px 0 10px 0;
+          width: auto;
+          padding: 20px;
+          height: auto;
+        }
+  
+        @media #{$media-small} {
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-start;
+          margin: 10px 0 10px 0;
+          width: auto;
+          padding: 20px;
+          height: auto;
+        }
+  
+        img {
+          height: 120px;
+          width: 120px;
+          border-radius: 50%;
+  
+          @media #{$media-mobile} {
+            height: 60px;
+            width: 60px;
+            margin: 0 20px 0 0;
+          }
+          @media #{$media-small} {
+            height: 60px;
+            width: 60px;
+            margin: 0 20px 0 0;
+          }
+        }
+  
+        p {
+          text-align: center;
+          margin: 10px;
+
+          @media #{$media-mobile} {
+              text-align: left;
+              margin: 10px 10px 10px 0;
+          }
+          @media #{$media-mobile} {
+            text-align: left;
+            margin: 10px 10px 10px 0;
+          }
+        }
+
+        .caption {
+            margin: 0;
+            color: #888787;
+
+            @media #{$media-mobile} {
+                margin-bottom: 10px;
+            }
+
+            @media #{$media-small} {
+                margin-bottom: 10px;
+            }
+        }
+      }
+  }
+}

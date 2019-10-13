@@ -8,6 +8,7 @@ const Footer = ({ siteTitle }) => (
           <a href="https://github.com/so-sc">GitHub</a>
           <a href="https://instagram.com/sosc.sahyadri">Instagram</a>
           <a href="https://linkedin.com/company/sosc-sahyadri">LinkedIn</a>
+          <a href="https://twitter.com/sahyadri_osc">Twitter</a>
         </div>
         <div className="column">
           <a href="https://github.com/so-sc/code-of-conduct">Community Guidelines</a>
@@ -19,7 +20,7 @@ const Footer = ({ siteTitle }) => (
             Sahyadri College of Engineering and Management,
             Adyar, Mangalore - 575007 IN<br/><br/>
             sosc@sahyadri.edu.in<br/>
-            +91 9539518599
+            +91 9108196774
           </p>
         </div>
       </div>

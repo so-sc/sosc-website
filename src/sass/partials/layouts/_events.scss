@@ -22,6 +22,7 @@
   }
 
   .card-container {
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,6 +33,7 @@
       overflow: unset !important;
       width: 100%;
       height: 160px;
+      min-height: 160px;
       border-radius: 2px 2px 0 0;
     }
     .card-text {
@@ -40,7 +42,7 @@
       height: 100%;
       width: 100%;
       z-index: 1;
-      
+
       .card-header-text {
         width: 100%;
         text-align: center;
@@ -59,11 +61,18 @@
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
+        width: 100%;
         font-size: 90%;
       }
       .card-date-text {
+        min-width: 100px;
+
         color: #474747;
         padding-left: 2%;
+        line-height: 0px;
+      }
+      .card-upcoming {
+        color: #474747;
         padding-right: 2%;
         line-height: 0px;
       }
@@ -149,6 +158,12 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+
+    li {
+      word-wrap: break-word;
+      margin-bottom: 10px;
+    }
+
     @media #{$media-mobile} {
       margin: 0;
       width: 100%;
@@ -181,7 +196,6 @@
       a {
         text-decoration: none;
         color: #02b839;
-        display: inline;
       }
     }
     ol {
@@ -194,9 +208,6 @@
       @media #{$media-small} {
         font-size: 1em;
       }
-      li {
-        margin-bottom: 10px;
-      }
     }
     ul {
       font-size: 1.2em;
@@ -208,9 +219,25 @@
       @media #{$media-small} {
         font-size: 1em;
       }
-      li {
-        margin-bottom: 10px;
+      ul{
+        font-size: 1em;
+      }
+      ul p{
+        font-size: 1em;
+        margin: 0px;
+      }
+      ul ul{
+        margin-top: 10px;
+      }
+      ul li{
+        a {
+          text-decoration: none;
+          color: #02b839;
+          display: inline;
+        }
+      }
 
+      li {
         a {
           text-decoration: none;
           color: #02b839;
