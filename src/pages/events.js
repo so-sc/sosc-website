@@ -9,13 +9,14 @@ function getEvents(data) {
   let events = []
   let eventList = data.allMarkdownRemark.edges
 
-  eventList.map(({ node }) => {
+  eventList.map(({ node }, index) => {
     return events.push(
       <Card
         slug={node.frontmatter.slug}
         cover={node.frontmatter.cover}
         title={node.frontmatter.name}
         date={node.frontmatter.date}
+        key={index}
       />
     )
   })

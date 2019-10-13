@@ -25,7 +25,7 @@ const Card = props => (
       />
       <div className="card-text">
         <h2 className="card-header-text">
-          <Link to={props.slug}>{props.title}</Link>
+          {props.title}
         </h2>
         <div className="card-date">
           <img src={DateIcon} className="card-date-icon" alt="date icon" />

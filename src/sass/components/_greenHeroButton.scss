@@ -32,8 +32,8 @@
     cursor: pointer;
 }
 .float {
-    position: fixed;
-    bottom: 0;
+    position: sticky;
+    bottom: 20px;
     width: inherit;
     display: flex;
     margin: 20px auto;
