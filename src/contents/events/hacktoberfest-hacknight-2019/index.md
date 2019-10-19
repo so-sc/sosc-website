@@ -5,7 +5,7 @@ date: 2019-10-12
 location: Ground Floor, Sahyadri College
 cover: './cover.png'
 link: https://forms.gle/6VCHHG2tYPYgq8wF6
-feedback_link:
+feedback_link: https://forms.gle/caTzqafx7TRLVV9T7
 ---
 
 ## About the Event 
@@ -29,6 +29,35 @@ On completion of the Hacktoberfest Challenge, all participants will recieve Free
 ### Prerequisites
 Nothing really, atleast one laptop per team. First year engineering participants don't need to know coding since they can use any  techstack of their choice including MIT App Inventor, Thunkable, Scratch etc... (the mentor will be guiding them regarding the same)
 
+### Problem Statements
+#### 1. Application to add details of participation in events with certificate(s), where certificate has to be verified by In-Charge.
+    
+#### 2. Departmental Application (Website/Application for a department(s) in college to handle details)
+#### 3. Job Portal
+    Students can add interview questions, videos etc..., company heads can check which students are interested.
+    
+#### Aptra Problem Statement
+  1) Optical character recognition (OCR) (handwritten Kannada) images to text or pdf
+format. <br />
+    Optical character recognition (OCR) software is capable of turning images (handwritten
+    Kannada) into text or pdf, but it is not perfect. There are sources of errors that occur because of
+    the nature of the image itself (rotation, sizing, etc.) that should be handled, but there are other
+    sources of errors that need to be handled, after the image is converted to text. Among the more
+    common types of errors are segmentation errors (`too m uc h wh itespac e` or `toolittle
+    whitespace`), `character rnisrecognitioii`, smudges that could cause misrecognition of
+    `pun,ctuation`.
+    Your challenge is to train a model to find and correct the types of common issues described
+    above to more than 85% accuracy.
+ 
+  2) Chatbot for retrieving data from database <br />
+    Develop the Chatbot to fetch the data from database as per users input. Consider the student
+    table from which chat bot have to fetch the required data such as number of students or marks or
+    topper list or section list or phone number of particular student and so on.
+
+#### General Topics
+  Health Care <br />
+  Education <br />
+  Open Innovation.
 
 Contact us at:<br />
 +91 9449722724<br />

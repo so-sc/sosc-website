@@ -7,7 +7,6 @@ import Img from 'gatsby-image'
 function isUpcoming(date) {
   let eventDate = moment(date, 'DD-MMM-YYYY')
   let today = new Date()
-  console.log(eventDate)
   today.setHours(0, 0, 0, 0)
   if (today < eventDate._d) {
     return `(Upcoming)`
@@ -26,7 +25,7 @@ const Card = props => (
       />
       <div className="card-text">
         <h2 className="card-header-text">
-          <Link to={props.slug}>{props.title}</Link>
+          {props.title}
         </h2>
         <div className="card-date">
           <img src={DateIcon} className="card-date-icon" alt="date icon" />
