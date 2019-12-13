@@ -19,7 +19,7 @@ This Study Jam is concentrated on clearing all the doubts and questions in your 
 - VIVA questions related to each program
 
 ## Prerequisites
-- __BYOC__ We'll be giving you hands-on session on debugging and running the programs. So this will be a Bring Your Own Computer, if you have a laptop, get it along. If you don't, just tag along with a friend. 
+- __BYOC__ We'll be giving you hands-on session on debugging and running the programs. So this will be a Bring Your Own Computer session, if you have a laptop, get it along. If you don't, just tag along with a friend. 
 
 ## Trainers and Mentors
 - [Sony](https://github.com/Basavarajeshwari-Ambi), Mozilla Campus Club Captain
