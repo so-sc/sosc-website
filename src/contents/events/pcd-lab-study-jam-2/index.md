@@ -5,7 +5,7 @@ date: 2019-12-14
 location: Intel iWave Lab, 2nd Floor Sahyadri College
 cover: './cover.png'
 link: https://bit.ly/36uVXCr
-feedback_link: 
+feedback_link: https://forms.gle/vBeVRt51HCNLeTiQ9
 ---
 
 ## PCD Lab programs Study Jam
