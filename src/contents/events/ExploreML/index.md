@@ -14,16 +14,16 @@ Explore ML is an introductory workshop for **ML** and **Neural Networks**.
 
 ## Topics Covered
 
-####Session 1: (1:15 PM to 1:55 PM)
+#### Session 1: (1:15 PM to 1:55 PM)
 - Introduction to ML
 - Traditional Programming vs ML 
 - Explore Machine Learning is an introductory Workshop for ML and Neural Networks.
 - What can ML do?
-####Session 2: (2:00 PM to 2:40 PM)
+#### Session 2: (2:00 PM to 2:40 PM)
 - Neural Nets
 - Tensorflow Playground
 - Teachable Machine and Limits of Neural Nets
-####Session 3: (2:45 PM to 3:15 PM)
+#### Session 3: (2:45 PM to 3:15 PM)
 - Group Activity
 
 ## This is a BYOC event 💻
