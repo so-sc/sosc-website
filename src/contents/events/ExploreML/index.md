@@ -8,8 +8,8 @@ link: http://bit.ly/sosc-exploreml
 feedback_link: http://bit.ly/sosc-exploreml-feedback
 ---
 ## Explore ML
-If you've wondered what is the buzz with '**ML**' :thinking: ? How to start learning ML? Where to begin :confused: ?<br>
-Explore ML is an introductory workshop for **ML** and **Neural Networks** organized by Developer Student Club, Sahyadri. Come along and lets explore a bit of ML concepts :grin: .
+If you've wondered what is the buzz with '**ML**' 🤔 ? How to start learning ML? Where to begin 😕?<br>
+Explore ML is an introductory workshop for **ML** and **Neural Networks** organized by Developer Student Club, Sahyadri. Come along and lets explore a bit of ML concepts 😁.
 
 ## Time: 1:15 PM IST
 
@@ -20,7 +20,7 @@ Explore ML is an introductory workshop for **ML** and **Neural Networks** organi
 - Introduction to ML
 - Traditional Programming vs ML 
 - Explore Machine Learning is an introductory Workshop for ML and Neural Networks.
-- What can ML do?
+- What can ML do? 🤖
 <br>
 
 ### Session 2: (2:00 PM to 2:40 PM)
@@ -38,7 +38,7 @@ Explore ML is an introductory workshop for **ML** and **Neural Networks** organi
 ## Prerequisites
 - Chrome/Firefox browser
 - Internet Connectivity
-- A willingness to learn :grin:!
+- A willingness to learn 💚!
 
 ## Trainers and Mentors
 - [Suhan Acharya](https://github.com/suhanacharya), ExploreML Facilitator - DSC
