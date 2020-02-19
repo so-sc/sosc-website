@@ -8,8 +8,8 @@ link: http://bit.ly/sosc-exploreml
 feedback_link: http://bit.ly/sosc-exploreml-feedback
 ---
 ## Explore ML
-If you've wondered what is the buzz with '**ML**' :thinking:? How to start learning ML? Where to begin :confused:?<br>
-Explore ML is an introductory workshop for **ML** and **Neural Networks** organized by Developer Student Club, Sahyadri. Come along and lets explore a bit of ML concepts :grin:.
+If you've wondered what is the buzz with '**ML**' :thinking: ? How to start learning ML? Where to begin :confused: ?<br>
+Explore ML is an introductory workshop for **ML** and **Neural Networks** organized by Developer Student Club, Sahyadri. Come along and lets explore a bit of ML concepts :grin: .
 
 ## Time: 1:15 PM IST
 
