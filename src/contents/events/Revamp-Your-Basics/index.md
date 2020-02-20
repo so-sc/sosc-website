@@ -3,7 +3,7 @@ slug: /events/Revamp-your-basics
 name: Revamp Your Basics
 date: 2020-02-22
 location: Seminar Hall,1st Floor, SCEM
-cover: './cover.jpeg'
+cover: './cover.png'
 link: https://forms.gle/dfrKEbfBwPz6cXAJ9
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfmXIB6f7S7BI-UIv5PtgR05egCCuLuSjEwEooD1ZIjwGs-6Q/viewform?usp=sf_link
 ---
