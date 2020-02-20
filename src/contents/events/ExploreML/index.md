@@ -2,7 +2,7 @@
 slug: /events/ExploreML
 name: ExploreML
 date: 2020-02-22
-location: IS LAB 2nd Floor, SCEM
+location: IS LAB V, Room 219, 2nd Floor, SCEM
 cover: './cover.png'
 link: http://bit.ly/sosc-exploreml
 feedback_link: http://bit.ly/sosc-exploreml-feedback
