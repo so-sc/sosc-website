@@ -26,7 +26,7 @@ const IndexPage = props => (
               ecosystem by providing training and skill development.
             </p>
             <a
-              href="https://goo.gl/forms/aUAhUoOI7a4taYPc2"
+              href="http://bit.ly/soscmbr"
               className="btn-hero-green"
             >
               Become a member
