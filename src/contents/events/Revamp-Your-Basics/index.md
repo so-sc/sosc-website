@@ -29,5 +29,5 @@ Come and learn these exciting topics with us this Saturday.The clock is tickingâ
 
 ## Trainers and Mentors
 - [Basavarajeshwari Ambi](https://github.com/Basavarajeshwari-Ambi), Mozilla Club Caption
-- [Jehad](https://github.com/imhighoncoffee), Vice Chairpersone ,SOSC
+- [Jehad](https://github.com/imhighoncoffee), Vice Chairpersone-SOSC
 
