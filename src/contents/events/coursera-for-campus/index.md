@@ -2,7 +2,7 @@
 slug: /events/coursera-for-campus
 name: Coursera for Campus
 date: 2020-04-04
-location: Your Homes
+location: Learn From Home
 cover: './cover.png'
 link: https://forms.gle/YfTyDuiRuHYCxkxB7
 feedback_link: 
@@ -21,11 +21,9 @@ To combat this, Coursera has come up with a Campus Program that will give studen
 ## How the program works:
 - Access 3,800 courses and 400 Specializations
 - Up to 5,000 licenses for enrolled students at the impacted organization
-- Institutions may enroll students in courses through July 31, 2020
+- Registration is open till July 31, 2020
 - Students can complete courses through September 30, 2020
 - Month-to-month extensions are available, dependent on need
-- Enterprise-level admin tools, analytics, and online support resources
-- Features such as SSO and private authoring may not be included
 
 ## Prerequisites
 - Chrome/Firefox browser
