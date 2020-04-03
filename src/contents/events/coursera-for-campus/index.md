@@ -1,7 +1,7 @@
 ---
 slug: /events/coursera-for-campus
 name: Coursera for Campus
-date: 2020-04-04
+date: 2020-07-31
 location: Learn From Home
 cover: './cover.png'
 link: https://forms.gle/YfTyDuiRuHYCxkxB7
