@@ -85,7 +85,7 @@ module.exports = {
         theme_color: '#02B839', //SOSC Green
         lang: 'en',
         display: 'standalone',
-        icon: 'src/images/logo_circle.png',
+        icon: 'src/images/logo_icon.png',
         icons: [ // Add or remove icon sizes as desired
           {
             src: '/favicons/logo_192.png',
