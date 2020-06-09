@@ -81,8 +81,8 @@ module.exports = {
         description: 'The official sosc website',
         short_name: 'SOSC',
         start_url: '/',
-        background_color: "#303030", //SOSC Grey
-        theme_color: '#02B839', //SOSC Green
+        background_color: "#FFF", //background color in splash screen
+        theme_color: '#FFF', //navbar color
         lang: 'en',
         display: 'standalone',
         icon: 'src/images/logo_circle.png',
