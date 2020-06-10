@@ -74,5 +74,38 @@ module.exports = {
         showSpinner: false,
       },
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Sahyadri Open Source Community',
+        description: 'The official sosc website',
+        short_name: 'SOSC',
+        start_url: '/',
+        background_color: "#FFF", //background color in splash screen
+        theme_color: '#FFF', //navbar color
+        lang: 'en',
+        display: 'standalone',
+        icon: 'src/images/logo_circle.png',
+        icons: [ // Add or remove icon sizes as desired
+          {
+            src: '/favicons/logo_192.png',
+            sizes: '192x192',
+            type: 'image/png',
+          },
+          {
+            src: '/favicons/logo_384.png',
+            sizes: '384x384',
+            type: 'image/png',
+          },
+          {
+            src: '/favicons/logo_192.png',
+            sizes: '512x512',
+            type: 'image/png',
+          },
+        ], 
+      },
+    },
+    /* Must be placed at the end */
+    'gatsby-plugin-offline',
   ],
 }

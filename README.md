@@ -115,3 +115,4 @@ PS: Only use the prefix before your commit followed by an understandable commit 
 - [David Brunnthaler](https://github.com/davidbru)
 - [Davidgorel](https://github.com/davidgorel)
 - [Pedro Féo](https://github.com/phe0)
+- [Dhanush Bangera](https://github.com/dhanushp)
