@@ -1,7 +1,7 @@
 ---
 slug: /events/quarantine-hacks-2020
 name: Quarantine Hacks 2020
-date: 2020-06-26
+date: 2020-06-27
 location: Build From Home
 cover: './cover.png'
 link: https://forms.gle/Jct5rA4wjPrijMN28
