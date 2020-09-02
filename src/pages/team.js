@@ -11,7 +11,7 @@ function getMembers(data) {
 
   let memberList = data.allMarkdownRemark.edges
 
-  memberList.map(element => {
+  memberList.forEach(element => {
     if (element.node.frontmatter.designation !== 'Alumni') {
       return members.push(
         <MemberCard
@@ -30,7 +30,7 @@ function getAlumni(data) {
 
   let memberList = data.allMarkdownRemark.edges
 
-  memberList.map(element => {
+  memberList.forEach(element => {
     if (element.node.frontmatter.designation === 'Alumni') {
       return Almembers.push(
         <MemberCard
