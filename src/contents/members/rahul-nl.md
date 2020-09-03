@@ -1,5 +1,5 @@
 ---
-username: rahulnl_
+username: rahul-nl
 name: Rahul N L
 designation: Member
 email: rahulnl2000@gmail.com
