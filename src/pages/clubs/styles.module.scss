@@ -71,6 +71,7 @@
       min-width: 220px;
       height: 200px;
       margin: 10px;
+      padding: 5px 0px;
       background-color: white;
       box-shadow: 0 3px 5px #2525252d;
       display: flex;
@@ -121,9 +122,10 @@
     }
 
     .profileCard {
+        padding: 5px;
         width: 200px;
         min-width: 220px;
-        height: 230px;
+        min-height: 230px;
         margin: 10px;
         background-color: white;
         box-shadow: 0 3px 5px #2525252d;
@@ -139,6 +141,7 @@
           margin: 10px 0 10px 0;
           width: auto;
           padding: 20px;
+          min-height: auto;
           height: auto;
         }
   
@@ -150,6 +153,7 @@
           width: auto;
           padding: 20px;
           height: auto;
+          min-height: auto;
         }
   
         img {
