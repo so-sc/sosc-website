@@ -11,7 +11,7 @@ function getMembers(data) {
 
   let memberList = data.allMarkdownRemark.edges
 
-  memberList.map(element => {
+  memberList.forEach(element => {
     if (element.node.frontmatter.designation !== 'Alumni') {
       return members.push(
         <MemberCard
@@ -30,7 +30,7 @@ function getAlumni(data) {
 
   let memberList = data.allMarkdownRemark.edges
 
-  memberList.map(element => {
+  memberList.forEach(element => {
     if (element.node.frontmatter.designation === 'Alumni') {
       return Almembers.push(
         <MemberCard
@@ -59,7 +59,7 @@ const TeamsPage = ({ data }) => (
             />
 
             <div className="member-details">
-              <h3 className="name">Prakhyath Rai</h3>
+              <h3 className="name">Dr. Shamantha Rai B</h3>
               <p className="designation">Faculty Coordinator</p>
             </div>
           </div>
@@ -97,7 +97,7 @@ export const teamQuery = graphql`
         }
       }
     }
-    imageCoord1: file(relativePath: { eq: "images/prakhyath_rai.jpg" }) {
+    imageCoord1: file(relativePath: { eq: "images/shamantha_rai.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 200) {
           ...GatsbyImageSharpFluid_tracedSVG
