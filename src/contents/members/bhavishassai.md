@@ -2,6 +2,6 @@
 username: bhavishassai
 name: Bhavish A
 designation: Member
-email: bhavishslc@sosc.org
+email: bhavishslc@gmail.com
 skills: C++ Dart Flutter
 ---
