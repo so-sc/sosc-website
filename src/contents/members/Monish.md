@@ -1,5 +1,5 @@
 ---
-username: aplha-oss
+username: alpha-oss
 name: Monish Shetty
 designation: Member
 email: monish.shetty770@gmail.com
