@@ -1,5 +1,7 @@
+---
 username: aswykp
-name: Ashwin kp
+name: Ashwin KP
 designation: Member
-email: ashwinkp738@gmail.com
-skills: design,video editing,game development
+email: ashwinkp.cs19@sahyadri.edu.in
+skills: design,video editing,game devlopment
+---
