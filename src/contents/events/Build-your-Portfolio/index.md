@@ -13,7 +13,7 @@ Portfolios are a great way to demonstrate the competencies you would list on a r
 So buckle up as we, members of Mozilla Club Sahyadri along with SOSC🔥,  bring you a workshop on Building your Portfolio! This Sunday, learn how to flaunt your skills out into the web. 🙌🏼
 To register [click here](https://forms.gle/mxDorHNorVjPktkW8).
 
-## Prerequistie
+## Prerequisite
 - Basic knowledge on HTML and CSS
 - Laptop
 - Any Editor of your choice eg. VScode, Atom etc.
