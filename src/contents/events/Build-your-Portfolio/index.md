@@ -21,4 +21,5 @@ Register in the Mozilla website as well.
 - Any Editor of your choice eg. VScode, Atom etc.
 
 ## Venue
+Google Meet
 Sunday, 13-Sep-20 - 11:00AM
