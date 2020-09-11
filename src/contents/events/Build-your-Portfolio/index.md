@@ -12,6 +12,9 @@ Portfolios are a great way to demonstrate the competencies you would list on a r
 
 So buckle up as we, members of Mozilla Club Sahyadri along with SOSC🔥,  bring you a workshop on Building your Portfolio! This Sunday, learn how to flaunt your skills out into the web. 🙌🏼
 
+Register in the Mozilla website as well.
+[click here to register in the Mozilla website.](https://community.mozilla.org/en/events/build-your-portfolio/)
+
 ## Prerequisite
 - Basic knowledge on HTML and CSS
 - Laptop
