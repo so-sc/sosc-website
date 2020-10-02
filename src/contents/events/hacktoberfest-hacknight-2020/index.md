@@ -22,7 +22,7 @@ Each team can have a minimum of 2 and maximum of 4 participants.Make sure while 
 
 ### Prerequisites
 - Internet Connection because the entire event is hosted online.
-- Install git bash(windows user only) , Download git bash [Here](https://git-scm.com/downloads )
+- Install git on your machine (git bash for windows users), Download git bash [Here](https://git-scm.com/downloads )
 - Laptop would be required.
 - Create Github account
 - Create discord account
