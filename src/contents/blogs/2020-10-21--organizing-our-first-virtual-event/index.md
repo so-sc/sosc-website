@@ -1,8 +1,8 @@
 ---
 slug: /blog/organizing-our-first-virtual-event
 date: 2020-10-21
-author: swaaz, RachithaRai
-name: Swasthik Shetty, Rachitha Rai
+author: RachithaRai
+name: Rachitha Rai
 title: Organizing Our First Virtual Event 🚩
 tags: devHost:20 | Hacktoberfest Hacknight
 cover: './blog_cover.jpg'
