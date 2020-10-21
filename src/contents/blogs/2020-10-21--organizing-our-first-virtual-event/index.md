@@ -3,20 +3,12 @@ slug: /blog/organizing-our-first-virtual-event
 date: 2020-10-21
 author: swaaz, RachithaRai
 name: Swasthik Shetty, Rachitha Rai
-title: Organizing Our First Virtual Event
+title: Organizing Our First Virtual Event 🚩
 tags: devHost:20 | Hacktoberfest Hacknight
 cover: './blog_cover.jpg'
 description: 'Organizing devHost:20 & Hacktoberfest Hacknight Virtually'
 ---
 
-
-<div align='center' >
-<h1>Organizing Our First Virtual Event 🚩</h1>
-</div>
-
-<div align='center' >
-<img src='https://media.giphy.com/media/l0MYDEPLWRWbJoRuU/giphy.gif' width='500px'/>
-</div>  
 <br/>
 
 It has been two years now since we first celebrated open-source with a flagship event [**devHost:20**](https://devhost2020.tech/ ) and a Hackathon [**Hacktoberfest Hacknight**](https://hacknight.netlify.app/ ). We wanted to rerun and live those great times we had the past years with such on sight Hackathons. We had it all planned, with new ideas and improvements. But unfortunately, due to the ongoing pandemic, we could not fulfil what we planned. Well, did that stop us? No! We decided to organize it virtually and keep the crucial qualities and principal. It was hard to find sponsors, plan the event and work together, But we did our best to collaborate and work well.  
@@ -38,7 +30,7 @@ Bearing in mind, the problems faced during an online hackathon, there is a lot m
 Ufffff!!! exhaustion: Participants are all worn out by the middle of the event. It was time to take a breather and have some fun, we had a pocket full of games to fuel them with some energy. We started with finding an impostor **Among Us** 👻, god there were so many that the game went on for hours 🕐 . Soon, all are busy Capturing The Flag and we had exciting prizes for the winners. And yeah for all the quiz geeks we had Kahoot.  
 
 
->“_Since it was an online event I was worried about how to approach the team and mentors to effectively communicate and ideate together, but the organizers had created separate text and voice channels on Discord and the evaluation process was held in the same platform and it went smoothly,_”
+>“_Since it was an online event I was worried about how to approach the team and mentors to effectively communicate and ideate together, but the organizers had created separate text and voice channels on Discord and the evaluation process was held in the same platform and it went smoothly,_”  
 -Nithin Mahendran, participant
 
 Enduring all the peaks and valleys, We successfully winded up the Hackathon at 04:00 PM the next day. So, in the end, it felt as if we all were one big community happily hacking together. Now that everyone’ done with hacking, The Judgement Day is here 😬. After rigorous assessment (PS: Even the mightiest would find it hard to choose the best) we had our winners and top 10 performances.
