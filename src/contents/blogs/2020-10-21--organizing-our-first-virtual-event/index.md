@@ -27,7 +27,7 @@ Bearing in mind, the problems faced during an online hackathon, there is a lot m
 
 ### Is It Just Coding? 🤔
 
-Ufffff!!! exhaustion: Participants are all worn out by the middle of the event. It was time to take a breather and have some fun, we had a pocket full of games to fuel them with some energy. We started with finding an impostor **Among Us** 👻, god there were so many that the game went on for hours 🕐 . Soon, all are busy Capturing The Flag and we had exciting prizes for the winners. And yeah for all the quiz geeks we had Kahoot.  
+Ufffff!!! exhaustion: Participants are all worn out by the middle of the event. It was time to take a breather and have some fun, we had a pocket full of games to fuel them with some energy. We started with finding an impostor **Among Us** 👻, god there were so many that the game went on for hours 🕐 . Soon, all are busy **Capturing The Flag** and we had exciting prizes for the winners. And yeah for all the quiz geeks we had **Kahoot**.  
 
 
 >“_Since it was an online event I was worried about how to approach the team and mentors to effectively communicate and ideate together, but the organizers had created separate text and voice channels on Discord and the evaluation process was held in the same platform and it went smoothly,_”  
