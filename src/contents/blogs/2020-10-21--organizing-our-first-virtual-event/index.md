@@ -40,9 +40,9 @@ The reality is that all this wouldn’t have been possible without the support o
 
 
 
-<div align='center'>
-<img src='https://media.giphy.com/media/3o6Zt6KHxJTbXCnSvu/source.gif' width='500px' />
-</div>
+<p align='center'>
+<img src='https://media.giphy.com/media/3o6Zt6KHxJTbXCnSvu/source.gif' width='500px'  />
+</p>
 
 
 
