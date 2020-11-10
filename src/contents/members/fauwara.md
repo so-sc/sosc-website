@@ -1,5 +1,5 @@
 ---
-username: fazxza
+username: fauwara
 name: Fawaz Abid Hussain
 designation: Member
 email: fawaz.cs19@sahyadri.edu.in
