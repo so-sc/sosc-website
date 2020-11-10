@@ -1,7 +1,7 @@
 ---
 date: 2019-04-24
 name: Basavarajeshwari Ambi
-title: Mozilla Club Captain
+title: Mozilla Club Captain | Lead of Girls Who Code SOSC
 github:  Basavarajeshwari-Ambi
 twitter: 'https://twitter.com/99Sony18'
 linkedin: 'https://www.linkedin.com/in/basavarajeshwari-ambi-1b223016a'

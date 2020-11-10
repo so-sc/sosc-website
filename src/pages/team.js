@@ -7,30 +7,81 @@ import MemberCard from '../components/member_card'
 import Img from 'gatsby-image'
 
 function getMembers(data) {
+  let president = []
+  let vicepresident = []
+  let generalsec = []
+  let webadmin = []
   let members = []
-
+  let heads = []
   let memberList = data.allMarkdownRemark.edges
 
-  memberList.map(element => {
+  memberList.forEach(element => {
     if (element.node.frontmatter.designation !== 'Alumni') {
-      return members.push(
-        <MemberCard
-          username={element.node.frontmatter.username}
-          full_name={element.node.frontmatter.name}
-          designation={element.node.frontmatter.designation}
-        />
-      )
+      if (element.node.frontmatter.designation.toUpperCase() === 'PRESIDENT') {
+        return president.push(
+          <MemberCard
+            username={element.node.frontmatter.username}
+            full_name={element.node.frontmatter.name}
+            designation={element.node.frontmatter.designation}
+          />
+        )
+      }
+      else if (element.node.frontmatter.designation.toUpperCase() === 'VICE PRESIDENT') {
+        return vicepresident.push(
+          <MemberCard
+            username={element.node.frontmatter.username}
+            full_name={element.node.frontmatter.name}
+            designation={element.node.frontmatter.designation}
+          />
+        )
+      }
+      else if (element.node.frontmatter.designation.toUpperCase() === 'GENERAL SECRETARY') {
+        return generalsec.push(
+          <MemberCard
+            username={element.node.frontmatter.username}
+            full_name={element.node.frontmatter.name}
+            designation={element.node.frontmatter.designation}
+          />
+        )
+      }
+      else if (element.node.frontmatter.designation.toUpperCase() === 'WEB ADMIN') {
+        return webadmin.push(
+          <MemberCard
+            username={element.node.frontmatter.username}
+            full_name={element.node.frontmatter.name}
+            designation={element.node.frontmatter.designation}
+          />
+        )
+      }
+      else if (element.node.frontmatter.designation.toUpperCase() !== 'MEMBER') {
+        return heads.push(
+          <MemberCard
+            username={element.node.frontmatter.username}
+            full_name={element.node.frontmatter.name}
+            designation={element.node.frontmatter.designation}
+          />
+        )
+      }
+      else {
+        return members.push(
+          <MemberCard
+            username={element.node.frontmatter.username}
+            full_name={element.node.frontmatter.name}
+            designation={element.node.frontmatter.designation}
+          />
+        )
+      }
     }
   })
 
-  return members
+  return president.concat(vicepresident,generalsec,webadmin,heads,members)
 }
 function getAlumni(data) {
   let Almembers = []
 
   let memberList = data.allMarkdownRemark.edges
 
-  memberList.map(element => {
+  memberList.forEach(element => {
     if (element.node.frontmatter.designation === 'Alumni') {
       return Almembers.push(
         <MemberCard
@@ -59,7 +110,7 @@ const TeamsPage = ({ data }) => (
             />
 
             <div className="member-details">
-              <h3 className="name">Prakhyath Rai</h3>
+              <h3 className="name">Dr. Shamantha Rai B</h3>
               <p className="designation">Faculty Coordinator</p>
             </div>
           </div>
@@ -97,7 +148,7 @@ export const teamQuery = graphql`
         }
       }
     }
-    imageCoord1: file(relativePath: { eq: "images/prakhyath_rai.jpg" }) {
+    imageCoord1: file(relativePath: { eq: "images/shamantha_rai.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 200) {
           ...GatsbyImageSharpFluid_tracedSVG

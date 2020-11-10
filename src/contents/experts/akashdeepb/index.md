@@ -1,7 +1,7 @@
 ---
-date: 2019-04-25
+date: 2020-08-20
 name: Akashdeep Bhagat
-title: GitHub Campus Expert
+title: Developer Students Club Lead | GitHub Campus Expert
 github: akashdeepb
 twitter: akashdeepb_
 linkedin: 

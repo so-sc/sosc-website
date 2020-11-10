@@ -1,8 +1,8 @@
 ---
 username : Dhanushp
 name : Dhanush Bangera
-designation : Co-Design Head
-email : dhanushpb420@gmail.com
+designation : Design Head
+email : dhanushp.work@gmail.com
 linkedin : https://www.linkedin.com/in/dhanush-bangera/
 skills : Design, Photography, Web Development
 ---
