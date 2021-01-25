@@ -30,6 +30,8 @@ Every Friday in December from 08:00 - 10:00 PM virtually from your place.
 ## Trainers and Mentors
 - [Prakhyath Rai](https://www.linkedin.com/in/prakhyath-rai-7b93a67b/), Data Analyst at MResult
 
+## Watch Event
+Watch it on [Youtube](https://youtube.com/playlist?list=PLGZOWKOb1z1OdxHWbc7n-0oGvaEFe7CRf)
 ## Post Event Report
 This was the first event we had conducted alongside codechef and was pretty successful. We welcomed about 200 students to the event who were very active during the sessions. We rewarded the students who were active with stickers from Hack-Club. Many were also excited because we had called upon Prakhyath Rai, who used to teach here at Sahyadri College of Engineering and Management. He was loved by most of his students for his love for teaching students programming.
 To conclude the event a small competitive programming contest was held with a few goodies and laddus from codechef and Hack Club for the winners.
