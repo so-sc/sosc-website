@@ -46,3 +46,36 @@ January 23rd. 01.00 pm to 3.00 pm at Sahyadri College of Engineering and Managem
 ## Trainers and Mentors
 - [Swasthik Shetty](https://github.com/swaaz), President - Codechef | Technical Lead - SOSC
 - [Suhan Acharya](https://github.com/suhanacharya), Core Team - DSC
+
+## Post Event Report
+We had a mixed audience of about 3:4 ratio of 1st years to 2nd years and most of the 1st years were new to programming therefore we had to slow down the workshop a bit but as the workshop slowly started to come to an end we had to take this speedrun seriously and kinda of blitzed through the last few topics. We then concluded the workshop with a group photo. 
+
+## Attendance
+We welcomed about 25 interested students to the workshop. Which was composed of mostly 1st and 2nd year students.
+
+## Positives
+The students have been very active since they were beginners and interested in the event.
+We got good feedback from the students, they wanted more workshops to be conducted for them in the future.
+
+## Negatives
+We were expecting more students to attend.
+
+## Summary
+We were able to cover most of the data structure topics in this speedrun and deliver it to the attendees. Finally conducted an offline workshop after a long time due to the pandemic. Got many attendees interested in the workshop. 
+
+## Glimpse of the workshop 😛
+<p align="center" >
+<img width="500px" src='./5.jpeg'/>
+</p>
+<p align="center" >
+<img width="500px" src='./1.jpeg'/>
+</p>
+<p align="center" >
+<img width="500px" src='./3.jpeg'/>
+</p>
+<p align="center" >
+<img width="500px" src='./4.jpeg'/>
+</p>
+<p align="center" >
+<img width="500px" src='./2.jpeg'/>
+</p>
