@@ -1,6 +1,7 @@
 @import 'components/components';
 @import 'partials/base';
-@import 'aos.css';
+
+$font : 'Varela Round';
 
 :focus {outline:none;}
 ::-moz-focus-inner {border:0;}
@@ -10,18 +11,29 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -moz-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
 
 body {
   position: relative;
   margin: 0;
   min-height: 100%;
-  font-family: 'Varela Round', sans-serif;
+  font-family: $font, sans-serif;
+  font-display: optional;
   color: #373738;
-  background-color: #ffffff;
+  background-color: #f3f3f3;
 }
+
+.elevate {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.elevate:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
 
 
 

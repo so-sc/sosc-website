@@ -1,38 +1,29 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Img from 'gatsby-image'
 
-const BlogCard = ({data}) => (
-    <div data-aos="fade-up" className="blog-card">
-
-        <div className="cover">
-        <img src={data.cover.publicURL}></img>
-        </div>
-        <div className="card-content">
-            <div className="tags">
-                {data.tags}
-            </div>
-            <div className="title">
-                <Link to={data.slug}>{data.title}</Link>
-            </div>
-            <div className="description">
-                {data.description}
-            </div>
-            <div className="author-box">
-                <img
-                    className="author-img"
-                    src=
-                    { `https://avatars1.githubusercontent.com/${data.author}?size=100` }></img>
-                <div className="author-details">
-                    <div className="author-name">
-                        {data.author}
-                    </div>
-                    <div className="date">
-                        {data.date}
-                    </div>
-                </div>
-            </div>
-        </div>
+const BlogCard = ({ data }) => (
+  <Link className="blog-card elevate white-bg" to={data.slug}>
+    <div className="cover">
+      <Img style={{ height: '100%' }} fluid={data.cover.childImageSharp.fluid} />
     </div>
+    <div className="card-content">
+      <div className="tags">{data.tags}</div>
+      <Link className="title" to={data.slug}><h2>{data.title}</h2></Link>
+      <div className="description">{data.description}</div>
+      <div className="author-box">
+        <img
+          className="author-img"
+          alt=""
+          src={`https://avatars1.githubusercontent.com/${data.author}?size=100`}
+        />
+        <div className="author-details">
+          <p className="author-name">{data.author}</p>
+          <p className="date">{data.date}</p>
+        </div>
+      </div>
+    </div>
+  </Link>
 )
 
 export default BlogCard

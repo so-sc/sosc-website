@@ -4,21 +4,33 @@
   "version": "1.0.0",
   "author": "Musthaq Ahamad <musthu.gm@gmail.com>",
   "dependencies": {
-    "aos": "^2.3.3",
-    "gatsby-image": "^1.0.55",
-    "gatsby": "^1.9.277",
-    "gatsby-link": "^1.6.40",
-    "gatsby-plugin-google-analytics": "^1.0.31",
-    "gatsby-plugin-react-helmet": "^2.0.10",
-    "gatsby-plugin-sass": "^1.0.26",
-    "gatsby-plugin-sharp": "^1.6.48",
-    "gatsby-plugin-sitemap": "^1.2.25",
-    "gatsby-remark-copy-linked-files": "^1.5.37",
-    "gatsby-remark-images": "^1.5.67",
-    "gatsby-source-filesystem": "^1.5.39",
-    "gatsby-transformer-remark": "^1.7.44",
-    "gatsby-transformer-sharp": "^1.6.27",
-    "react-helmet": "^5.2.0"
+    "@babel/core": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "core-js": "^2.6.11",
+    "disqus-react": "^1.0.8",
+    "gatsby": "^2.23.3",
+    "gatsby-image": "^2.4.7",
+    "gatsby-link": "^2.4.6",
+    "gatsby-plugin-google-analytics": "^2.3.4",
+    "gatsby-plugin-manifest": "^2.4.11",
+    "gatsby-plugin-nprogress": "^2.3.4",
+    "gatsby-plugin-offline": "^3.2.9",
+    "gatsby-plugin-page-transitions": "^1.0.8",
+    "gatsby-plugin-react-helmet": "^3.3.4",
+    "gatsby-plugin-sass": "^2.3.4",
+    "gatsby-plugin-sharp": "^2.6.11",
+    "gatsby-plugin-sitemap": "^2.4.5",
+    "gatsby-remark-copy-linked-files": "^2.3.5",
+    "gatsby-remark-images": "^3.3.10",
+    "gatsby-source-filesystem": "^2.3.11",
+    "gatsby-transformer-remark": "^2.8.15",
+    "gatsby-transformer-sharp": "^2.5.5",
+    "moment": "^2.26.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^5.2.1",
+    "webpack": "^4.43.0"
   },
   "keywords": [
     "gatsby"
@@ -32,7 +44,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.12.0"
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
