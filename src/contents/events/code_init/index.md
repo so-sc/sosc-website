@@ -1,7 +1,7 @@
 ---
 slug: /events/Code_init
 name: CODE __init__()
-date: 2021-01-13
+date: 2021-02-13
 location: Ground-Floor Seminar hall 
 cover: './cover.png'
 link: 
