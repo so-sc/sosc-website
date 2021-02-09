@@ -4,8 +4,8 @@ name: CODE __init__()
 date: 2021-02-13
 location: Ground-Floor Seminar hall 
 cover: './cover.png'
-link: 
-feedback_link:
+link: https://forms.gle/fVqWfBr324qPq8jy8
+feedback_link: https://forms.gle/rUBkGwJvPGcGkqto8
 ---
 ## CODE __init__()
 “Practice makes a man perfect.”
