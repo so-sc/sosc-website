@@ -38,4 +38,4 @@ Join us and Lets explore the world of OPEN SOURCE together.
 
 ## Venue
 Ground-Floor Seminar Hall (Sahyadri Campus)
-Saturday, 13-Jan-21 - 01:30 PM
+Saturday, 13-Feb-21 - 01:30 PM
