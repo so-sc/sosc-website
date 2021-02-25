@@ -3,7 +3,7 @@ slug: /events/Kick-Start-101
 name: Kick-Start 101
 date: 2021-02-28
 location: Virtual
-cover: './cover.jpg'
+cover: './kick-start-101.jpg'
 link: https://forms.gle/VMePkaUQmwXo2JbL9
 feedback_link: https://forms.gle/RguGLombsuincT3a8
 ---
