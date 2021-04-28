@@ -4,7 +4,7 @@ name: PCD Lab Study Jam 3
 date: 2021-05-01
 location: Virtual
 cover: './cover.png'
-link: https://docs.google.com/forms/d/e/1FAIpQLSdKLZsxGENInQ7dPXMIa87GhMmywWBipdHgr-OwNsFAQl3p9A/viewform?usp=pp_url
+link: https://forms.gle/srs2GBCAxVw8b6Jw6
 feedback_link: https://forms.gle/NTUvSqEAMaiHSPPZ7
 ---
 ## PCD Lab Study Jam
