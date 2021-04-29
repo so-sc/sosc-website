@@ -1,8 +1,8 @@
 ---
 slug: /events/pcd-lab-study-jam-3
 name: PCD Lab Study Jam 3
-date: 2021-05-01
-location: Virtual
+date: 2021-05-17
+location: Sahyadri College
 cover: './cover.png'
 link: https://forms.gle/srs2GBCAxVw8b6Jw6
 feedback_link: https://forms.gle/NTUvSqEAMaiHSPPZ7
@@ -26,7 +26,7 @@ We will be conducting an Online session to arm you with everything you need to a
 - Willingness to learn ( Or just pressure to pass !?! )
 
 ## Venue and Time
-Online, May 1st Saturday 10:00am to 1:00pm
+Online, May 17th Saturday 10:00am to 1:00pm
 
 ## Trainers and Mentors
 - [Fawaz Abid Hussain](https://github.com/fauwara), CodeChef SCEM Chapter's Competitive Programming Lead
