@@ -5,7 +5,7 @@ date: 2021-05-15
 location: Virtual
 cover: './cover.jpg'
 link: https://www.devhost.tech/
-# feedback_link: https://forms.gle/pLtxaBNAitPujMrr5
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdiQwNfTLEYJ3gVculBSs-2Wfmr1NPhCX014gPae8poRR0BCQ/viewform
 ---
 
 ## About the event
@@ -38,7 +38,7 @@ Most organizations use cloud services in one way or another to run their workloa
 We encounter artificial intelligence in almost all our daily tasks: speech-to-text, photo tagging technology, fingerprint recognition, spam classification. We see it contributing to cutting-edge innovations: precision medicine, injury prediction, use-cases like predicting diabetic retinopathy, and autonomous cars. This session will talk about the advancements of AI in the industry, how this wave started, and its future.
 #### Speaker
 - [Siddhant Aggarwal](https://about.me/siddhantagarwal/), Program Coordinator at Google India
-  
+
 ---
 ### Lift off with Next.js 🚀
 **Time**: 16th May, 10:00 AM - 11:00 AM
