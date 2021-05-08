@@ -25,7 +25,7 @@ In this session we will be talking about design in general and how it has grown 
 
 ---
 ### Getting Started with Your Journey into Cloud Security
-**Time**: Getting Started with Your Journey into Cloud Security
+**Time**: 15th May, 12:00 PM - 1:00 PM
 
 Most organizations use cloud services in one way or another to run their workloads. In this session, we will see how we can get started on our journey in the vast domain of Cloud Security. Along with an interesting interaction to instil a deeper understanding of the fundamentals of working with the cloud, Madhu will share his experiences too.
 #### Speaker
@@ -38,15 +38,16 @@ Most organizations use cloud services in one way or another to run their workloa
 We encounter artificial intelligence in almost all our daily tasks: speech-to-text, photo tagging technology, fingerprint recognition, spam classification. We see it contributing to cutting-edge innovations: precision medicine, injury prediction, use-cases like predicting diabetic retinopathy, and autonomous cars. This session will talk about the advancements of AI in the industry, how this wave started, and its future.
 #### Speaker
 - [Siddhant Aggarwal](https://about.me/siddhantagarwal/), Program Coordinator at Google India
+  
 ---
 ### Lift off with Next.js 🚀
-
 **Time**: 16th May, 10:00 AM - 11:00 AM
 
 Next.js is taking over the React galaxy. In this talk we’ll learn the framework through building a website that uses many of Next.js’s core features such as API Routes, ISR & Dynamic Routing.
 
 #### Speaker
 - [Sam Poder](https://sampoder.com/), Hackclub Lead, Founder of the Singapore STEM Club
+  
 ---
 ### Upskill with Hackathon and Communities
 **Time**: 16th May, 2:00 PM - 3:00 PM
