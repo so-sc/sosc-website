@@ -9,6 +9,7 @@ const Footer = ({ siteTitle }) => (
           <a href="https://instagram.com/sosc.sahyadri">Instagram</a>
           <a href="https://linkedin.com/company/sosc-sahyadri">LinkedIn</a>
           <a href="https://twitter.com/sahyadri_osc">Twitter</a>
+          <a href="https://www.youtube.com/channel/UCk8nlSMwUT-jhEtamMF-V-w">Youtube</a>
         </div>
         <div className="column">
           <a href="https://github.com/so-sc/code-of-conduct">Community Guidelines</a>
