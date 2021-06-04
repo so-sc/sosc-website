@@ -14,8 +14,8 @@ Are you bored sitting at home and are keen to learn about the basics of  UI desi
 ## UI design with Figma 🎨
 Figma is a web-based graphics editing and user interface design app. You can use it to do all kinds of graphic design work such as designing mobile app interfaces, prototyping designs, crafting social media posts and much more.
 
-### VENUE AND TIME
-Online, 6th June 2:00 PM - 5:00 PM
+## VENUE AND TIME
+Online, 5th June 2:00 PM - 5:00 PM
 
 ## PRE REQUISITES
 - A laptop with good internet connection and a willingness to learn.
