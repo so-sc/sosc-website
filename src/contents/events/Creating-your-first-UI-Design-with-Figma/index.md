@@ -25,6 +25,6 @@ Online, 5th June 2:00 PM - 5:00 PM
 This workshop is absolutely free since it's a community based event and please do attend the workshop if you've registered for it.
 
 ## Trainers and Mentors
-- [Mohamed Jehad](https://github.com/jehadmohamedz), UI/UX Designer at MobStac
+- [Mohamed Jehad](https://in.linkedin.com/in/jehad-ddx/), UI/UX Designer at MobStac
 
 So what are you waiting for? Hurry up and register for the  workshop now!! 🙌
