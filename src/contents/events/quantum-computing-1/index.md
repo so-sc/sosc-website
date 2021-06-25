@@ -21,4 +21,4 @@ Well well, if you're curious to know more about the recent buzzword- "Quantum Co
 - Set up a Discord group for discussions and meet-ups 📳
 
 ## Trainers and Mentors
-- [Vishal B](), Lead - SOSC -|Q>
+- [Vishal Sharathchandra Bajpe](https://github.com/mrvee-qC), Lead - SOSC -|Q>
