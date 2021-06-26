@@ -1,7 +1,7 @@
 ---
 username: mrvee-qC
 name: Vishal Sharathchandra Bajpe
-designation: Lead, SoSC-|Q>
+designation: Member
 email: vishal.bajpe@gmail.com
 linkedin:   
 skills: Quantum Algorithms
