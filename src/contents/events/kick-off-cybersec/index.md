@@ -25,7 +25,7 @@ The workshop is free of cost and we will be performing exploits on real vulnerab
 - Be super cool ( If your think you're not it's okay, You will be after the workshop 🕶)
 
 ## Speaker:
-[Akashdeep Bhagat](https://github.com/akashdeepb), President - SOSC
+- [Akashdeep Bhagat](https://github.com/akashdeepb), President - SOSC
 
 Looking forward to see you hackers guys to come for the workshop and make the upcoming weekend interesting. 🕵‍♂
 
