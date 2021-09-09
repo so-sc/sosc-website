@@ -1,8 +1,8 @@
 ---
 username: mrvee-qC
 name: Vishal Sharathchandra Bajpe
-designation: Member
+designation: Alumni
 email: vishal.bajpe@gmail.com
-linkedin:   
+linkedin:
 skills: Quantum Algorithms
 ---

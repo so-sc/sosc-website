@@ -25,8 +25,9 @@ function getMembers(data) {
             designation={element.node.frontmatter.designation}
           />
         )
-      }
-      else if (element.node.frontmatter.designation.toUpperCase() === 'VICE PRESIDENT') {
+      } else if (
+        element.node.frontmatter.designation.toUpperCase() === 'VICE PRESIDENT'
+      ) {
         return vicepresident.push(
           <MemberCard
             username={element.node.frontmatter.username}
@@ -34,8 +35,10 @@ function getMembers(data) {
             designation={element.node.frontmatter.designation}
           />
         )
-      }
-      else if (element.node.frontmatter.designation.toUpperCase() === 'GENERAL SECRETARY') {
+      } else if (
+        element.node.frontmatter.designation.toUpperCase() ===
+        'GENERAL SECRETARY'
+      ) {
         return generalsec.push(
           <MemberCard
             username={element.node.frontmatter.username}
@@ -43,8 +46,9 @@ function getMembers(data) {
             designation={element.node.frontmatter.designation}
           />
         )
-      }
-      else if (element.node.frontmatter.designation.toUpperCase() === 'WEB ADMIN') {
+      } else if (
+        element.node.frontmatter.designation.toUpperCase() === 'WEB HEAD'
+      ) {
         return webadmin.push(
           <MemberCard
             username={element.node.frontmatter.username}
@@ -52,8 +56,9 @@ function getMembers(data) {
             designation={element.node.frontmatter.designation}
           />
         )
-      }
-      else if (element.node.frontmatter.designation.toUpperCase() !== 'MEMBER') {
+      } else if (
+        element.node.frontmatter.designation.toUpperCase() !== 'MEMBER'
+      ) {
         return heads.push(
           <MemberCard
             username={element.node.frontmatter.username}
@@ -61,8 +66,7 @@ function getMembers(data) {
             designation={element.node.frontmatter.designation}
           />
         )
-      }
-      else {
+      } else {
         return members.push(
           <MemberCard
             username={element.node.frontmatter.username}
@@ -74,7 +78,7 @@ function getMembers(data) {
     }
   })
 
-  return president.concat(vicepresident,generalsec,webadmin,heads,members)
+  return president.concat(vicepresident, generalsec, webadmin, heads, members)
 }
 function getAlumni(data) {
   let Almembers = []

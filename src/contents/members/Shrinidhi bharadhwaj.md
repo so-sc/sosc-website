@@ -1,7 +1,7 @@
 ---
 username: snbharadhwaj
 name: Shrinidhi Bharadhwaj K S
-designation: Member
+designation: Co-Web Head
 email: shrinidhibharadhwaj@gmail.com
 skills: designing, C , C++ , python
 ---

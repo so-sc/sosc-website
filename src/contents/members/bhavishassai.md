@@ -1,7 +1,7 @@
 ---
 username: bhavishassai
 name: Bhavish A
-designation: Member
+designation: Co-Event Management Head
 email: bhavishslc@gmail.com
 skills: C++ Dart Flutter
 ---
