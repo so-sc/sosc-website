@@ -1,7 +1,7 @@
 ---
 username: anmolsoni1
 name: Anmol Soni
-designation: Member
+designation: Marketing Head
 email: anmolsoni166@gmail.com
 skills: Arduino, Drones, Design,C
 ---

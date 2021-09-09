@@ -1,8 +1,7 @@
 ---
 username: fauwara
 name: Fawaz Abid Hussain
-designation: Member
+designation: Mozilla Captain
 email: fawaz.cs19@sahyadri.edu.in
 skills: web,python,design.
 ---
-
