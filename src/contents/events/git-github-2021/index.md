@@ -39,3 +39,5 @@ The workshop will cover basics of using the Version Control System - [Git](https
 - Git installed and checked on Linux/Mac Laptops.
 
 Follow [this link](https://gist.github.com/derhuerst/1b15ff4652a867391f03) to guide you through the installation.
+
+Add the Event to your calender [here](https://calendar.google.com/event?action=TEMPLATE&tmeid=NWEyMGRmOTgydGtrbXBzZzFuZHJiaGx0dnQgZmF3YXphYmlkOTZAbQ&tmsrc=fawazabid96%40gmail.com)
