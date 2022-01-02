@@ -4,4 +4,4 @@ name: KshiteeshDesai
 designation: Member
 email: kshiteesh.desai@gmail.com
 linkedin: https://www.linkedin.com/in/kshiteesh-desai-123966135/
-skills: designer in blender2D
+skills: abstract designing and 3d modelling
