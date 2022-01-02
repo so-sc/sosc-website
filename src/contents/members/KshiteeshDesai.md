@@ -1,7 +1,7 @@
 ---
 username: kshiteeshdesai
-name: Kshiteesh_Desai
+name: KshiteeshDesai
 designation: Member
 email: kshiteesh.desai@gmail.com
-linkedin: 
-skills: 
+linkedin: https://www.linkedin.com/in/kshiteesh-desai-123966135/
+skills: designer in blender2D
