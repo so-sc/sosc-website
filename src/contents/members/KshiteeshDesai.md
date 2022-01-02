@@ -1,6 +1,6 @@
 ---
 username: kshiteeshdesai
-name: KshiteeshDesai
+name: Kshiteesh Desai
 designation: Member
 email: kshiteesh.desai@gmail.com
 linkedin: https://www.linkedin.com/in/kshiteesh-desai-123966135/
