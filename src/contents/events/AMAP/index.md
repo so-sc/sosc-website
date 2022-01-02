@@ -20,7 +20,7 @@ Don’t know how to pick a company that suits you?
 
 Don’t worry! We got you covered!
 
-You can shoot us with all your doubts. All questions will be answered by our final year students. These students are placed in top product companies such as Cimpress, Hashedln, Cohesity,RedBus, Unacademy, Eurofins to name a few!
+You can shoot us with all your doubts. All questions will be answered by our final year students. These students are placed in top product companies such as Cimpress, Hashedln, Cohesity, redBus, Unacademy, Eurofins to name a few!
 
 They are here to help you grow in your career!
 
