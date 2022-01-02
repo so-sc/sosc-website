@@ -8,7 +8,7 @@ link: https://forms.gle/ugF79dAZc1Nm7Aui8
 feedback_link: 
 ---
 
-## AMAP (Ask me Anything About Placement)
+## Ask Me Anything About Placements
 
 Greetings from SOSC!!
 
