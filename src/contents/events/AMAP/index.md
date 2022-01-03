@@ -5,7 +5,7 @@ date: 2022-01-08
 location: Netravati Auditorium
 cover: './cover.png'
 link: https://forms.gle/ugF79dAZc1Nm7Aui8
-feedback_link: 
+feedback_link: https://forms.gle/mEX3V3ZA2f28KEzu7
 ---
 
 ## Ask Me Anything About Placements
