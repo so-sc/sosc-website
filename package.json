@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "author": "Musthaq Ahamad <musthu.gm@gmail.com>",
   "dependencies": {
-    "@babel/core": "^7.10.2",
-    "babel-loader": "^8.1.0",
+    "@babel/core": "^7.16.7",
+    "babel-loader": "^8.2.3",
     "core-js": "^2.6.11",
     "disqus-react": "^1.0.8",
     "gatsby": "^2.23.3",
