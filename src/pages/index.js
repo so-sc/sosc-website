@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Layout from '../components/indexLayout'
-import Img from 'gatsby-image'
+import { GatsbyImage } from "gatsby-plugin-image";
 import { graphql } from 'gatsby'
 
 const IndexPage = props => (
@@ -10,11 +10,10 @@ const IndexPage = props => (
       <div className="container">
         <section className="hero-section">
           <div className="hero-texts">
-            <Img
-              fluid={props.data.imageFirst.childImageSharp.fluid}
+            <GatsbyImage
+              image={props.data.imageFirst.childImageSharp.gatsbyImageData}
               className="sosc-logo"
-              alt="sosc logo"
-            />
+              alt="sosc logo" />
             <p className="sosc-header">
               Sahyadri
               <br />
@@ -33,21 +32,19 @@ const IndexPage = props => (
             </a>
           </div>
           <div>
-            <Img
-              fluid={props.data.imageOne.childImageSharp.fluid}
+            <GatsbyImage
+              image={props.data.imageOne.childImageSharp.gatsbyImageData}
               className="hero-image"
-              alt="hero image"
-            />
+              alt="hero image" />
           </div>
         </section>
       </div>
       <div className="container">
         <section className="hero-section2 ">
-          <Img
-            fluid={props.data.imageTwo.childImageSharp.fluid}
+          <GatsbyImage
+            image={props.data.imageTwo.childImageSharp.gatsbyImageData}
             className="hero-image"
-            alt="hero image"
-          />
+            alt="hero image" />
           <div className="hero-texts">
             <p className="hero-header">Explore clubs and Activities</p>
             <div className="dash" />
@@ -77,21 +74,19 @@ const IndexPage = props => (
               host non-profit events to help others.
             </p>
           </div>
-          <Img
-            fluid={props.data.imageThree.childImageSharp.fluid}
+          <GatsbyImage
+            image={props.data.imageThree.childImageSharp.gatsbyImageData}
             className="hero-image"
-            alt="hero image"
-          />
+            alt="hero image" />
         </section>
       </div>
       <div className="container">
         <section className="hero-section4">
           <div>
-            <Img
-              fluid={props.data.imageFour.childImageSharp.fluid}
+            <GatsbyImage
+              image={props.data.imageFour.childImageSharp.gatsbyImageData}
               className="hero-image"
-              alt="hero image"
-            />
+              alt="hero image" />
           </div>
           <div className="hero-texts">
             <p className="hero-header">Get Connected !</p>
@@ -113,14 +108,11 @@ const IndexPage = props => (
   </Layout>
 )
 
-export const firstSiteImages = graphql`
-  fragment firstSiteImages on File {
-    childImageSharp {
-      fluid(maxWidth: 1000) {
-        ...GatsbyImageSharpFluid_tracedSVG
-      }
-    }
+export const firstSiteImages = graphql`fragment firstSiteImages on File {
+  childImageSharp {
+    gatsbyImageData(placeholder: TRACED_SVG, layout: FULL_WIDTH)
   }
+}
 `
 
 export const pageQuery = graphql`

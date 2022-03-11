@@ -3,7 +3,7 @@ import { DiscussionEmbed } from 'disqus-react'
 import MemberCard from '../components/member_card'
 import Layout from '../components/indexLayout'
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from "gatsby-plugin-image";
 import CustomHelmet from '../components/CustomHelmet';
 import GatsbyConfig from '../../gatsby-config';
 
@@ -70,7 +70,7 @@ export default function BlogTemplate({ data }) {
                  */
               }
               <p>
-                <Img fluid={post.frontmatter.cover.childImageSharp.fluid} />
+                <GatsbyImage image={post.frontmatter.cover.childImageSharp.gatsbyImageData} />
               </p>
 
               {
@@ -97,31 +97,28 @@ export default function BlogTemplate({ data }) {
         </div>
       </div>
     </Layout>
-  )
+  );
 }
 
-export const postQuery = graphql`
-  query blogPostQuery($path: String!) {
-    markdownRemark(frontmatter: { slug: { eq: $path } }) {
-      html
-      frontmatter {
-        cover {
-          publicURL
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid_tracedSVG
-            }
-          }
+export const postQuery = graphql`query blogPostQuery($path: String!) {
+  markdownRemark(frontmatter: {slug: {eq: $path}}) {
+    html
+    frontmatter {
+      cover {
+        publicURL
+        childImageSharp {
+          gatsbyImageData(placeholder: TRACED_SVG, layout: FULL_WIDTH)
         }
-        slug
-        tags
-        title
-        description
-        author
-        name
-        date(formatString: "DD-MMM-YYYY")
-        designation
       }
+      slug
+      tags
+      title
+      description
+      author
+      name
+      date(formatString: "DD-MMM-YYYY")
+      designation
     }
   }
+}
 `

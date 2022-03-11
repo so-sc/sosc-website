@@ -7,7 +7,7 @@ function getBlogs(data) {
   let blogs = []
   let blogList = data.allMarkdownRemark.edges
 
-  blogList.forEach(element => {
+  blogList.forEach((element) => {
     blogs.push(<BlogCard data={element.node.frontmatter} />)
   })
 
@@ -51,10 +51,7 @@ export const blogsQuery = graphql`
             cover {
               publicURL
               childImageSharp {
-                fluid(maxWidth: 1000) {
-                  srcSet
-                  ...GatsbyImageSharpFluid_tracedSVG
-                }
+                gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
               }
             }
             tags

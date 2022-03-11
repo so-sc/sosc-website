@@ -36,31 +36,27 @@ const EventsPage = ({ data }) => (
 
 export default EventsPage
 
-export const eventsQuery = graphql`
-  query eventsQuery {
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fileAbsolutePath: { regex: "/events/.*md$/" } }
-    ) {
-      totalCount
-      edges {
-        node {
-          frontmatter {
-            slug
-            name
-            date(formatString: "DD-MMM-YYYY")
-            cover {
-              publicURL
-              childImageSharp {
-                fluid(maxWidth: 1000) {
-                  srcSet
-                  ...GatsbyImageSharpFluid_tracedSVG
-                }
-              }
+export const eventsQuery = graphql`query eventsQuery {
+  allMarkdownRemark(
+    sort: {fields: [frontmatter___date], order: DESC}
+    filter: {fileAbsolutePath: {regex: "/events/.*md$/"}}
+  ) {
+    totalCount
+    edges {
+      node {
+        frontmatter {
+          slug
+          name
+          date(formatString: "DD-MMM-YYYY")
+          cover {
+            publicURL
+            childImageSharp {
+              gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
             }
           }
         }
       }
     }
   }
+}
 `

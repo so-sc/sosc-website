@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import moment from 'moment'
 import DateIcon from '../images/date_icon.svg'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 function isUpcoming(date) {
   let eventDate = moment(date, 'DD-MMM-YYYY')
@@ -15,18 +15,16 @@ function isUpcoming(date) {
   }
 }
 
-const Card = props => (
+const Card = (props) => (
   <div className="card elevate white-bg">
     <Link className="card-container" to={props.slug}>
-      <Img
+      <GatsbyImage
+        image={props.cover.childImageSharp.gatsbyImageData}
         className="card-header-img"
         alt="Card Image Text"
-        fluid={props.cover.childImageSharp.fluid}
       />
       <div className="card-text">
-        <h2 className="card-header-text">
-          {props.title}
-        </h2>
+        <h2 className="card-header-text">{props.title}</h2>
         <div className="card-date">
           <img src={DateIcon} className="card-date-icon" alt="date icon" />
           <p
@@ -35,7 +33,7 @@ const Card = props => (
               __html: `${props.date}`,
             }}
           />
-         <p className="card-upcoming">{isUpcoming(props.date)}</p>
+          <p className="card-upcoming">{isUpcoming(props.date)}</p>
         </div>
       </div>
     </Link>

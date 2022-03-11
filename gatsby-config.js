@@ -23,8 +23,10 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-sass`,
     `gatsby-remark-copy-linked-files`,
-    `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -74,6 +76,7 @@ module.exports = {
         showSpinner: false,
       },
     },
+
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -81,12 +84,13 @@ module.exports = {
         description: 'The official sosc website',
         short_name: 'SOSC',
         start_url: '/',
-        background_color: "#FFF", //background color in splash screen
+        background_color: '#FFF', //background color in splash screen
         theme_color: '#FFF', //navbar color
         lang: 'en',
         display: 'standalone',
         icon: 'src/images/logo_circle.png',
-        icons: [ // Add or remove icon sizes as desired
+        icons: [
+          // Add or remove icon sizes as desired
           {
             src: '/favicons/android-chrome-192x192.png',
             sizes: '192x192',
@@ -102,7 +106,7 @@ module.exports = {
             sizes: '512x512',
             type: 'image/png',
           },
-        ], 
+        ],
       },
     },
     /* Must be placed at the end */
