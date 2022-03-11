@@ -4,7 +4,7 @@ import FeedbackLink from '../components/btn_event_feedback_link'
 import moment from 'moment' 
 import Layout from '../components/indexLayout'
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from "gatsby-plugin-image";
 import feedback from '../../config'
 import GatsbyConfig from '../../gatsby-config'
 import Helmet from 'react-helmet'
@@ -67,7 +67,7 @@ export default function EventTemplate({ data }) {
         <div className="container">
           <div className="event-wrapper">
             <div className="event-page">
-              <Img fluid={post.frontmatter.cover.childImageSharp.fluid} />
+              <GatsbyImage image={post.frontmatter.cover.childImageSharp.gatsbyImageData} />
               <div className="event-data">
                 <div className="event-details">
                   <span className="text-details">{post.frontmatter.date}</span>
@@ -86,30 +86,27 @@ export default function EventTemplate({ data }) {
         </div>
       </div>
     </Layout>
-  )
+  );
 }
 
-export const postQuery = graphql`
-  query BlogPostBySlug($path: String!) {
-    markdownRemark(frontmatter: { slug: { eq: $path } }) {
-      excerpt(pruneLength: 280)
-      html
-      frontmatter {
-        slug
-        name
-        date(formatString: "DD-MMM-YYYY")
-        location
-        link
-        feedback_link
-        cover {
-          publicURL
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid_tracedSVG
-            }
-          }
+export const postQuery = graphql`query BlogPostBySlug($path: String!) {
+  markdownRemark(frontmatter: {slug: {eq: $path}}) {
+    excerpt(pruneLength: 280)
+    html
+    frontmatter {
+      slug
+      name
+      date(formatString: "DD-MMM-YYYY")
+      location
+      link
+      feedback_link
+      cover {
+        publicURL
+        childImageSharp {
+          gatsbyImageData(placeholder: TRACED_SVG, layout: FULL_WIDTH)
         }
       }
     }
   }
+}
 `

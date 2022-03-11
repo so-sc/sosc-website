@@ -4,7 +4,7 @@ import GatsbyConfig from '../../gatsby-config'
 import CustomHelmet from '../components/CustomHelmet'
 import Layout from '../components/indexLayout'
 import MemberCard from '../components/member_card'
-import Img from 'gatsby-image'
+import { GatsbyImage } from "gatsby-plugin-image";
 
 function getMembers(data) {
   let president = []
@@ -108,10 +108,9 @@ const TeamsPage = ({ data }) => (
         <div className="team-section">
           {/* Card for coordinators */}
           <div className="member-card white-bg elevate">
-            <Img
-              fluid={data.imageCoord1.childImageSharp.fluid}
-              className="profile-pic"
-            />
+            <GatsbyImage
+              image={data.imageCoord1.childImageSharp.gatsbyImageData}
+              className="profile-pic" />
 
             <div className="member-details">
               <h3 className="name">Dr. Shamantha Rai B</h3>
@@ -136,28 +135,25 @@ const TeamsPage = ({ data }) => (
 
 export default TeamsPage
 
-export const teamQuery = graphql`
-  query membersQuery {
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___designation], order: ASC }
-      filter: { fileAbsolutePath: { regex: "/members/.*md$/" } }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            username
-            name
-            designation
-          }
-        }
-      }
-    }
-    imageCoord1: file(relativePath: { eq: "images/shamantha_rai.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 200) {
-          ...GatsbyImageSharpFluid_tracedSVG
+export const teamQuery = graphql`query membersQuery {
+  allMarkdownRemark(
+    sort: {fields: [frontmatter___designation], order: ASC}
+    filter: {fileAbsolutePath: {regex: "/members/.*md$/"}}
+  ) {
+    edges {
+      node {
+        frontmatter {
+          username
+          name
+          designation
         }
       }
     }
   }
+  imageCoord1: file(relativePath: {eq: "images/shamantha_rai.jpg"}) {
+    childImageSharp {
+      gatsbyImageData(width: 200, placeholder: TRACED_SVG, layout: CONSTRAINED)
+    }
+  }
+}
 `

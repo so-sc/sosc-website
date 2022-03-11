@@ -1,4 +1,4 @@
-@import "../../sass/partials/variables";
+@import '../../sass/partials/variables';
 
 .section {
   display: flex;
@@ -122,83 +122,83 @@
     }
 
     .profileCard {
-        padding: 5px;
-        width: 200px;
-        min-width: 220px;
-        min-height: 230px;
-        margin: 10px;
-        background-color: white;
-        box-shadow: 0 3px 5px #2525252d;
-        display: flex;
-        flex-direction: column;
+      padding: 5px;
+      width: 200px;
+      min-width: 220px;
+      min-height: 230px;
+      margin: 10px;
+      background-color: white;
+      box-shadow: 0 3px 5px #2525252d;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      @media #{$media-mobile} {
+        flex-direction: row;
         align-items: center;
-        justify-content: center;
-  
+        justify-content: flex-start;
+        margin: 10px 0 10px 0;
+        width: auto;
+        padding: 20px;
+        min-height: auto;
+        height: auto;
+      }
+
+      @media #{$media-small} {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 10px 0 10px 0;
+        width: auto;
+        padding: 20px;
+        height: auto;
+        min-height: auto;
+      }
+
+      img {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+
         @media #{$media-mobile} {
-          flex-direction: row;
-          align-items: center;
-          justify-content: flex-start;
-          margin: 10px 0 10px 0;
-          width: auto;
-          padding: 20px;
-          min-height: auto;
-          height: auto;
+          height: 60px;
+          width: 60px;
+          margin: 0 20px 0 0;
         }
-  
         @media #{$media-small} {
-          flex-direction: row;
-          align-items: center;
-          justify-content: flex-start;
-          margin: 10px 0 10px 0;
-          width: auto;
-          padding: 20px;
-          height: auto;
-          min-height: auto;
-        }
-  
-        img {
-          height: 120px;
-          width: 120px;
-          border-radius: 50%;
-  
-          @media #{$media-mobile} {
-            height: 60px;
-            width: 60px;
-            margin: 0 20px 0 0;
-          }
-          @media #{$media-small} {
-            height: 60px;
-            width: 60px;
-            margin: 0 20px 0 0;
-          }
-        }
-  
-        p {
-          text-align: center;
-          margin: 10px;
-
-          @media #{$media-mobile} {
-              text-align: left;
-              margin: 10px 10px 10px 0;
-          }
-          @media #{$media-mobile} {
-            text-align: left;
-            margin: 10px 10px 10px 0;
-          }
-        }
-
-        .caption {
-            margin: 0;
-            color: #888787;
-
-            @media #{$media-mobile} {
-                margin-bottom: 10px;
-            }
-
-            @media #{$media-small} {
-                margin-bottom: 10px;
-            }
+          height: 60px;
+          width: 60px;
+          margin: 0 20px 0 0;
         }
       }
+
+      p {
+        text-align: center;
+        margin: 10px;
+
+        @media #{$media-mobile} {
+          text-align: left;
+          margin: 10px 10px 10px 0;
+        }
+        @media #{$media-mobile} {
+          text-align: left;
+          margin: 10px 10px 10px 0;
+        }
+      }
+
+      .caption {
+        margin: 0;
+        color: #888787;
+
+        @media #{$media-mobile} {
+          margin-bottom: 10px;
+        }
+
+        @media #{$media-small} {
+          margin-bottom: 10px;
+        }
+      }
+    }
   }
 }
