@@ -25,6 +25,7 @@ module.exports = {
     `gatsby-remark-copy-linked-files`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-netlify`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-postcss`,
     {
