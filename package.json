@@ -14,6 +14,7 @@
     "gatsby-plugin-google-analytics": "^4.9.0",
     "gatsby-plugin-image": "^2.9.1",
     "gatsby-plugin-manifest": "^4.9.1",
+    "gatsby-plugin-netlify": "^4.1.0",
     "gatsby-plugin-nprogress": "^4.9.0",
     "gatsby-plugin-offline": "^5.9.1",
     "gatsby-plugin-page-transitions": "^1.0.8",
