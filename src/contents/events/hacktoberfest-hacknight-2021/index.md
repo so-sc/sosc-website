@@ -4,7 +4,7 @@ name: Hacktoberfest HackNight 2021
 date: 2021-10-22
 location: Ground Floor, Sahyadri College
 cover: './cover.jpeg'
-link: 'https://hacknight21-sosc.netlify.app/'
+link: 'https://www.hacknight.sosc.org.in/'
 ---
 
 ## About the Event 
@@ -12,7 +12,7 @@ Open source is changing the world - one pull request at a time.
 
 Hack Night is a 36-hour long hackthon organized by Sahyadri Open Source Community (SOSC) in celebration of Hacktoberfest 2021. Hacktoberfest is open to everyone in our global community. Whether you’re new to development, a student or a long-time contributor, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skills levels are encouraged to complete the challenge.
 
-for more details visit the [hacktoberfest website](https://hacknight21-sosc.netlify.app/)
+for more details visit the [hacktoberfest website](https://www.hacknight.sosc.org.in/)
 
 ### Tracks for the Hackathon
 1. Education
