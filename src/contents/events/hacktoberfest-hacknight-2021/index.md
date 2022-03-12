@@ -1,13 +1,13 @@
 ---
 slug: /events/hacktoberfest-hacknight-2021
 name: Hacktoberfest HackNight 2021
-date: 2020-10-22
+date: 2021-10-22
 location: Ground Floor, Sahyadri College
 cover: './cover.jpeg'
 link: 'https://hacknight21-sosc.netlify.app/'
 ---
 
-### About the Event 
+## About the Event 
 Open source is changing the world - one pull request at a time.
 
 Hack Night is a 36-hour long hackthon organized by Sahyadri Open Source Community (SOSC) in celebration of Hacktoberfest 2021. Hacktoberfest is open to everyone in our global community. Whether you’re new to development, a student or a long-time contributor, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skills levels are encouraged to complete the challenge.
@@ -15,12 +15,12 @@ Hack Night is a 36-hour long hackthon organized by Sahyadri Open Source Communit
 for more details visit the [hacktoberfest website](https://hacknight21-sosc.netlify.app/)
 
 ### Tracks for the Hackathon
-####    1. Education
-####    2. Health
-####    3. Entertainment
-####    4. Open Theme
+1. Education
+2. Health
+3. Entertainment
+4. Open Theme
 
-### Prerequisites
+## Prerequisites
 Nothing really, atleast one laptop per team. First year engineering participants don't need to know coding since they can use any techstack of their choice including MIT App Inventor, Thunkable, Scratch etc... (the mentor will be guiding them regarding the same)
 
 ## Post Event Report
@@ -42,17 +42,17 @@ We collected the feedback from the participants via a google form. This was by f
 
 ### Media
 <p align="center" >
-<img width="500px" src='./5.jpeg'/>
+<img width="500px" src='./5.jpg'/>
 </p>
 <p align="center" >
-<img width="500px" src='./4.jpeg'/>
+<img width="500px" src='./4.jpg'/>
 </p>
 <p align="center" >
-<img width="500px" src='./3.jpeg'/>
+<img width="500px" src='./3.jpg'/>
 </p>
 <p align="center" >
-<img width="500px" src='./2.jpeg'/>
+<img width="500px" src='./2.jpg'/>
 </p>
 <p align="center" >
-<img width="500px" src='./1.jpeg'/>
+<img width="500px" src='./1.jpg'/>
 </p>

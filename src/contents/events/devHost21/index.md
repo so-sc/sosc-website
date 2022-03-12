@@ -67,3 +67,46 @@ Online live stream on [Youtube](https://www.youtube.com/channel/UCk8nlSMwUT-jhEt
 
 ## Absolutely Free!
 Since this is a community driven event, there is no fee to attend the workshop but attendance is mandatory if you are registering for the workshop to avoid blacklisting for future workshops.
+
+## Post Event Report
+Devhost:21 was the third edition of the annual student developers meet organised by Sahyadri Open-Source Community (SOSC) to bring together young and talented developers from in and around Mangalore. Devhost:21 was aimed to create a platform to join together clubs and organizations to spread the information on latest technologies and trends in the IT industry and train the students to be part of it.
+
+Devhost:21 was a two day event which took place on 15 and 16 May 2021. It had speakers from notable organisations.Due to the covid-19 pandemic the event was conducted online on YouTube.
+
+### Day 1
+Mr.Prakhyath Rai, the ex-faculty coordinator of SOSC inaugurated Devhost:21. The inauguration was followed by a talk from one of the SOSC alumni
+
+### Can bad design kill?
+The first session  was taken by SOSC alumnus Jehad Mohamed who currently works as a  UI/UX designer at MobStac. The session  was mainly focused on different types of designers and how bad design can potentially kill many lives.The session also threw light on how engineering students can get into design by upskilling design skills and techniques.
+
+### Getting Started with Your Journey Into Cloud Security
+The session was followed by a talk on Cloud security by Madhu Akula the  creator of Kubernetes Goat. The session mainly revolved around basics of Cloud Security and it's important  terminology. He shared many resources using which students can kick start their journey in Cloud security. He also explained  about different  methods of cloud security and also explained about different cloud services like AWS, Azure etc.
+
+### Cruising on the AI wave
+The final session of the day was taken by ex-google employee Siddhanth Aggarwal.In the session he talked about the advancements of AI in different industries, how the AI wave started, and the future of AI. He also talked about how AI is controlling our day to day lives right from fingerprint detection to photo tagging technology.
+
+### Day 2
+### Lift off with Next.js
+Day 2 of Devhost:21 was kickstarted with a workshop by Sam Poder, a  high schooler from Singapore.He conducted a workshop on Next.js and  emphasized how Next.js is taking over the React galaxy. He explained about Next.js’s core features such as API Routes,ISR & Dynamic Routing and he even built a website using NASA's API which fetches the most fascinating space photos.
+
+### Upskill with Hackathons and Communities
+The final talk of Devhost:21 was given by Siddharth Dayalwal who is a lead in many clubs and communities. He explained about the impacts of hackathons and communities and how they can provide students with a pool of opportunities. He even shared his experience on different hackathons and he gave pointers on how to successfully win hackathons and how to grow as a developer by networking with other hackers during hackathons.
+
+### Q&A session
+Devhost:21 was wrapped up with a Q&A session which included SOSC alumnae Charmi,Monisha,Navya and Rachitha. They talked about women in tech and  they highlighted the importance of participating in open source communities.They even shared their experiences working as software  engineers in MNC's. 
+
+The day ended with a thank you speech by SOSC president Akashdeep Bhagat to the speakers and all the attendees. The event was a grand success as this brought many like minded people and communities together in one place.
+
+### Media
+<p align="center" >
+<img width="500px" src='./4.jpeg'/>
+</p>
+<p align="center" >
+<img width="500px" src='./3.jpeg'/>
+</p>
+<p align="center" >
+<img width="500px" src='./2.jpeg'/>
+</p>
+<p align="center" >
+<img width="500px" src='./1.jpeg'/>
+</p>
