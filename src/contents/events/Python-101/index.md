@@ -1,11 +1,11 @@
 ---
 slug: /events/Python-101
 name: Python 101
-date: 2022-04-06
+date: 2022-04-09
 location: Ground Floor Seminar Hall
 cover: './cover.jpg'
-link: 
-feedback_link: 
+link: Will be updating soon
+feedback_link: Will be updating soon
 ---
 
 # Python 101
