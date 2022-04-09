@@ -5,7 +5,7 @@ date: 2022-04-09
 location: Ground Floor Seminar Hall
 cover: './cover.jpg'
 link: https://forms.gle/s3CbfzyYaqDucqdA7
-feedback_link:
+feedback_link: https://forms.gle/HkqohCn1oMzrM4xM9
 ---
 
 # Python 101
