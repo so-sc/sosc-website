@@ -5,6 +5,7 @@
   "author": "Musthaq Ahamad <musthu.gm@gmail.com>",
   "dependencies": {
     "@babel/core": "^7.17.9",
+    "@netlify/plugin-gatsby": "^3.0.0",
     "babel-loader": "^8.2.4",
     "core-js": "^3.21.1",
     "disqus-react": "^1.0.8",
@@ -14,7 +15,6 @@
     "gatsby-plugin-google-analytics": "^4.11.0",
     "gatsby-plugin-image": "^2.11.1",
     "gatsby-plugin-manifest": "^4.11.1",
-    "gatsby-plugin-netlify": "^4.2.0",
     "gatsby-plugin-nprogress": "^4.11.0",
     "gatsby-plugin-offline": "^5.11.1",
     "gatsby-plugin-page-transitions": "^1.0.8",
@@ -48,6 +48,7 @@
     "upgrade-interactive": "npm-check --update"
   },
   "devDependencies": {
+    "gatsby-plugin-netlify": "^4.2.0",
     "npm-check": "^5.9.2",
     "prettier": "^2.6.2",
     "sass": "^1.50.0"
