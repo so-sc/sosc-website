@@ -26,7 +26,7 @@
     "gatsby-remark-copy-linked-files": "^5.9.0",
     "gatsby-remark-images": "^6.9.1",
     "gatsby-source-filesystem": "^4.9.1",
-    "gatsby-transformer-remark": "^5.9.1",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^4.9.0",
     "moment": "^2.29.2",
     "postcss": "^8.4.12",
