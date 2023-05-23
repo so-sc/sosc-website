@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Layout from '../components/indexLayout'
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage } from 'gatsby-plugin-image'
 import { graphql } from 'gatsby'
 
-const IndexPage = props => (
+const IndexPage = (props) => (
   <Layout>
     <div className="page white-bg">
       <div className="container">
@@ -13,7 +13,8 @@ const IndexPage = props => (
             <GatsbyImage
               image={props.data.imageFirst.childImageSharp.gatsbyImageData}
               className="sosc-logo"
-              alt="sosc logo" />
+              alt="sosc logo"
+            />
             <p className="sosc-header">
               Sahyadri
               <br />
@@ -24,18 +25,22 @@ const IndexPage = props => (
               contributors, to help young students to be part of the open-source
               ecosystem by providing training and skill development.
             </p>
-            <a
+            {/* <a
               href="http://bit.ly/soscmbr"
               className="btn-hero-green"
             >
               Become a member
-            </a>
+            </a> */}
+            <Link className="btn-hero-green" to="/guidelines">
+              Code of Conduct
+            </Link>
           </div>
           <div>
             <GatsbyImage
               image={props.data.imageOne.childImageSharp.gatsbyImageData}
               className="hero-image"
-              alt="hero image" />
+              alt="hero image"
+            />
           </div>
         </section>
       </div>
@@ -44,7 +49,8 @@ const IndexPage = props => (
           <GatsbyImage
             image={props.data.imageTwo.childImageSharp.gatsbyImageData}
             className="hero-image"
-            alt="hero image" />
+            alt="hero image"
+          />
           <div className="hero-texts">
             <p className="hero-header">Explore clubs and Activities</p>
             <div className="dash" />
@@ -55,7 +61,9 @@ const IndexPage = props => (
               to be pro-active. Mozilla Campus Clubs, Developer Students clubs,
               and the GitHub Campus Expert are to name a few.
             </p>
-            <Link className="btn-hero-green" to="/clubs">Learn More →  </Link>
+            <Link className="btn-hero-green" to="/clubs">
+              Learn More →{' '}
+            </Link>
           </div>
         </section>
       </div>
@@ -77,7 +85,8 @@ const IndexPage = props => (
           <GatsbyImage
             image={props.data.imageThree.childImageSharp.gatsbyImageData}
             className="hero-image"
-            alt="hero image" />
+            alt="hero image"
+          />
         </section>
       </div>
       <div className="container">
@@ -86,7 +95,8 @@ const IndexPage = props => (
             <GatsbyImage
               image={props.data.imageFour.childImageSharp.gatsbyImageData}
               className="hero-image"
-              alt="hero image" />
+              alt="hero image"
+            />
           </div>
           <div className="hero-texts">
             <p className="hero-header">Get Connected !</p>
@@ -108,11 +118,12 @@ const IndexPage = props => (
   </Layout>
 )
 
-export const firstSiteImages = graphql`fragment firstSiteImages on File {
-  childImageSharp {
-    gatsbyImageData(placeholder: TRACED_SVG, layout: FULL_WIDTH)
+export const firstSiteImages = graphql`
+  fragment firstSiteImages on File {
+    childImageSharp {
+      gatsbyImageData(placeholder: TRACED_SVG, layout: FULL_WIDTH)
+    }
   }
-}
 `
 
 export const pageQuery = graphql`

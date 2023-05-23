@@ -1,0 +1,98 @@
+@import '../../sass/partials/variables';
+
+.image {
+  width: 550px;
+  height: auto;
+  flex-grow: 0;
+  overflow: hidden;
+  flex-basis: 50%;
+  align-self: center;
+  justify-self: center;
+  @media #{$media-mobile} {
+    width: 400px;
+    overflow: hidden;
+  }
+  @media #{$media-small} {
+    width: 300px;
+    overflow: hidden;
+  }
+  img {
+    object-fit: contain;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: #373738;
+  font-weight: bold;
+}
+
+.license {
+  font-style: italic;
+  padding-top: 1rem;
+}
+
+.list {
+  line-height: 2em;
+}
+
+.page {
+  text-align: justify;
+  background: white;
+  padding-top: 50px;
+  padding-bottom: 3rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  .texts {
+    display: flex;
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-direction: column;
+    justify-content: center;
+    .logo {
+      width: 80px;
+      height: 35px;
+    }
+    .mainHeader {
+      font-size: 2em;
+      font-weight: bold;
+      margin: 20px 0px 10px 0px;
+      @media #{$media-mobile} {
+        font-size: 1.5em;
+      }
+      @media #{$media-small} {
+        font-size: 1.5em;
+      }
+    }
+    .header {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin: 20px 0px 10px 0px;
+      @media #{$media-mobile} {
+        font-size: 1.2em;
+      }
+      @media #{$media-small} {
+        font-size: 1.2em;
+      }
+    }
+  }
+  @media #{$media-mobile} {
+    display: flex;
+    margin-top: 20px;
+    height: auto;
+    align-items: center;
+  }
+  @media #{$media-small} {
+    display: flex;
+    margin-top: 20px;
+    height: auto;
+    align-items: center;
+  }
+}
