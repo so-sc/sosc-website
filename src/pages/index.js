@@ -32,7 +32,7 @@ const IndexPage = (props) => (
               Become a member
             </a> */}
             <Link className="btn-hero-green" to="/guidelines">
-              Code of Conduct
+              Guidelines
             </Link>
           </div>
           <div>
