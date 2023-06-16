@@ -1,9 +1,12 @@
 import React from 'react'
 
 const MemberCard = ({ username, full_name, designation }) => (
-  <a className="card-link" href={`https://github.com/${username}`}>
+  <a
+    className="card-link"
+    target="_blank"
+    href={`https://github.com/${username}`}
+  >
     <div className="member-card elevate white-bg">
-
       <img
         className="profile-pic"
         alt=""
