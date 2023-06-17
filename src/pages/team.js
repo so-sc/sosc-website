@@ -12,6 +12,7 @@ function getMembers(data) {
   let generalsec = []
   let webadmin = []
   let developers = []
+  let domain = []
   let soswc = []
   let members = []
   let leads = []
@@ -50,9 +51,9 @@ function getMembers(data) {
         )
       } else if (
         element.node.frontmatter.designation.toUpperCase() ===
-          'SOSWC PRESIDENT' ||
+          'SOSWC - PRESIDENT' ||
         element.node.frontmatter.designation.toUpperCase() ===
-          'SOSWC VICE PRESIDENT'
+          'SOSWC - VICE PRESIDENT'
       ) {
         return soswc.push(
           <MemberCard
@@ -62,7 +63,8 @@ function getMembers(data) {
           />
         )
       } else if (
-        element.node.frontmatter.designation.toUpperCase() === 'WEB LEAD'
+        element.node.frontmatter.designation.toUpperCase() === 'WEB LEAD' ||
+        element.node.frontmatter.designation.toUpperCase() === 'TECHNICAL LEAD'
       ) {
         return webadmin.push(
           <MemberCard
@@ -72,12 +74,15 @@ function getMembers(data) {
           />
         )
       } else if (
+        element.node.frontmatter.designation.toUpperCase() === 'APP LEAD' ||
+        element.node.frontmatter.designation.toUpperCase() === 'IOT LEAD' ||
+        element.node.frontmatter.designation.toUpperCase() === 'AI/ML LEAD' ||
         element.node.frontmatter.designation.toUpperCase() ===
-          'APP DEVELOPMENT LEAD' ||
+          'COMPETITIVE PROGRAMMING AND DSA LEAD' ||
         element.node.frontmatter.designation.toUpperCase() ===
-          'WEB DEVELOPMENT LEAD'
+          'CYBERSECURITY LEAD'
       ) {
-        return developers.push(
+        return domain.push(
           <MemberCard
             username={element.node.frontmatter.username}
             full_name={element.node.frontmatter.name}
@@ -109,9 +114,9 @@ function getMembers(data) {
   return president.concat(
     vicepresident,
     generalsec,
-    webadmin,
-    developers,
     soswc,
+    webadmin,
+    domain,
     leads,
     members
   )
@@ -140,7 +145,7 @@ const TeamsPage = ({ data }) => (
     <CustomHelmet page={GatsbyConfig.siteMetadata.team} />
     <div className="page">
       <div className="container">
-        <h2>Community Members</h2>
+        <h2>Co-ordinators</h2>
         <div className="team-section">
           {/* Card for coordinators */}
           <div className="card-link">
@@ -156,11 +161,6 @@ const TeamsPage = ({ data }) => (
               </div>
             </div>
           </div>
-          {/* <MemberCard
-            username="manjesh1"
-            full_name="Manjesh P Shetty"
-            designation="Mozilla Regional Coordinator"
-          /> */}
         </div>
         <h2>Core Members</h2>
         <div className="team-section">{getMembers(data)}</div>

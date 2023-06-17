@@ -1,8 +1,8 @@
 ---
-username: srajankumar
-name: Samanvitha
-designation: Sponsorship Head
-email: rashahameed10@gmail.com
-linkedin: https://www.linkedin.com/in/rasha-472247198/
-skills: Machine Learning, Data Science, Front-End Web Dev, C/C++, Presentation
+username: samanvitha-k
+name: Samanvitha K
+designation: Sponsorship Lead
+email: samanvitha.0486@gmail.com
+linkedin: https://www.linkedin.com/in/samanvitha-k-0209bb2a
+skills: Leadership, Problem Solving, Communication
 ---
