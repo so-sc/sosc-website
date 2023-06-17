@@ -1,8 +1,7 @@
 ---
-username: srajankumar
+username: tejasnayak1
 name: Tejas Nayak B
 designation: General Secretary
-email: abhiigatty@gmail.com
-linkedin: www.linkedin.com/in/abhiigatty
-skills: Net Sec, System Architecture design, Python, Ruby
+email: tejasb.cs21@sahyadri.edu.in
+skills: Event Management, Sports
 ---

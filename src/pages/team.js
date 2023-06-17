@@ -11,8 +11,10 @@ function getMembers(data) {
   let vicepresident = []
   let generalsec = []
   let webadmin = []
+  let developers = []
+  let soswc = []
   let members = []
-  let heads = []
+  let leads = []
   let memberList = data.allMarkdownRemark.edges
 
   memberList.forEach((element) => {
@@ -47,7 +49,20 @@ function getMembers(data) {
           />
         )
       } else if (
-        element.node.frontmatter.designation.toUpperCase() === 'WEB HEAD'
+        element.node.frontmatter.designation.toUpperCase() ===
+          'SOSWC PRESIDENT' ||
+        element.node.frontmatter.designation.toUpperCase() ===
+          'SOSWC VICE PRESIDENT'
+      ) {
+        return soswc.push(
+          <MemberCard
+            username={element.node.frontmatter.username}
+            full_name={element.node.frontmatter.name}
+            designation={element.node.frontmatter.designation}
+          />
+        )
+      } else if (
+        element.node.frontmatter.designation.toUpperCase() === 'WEB LEAD'
       ) {
         return webadmin.push(
           <MemberCard
@@ -57,9 +72,22 @@ function getMembers(data) {
           />
         )
       } else if (
+        element.node.frontmatter.designation.toUpperCase() ===
+          'APP DEVELOPMENT LEAD' ||
+        element.node.frontmatter.designation.toUpperCase() ===
+          'WEB DEVELOPMENT LEAD'
+      ) {
+        return developers.push(
+          <MemberCard
+            username={element.node.frontmatter.username}
+            full_name={element.node.frontmatter.name}
+            designation={element.node.frontmatter.designation}
+          />
+        )
+      } else if (
         element.node.frontmatter.designation.toUpperCase() !== 'MEMBER'
       ) {
-        return heads.push(
+        return leads.push(
           <MemberCard
             username={element.node.frontmatter.username}
             full_name={element.node.frontmatter.name}
@@ -78,7 +106,15 @@ function getMembers(data) {
     }
   })
 
-  return president.concat(vicepresident, generalsec, webadmin, heads, members)
+  return president.concat(
+    vicepresident,
+    generalsec,
+    webadmin,
+    developers,
+    soswc,
+    leads,
+    members
+  )
 }
 function getAlumni(data) {
   let Almembers = []
@@ -104,7 +140,7 @@ const TeamsPage = ({ data }) => (
     <CustomHelmet page={GatsbyConfig.siteMetadata.team} />
     <div className="page">
       <div className="container">
-        <h2>Co-ordinators</h2>
+        <h2>Community Members</h2>
         <div className="team-section">
           {/* Card for coordinators */}
           <div className="card-link">
@@ -116,7 +152,7 @@ const TeamsPage = ({ data }) => (
 
               <div className="member-details">
                 <h3 className="name">Dr. Mustafa Basthikodi</h3>
-                <p className="designation">Faculty Coordinator</p>
+                <p className="designation">Faculty Co-ordinator</p>
               </div>
             </div>
           </div>

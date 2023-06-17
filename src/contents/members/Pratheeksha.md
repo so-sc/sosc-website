@@ -1,7 +1,8 @@
 ---
-username: srajankumar
-name: Pratheeksha
-designation: Marketing Head
-email: anmolsoni166@gmail.com
-skills: Arduino, Drones, Design,C
+username: PratheekshaS
+name: Pratheeksha S
+designation: Marketing Lead
+email: pratheekshas2003@gamil.com
+linkedin: https://www.linkedin.com/in/pratheeksha-s-bangera-8a4a1a22a/
+skills: Public Speaking, Content Writing, SEO, Marketing
 ---
