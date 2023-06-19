@@ -186,7 +186,6 @@ function getAlumni(data) {
         <MemberCard
           username={element.node.frontmatter.username}
           full_name={element.node.frontmatter.name}
-          // designation={element.node.frontmatter.designation}
         />
       )
     })
