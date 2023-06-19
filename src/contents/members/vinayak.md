@@ -1,7 +1,7 @@
 ---
 username: vinayak500
 name: Vinayak Shetty
-designation: Member
+designation: Community Lead
 # remaining
 email: vinayakshetty500@gmail.com
 linkedin: https://www.linkedin.com/in/vinayak-shetty/
