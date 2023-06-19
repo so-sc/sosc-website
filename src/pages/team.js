@@ -4,18 +4,21 @@ import GatsbyConfig from '../../gatsby-config'
 import CustomHelmet from '../components/CustomHelmet'
 import Layout from '../components/indexLayout'
 import MemberCard from '../components/member_card'
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 function getMembers(data) {
   let president = []
   let vicepresident = []
   let generalsec = []
   let webadmin = []
+  let developers = []
+  let domain = []
+  let soswc = []
   let members = []
-  let heads = []
+  let leads = []
   let memberList = data.allMarkdownRemark.edges
 
-  memberList.forEach(element => {
+  memberList.forEach((element) => {
     if (element.node.frontmatter.designation !== 'Alumni') {
       if (element.node.frontmatter.designation.toUpperCase() === 'PRESIDENT') {
         return president.push(
@@ -47,7 +50,21 @@ function getMembers(data) {
           />
         )
       } else if (
-        element.node.frontmatter.designation.toUpperCase() === 'WEB HEAD'
+        element.node.frontmatter.designation.toUpperCase() ===
+          'SOSWC - PRESIDENT' ||
+        element.node.frontmatter.designation.toUpperCase() ===
+          'SOSWC - VICE PRESIDENT'
+      ) {
+        return soswc.push(
+          <MemberCard
+            username={element.node.frontmatter.username}
+            full_name={element.node.frontmatter.name}
+            designation={element.node.frontmatter.designation}
+          />
+        )
+      } else if (
+        element.node.frontmatter.designation.toUpperCase() === 'WEB LEAD' ||
+        element.node.frontmatter.designation.toUpperCase() === 'TECHNICAL LEAD'
       ) {
         return webadmin.push(
           <MemberCard
@@ -57,9 +74,25 @@ function getMembers(data) {
           />
         )
       } else if (
+        element.node.frontmatter.designation.toUpperCase() === 'APP LEAD' ||
+        element.node.frontmatter.designation.toUpperCase() === 'IOT LEAD' ||
+        element.node.frontmatter.designation.toUpperCase() === 'AI/ML LEAD' ||
+        element.node.frontmatter.designation.toUpperCase() ===
+          'COMPETITIVE PROGRAMMING AND DSA LEAD' ||
+        element.node.frontmatter.designation.toUpperCase() ===
+          'CYBERSECURITY LEAD'
+      ) {
+        return domain.push(
+          <MemberCard
+            username={element.node.frontmatter.username}
+            full_name={element.node.frontmatter.name}
+            designation={element.node.frontmatter.designation}
+          />
+        )
+      } else if (
         element.node.frontmatter.designation.toUpperCase() !== 'MEMBER'
       ) {
-        return heads.push(
+        return leads.push(
           <MemberCard
             username={element.node.frontmatter.username}
             full_name={element.node.frontmatter.name}
@@ -78,14 +111,22 @@ function getMembers(data) {
     }
   })
 
-  return president.concat(vicepresident, generalsec, webadmin, heads, members)
+  return president.concat(
+    vicepresident,
+    generalsec,
+    soswc,
+    webadmin,
+    domain,
+    leads,
+    members
+  )
 }
 function getAlumni(data) {
   let Almembers = []
 
   let memberList = data.allMarkdownRemark.edges
 
-  memberList.forEach(element => {
+  memberList.forEach((element) => {
     if (element.node.frontmatter.designation === 'Alumni') {
       return Almembers.push(
         <MemberCard
@@ -107,22 +148,19 @@ const TeamsPage = ({ data }) => (
         <h2>Co-ordinators</h2>
         <div className="team-section">
           {/* Card for coordinators */}
-          <div className="member-card white-bg elevate">
-            <GatsbyImage
-              image={data.imageCoord1.childImageSharp.gatsbyImageData}
-              className="profile-pic" />
+          <div className="card-link">
+            <div className="member-card elevate white-bg">
+              <GatsbyImage
+                image={data.imageCoord1.childImageSharp.gatsbyImageData}
+                className="profile-pic"
+              />
 
-            <div className="member-details">
-              <h3 className="name">Dr. Shamantha Rai B</h3>
-              <p className="designation">Faculty Coordinator</p>
+              <div className="member-details">
+                <h3 className="name">Dr. Mustafa Basthikodi</h3>
+                <p className="designation">Faculty Co-ordinator</p>
+              </div>
             </div>
           </div>
-
-          <MemberCard
-            username="manjesh1"
-            full_name="Manjesh P Shetty"
-            designation="Mozilla Regional Coordinator"
-          />
         </div>
         <h2>Core Members</h2>
         <div className="team-section">{getMembers(data)}</div>
@@ -135,25 +173,30 @@ const TeamsPage = ({ data }) => (
 
 export default TeamsPage
 
-export const teamQuery = graphql`query membersQuery {
-  allMarkdownRemark(
-    sort: {fields: [frontmatter___designation], order: ASC}
-    filter: {fileAbsolutePath: {regex: "/members/.*md$/"}}
-  ) {
-    edges {
-      node {
-        frontmatter {
-          username
-          name
-          designation
+export const teamQuery = graphql`
+  query membersQuery {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___designation], order: ASC }
+      filter: { fileAbsolutePath: { regex: "/members/.*md$/" } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            username
+            name
+            designation
+          }
         }
       }
     }
-  }
-  imageCoord1: file(relativePath: {eq: "images/shamantha_rai.jpg"}) {
-    childImageSharp {
-      gatsbyImageData(width: 200, placeholder: TRACED_SVG, layout: CONSTRAINED)
+    imageCoord1: file(relativePath: { eq: "images/mustafa_asthikodi.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(
+          width: 200
+          placeholder: TRACED_SVG
+          layout: CONSTRAINED
+        )
+      }
     }
   }
-}
 `

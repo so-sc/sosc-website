@@ -1,7 +1,7 @@
 ---
 username: Bhavishhh
 name: Bhavish S Shetty
-designation: Member
+designation: Alumni
 email: bhavishsshetty.bs@gmail.com
 linkedin: https://www.linkedin.com/in/bhavishsshetty
 skills: design

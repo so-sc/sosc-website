@@ -1,8 +1,8 @@
 ---
 username: vinolchris
 name: Vinol Chris D'Souza
-designation: Member
+designation: Alumni
 email: vinolchris@gmail.com
-linkedin: 
+linkedin:
 skills: content writing
 ---
