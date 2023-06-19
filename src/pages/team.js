@@ -10,12 +10,14 @@ function getMembers(data) {
   let president = []
   let vicepresident = []
   let generalsec = []
+  let treasurer = []
   let webadmin = []
-  let developers = []
   let domain = []
   let soswc = []
   let members = []
+  let coLeads = []
   let leads = []
+  let community = []
   let memberList = data.allMarkdownRemark.edges
 
   memberList.forEach((element) => {
@@ -41,6 +43,16 @@ function getMembers(data) {
       } else if (
         element.node.frontmatter.designation.toUpperCase() ===
         'GENERAL SECRETARY'
+      ) {
+        return generalsec.push(
+          <MemberCard
+            username={element.node.frontmatter.username}
+            full_name={element.node.frontmatter.name}
+            designation={element.node.frontmatter.designation}
+          />
+        )
+      } else if (
+        element.node.frontmatter.designation.toUpperCase() === 'TREASURER'
       ) {
         return generalsec.push(
           <MemberCard
@@ -90,9 +102,32 @@ function getMembers(data) {
           />
         )
       } else if (
-        element.node.frontmatter.designation.toUpperCase() !== 'MEMBER'
+        element.node.frontmatter.designation.toUpperCase() !== 'MEMBER' &&
+        element.node.frontmatter.designation.toUpperCase() !==
+          'COMMUNITY LEAD' &&
+        element.node.frontmatter.designation.toUpperCase() !== 'CONTENT CO-LEAD'
       ) {
         return leads.push(
+          <MemberCard
+            username={element.node.frontmatter.username}
+            full_name={element.node.frontmatter.name}
+            designation={element.node.frontmatter.designation}
+          />
+        )
+      } else if (
+        element.node.frontmatter.designation.toUpperCase() == 'CONTENT CO-LEAD'
+      ) {
+        return coLeads.push(
+          <MemberCard
+            username={element.node.frontmatter.username}
+            full_name={element.node.frontmatter.name}
+            designation={element.node.frontmatter.designation}
+          />
+        )
+      } else if (
+        element.node.frontmatter.designation.toUpperCase() === 'COMMUNITY LEAD'
+      ) {
+        return community.push(
           <MemberCard
             username={element.node.frontmatter.username}
             full_name={element.node.frontmatter.name}
@@ -114,10 +149,13 @@ function getMembers(data) {
   return president.concat(
     vicepresident,
     generalsec,
+    treasurer,
     soswc,
     webadmin,
     domain,
     leads,
+    coLeads,
+    community,
     members
   )
 }
@@ -126,17 +164,32 @@ function getAlumni(data) {
 
   let memberList = data.allMarkdownRemark.edges
 
-  memberList.forEach((element) => {
-    if (element.node.frontmatter.designation === 'Alumni') {
-      return Almembers.push(
+  // memberList.forEach((element) => {
+  //   if (element.node.frontmatter.designation === 'Alumni') {
+  //     return Almembers.push(
+  //       <MemberCard
+  //         username={element.node.frontmatter.username}
+  //         full_name={element.node.frontmatter.name}
+  //         // designation={element.node.frontmatter.designation}
+  //       />
+  //     )
+  //   }
+  // })memberList
+  memberList
+    .filter((element) => element.node.frontmatter.designation === 'Alumni')
+    .sort(
+      (a, b) =>
+        new Date(b.node.frontmatter.date) - new Date(a.node.frontmatter.date)
+    )
+    .forEach((element) => {
+      Almembers.push(
         <MemberCard
           username={element.node.frontmatter.username}
           full_name={element.node.frontmatter.name}
           // designation={element.node.frontmatter.designation}
         />
       )
-    }
-  })
+    })
 
   return Almembers
 }
