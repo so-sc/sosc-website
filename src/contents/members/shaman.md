@@ -1,6 +1,6 @@
 ---
 username:
-name: Achal
+name: Shaman
 designation: Community Lead
 email:
 linkedin:

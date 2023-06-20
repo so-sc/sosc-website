@@ -1,6 +1,6 @@
 ---
 username:
-name: Achal
+name: Rashmitha
 designation: Community Lead
 email:
 linkedin:

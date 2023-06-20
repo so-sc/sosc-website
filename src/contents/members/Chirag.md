@@ -1,6 +1,6 @@
 ---
 username:
-name: Achal
+name: Chirag
 designation: Community Lead
 email:
 linkedin:
