@@ -1,8 +1,8 @@
 ---
-username:
-name: Shaman
+username: Shamanthshetty7
+name: Shamanth S Shetty
 designation: Community Lead
-email:
-linkedin:
-skills:
+email: shamanthshetty51@gmail.com
+linkedin: https://www.linkedin.com/in/shamanth-s-shetty
+skills: Problem Solving, Object oriented programming,Backend development,Project development
 ---

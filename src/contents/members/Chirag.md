@@ -1,8 +1,8 @@
 ---
-username:
+username: chiragak
 name: Chirag
 designation: Community Lead
-email:
-linkedin:
-skills:
+email: chiragajekar@gmail.com
+linkedin: https://www.linkedin.com/in/chiragak/
+skills: Web, IOT
 ---
