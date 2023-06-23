@@ -14,11 +14,11 @@ const Footer = ({ siteTitle }) => (
           </a>
         </div>
         <div className="column">
-          <a href="https://github.com/so-sc/code-of-conduct">
+          <a href="https://www.sosc.org.in/guidelines">
             Community Guidelines
           </a>
           <a href="https://github.com/so-sc/code-of-conduct">Code of Conduct</a>
-          <a href="https://chaai.me/sosc">Donate Us</a>
+          <a href="tel:6031112298" target='_blank'>Donate us</a>    
         </div>
         <div className="column">
           <p>
