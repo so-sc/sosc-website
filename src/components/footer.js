@@ -18,7 +18,7 @@ const Footer = ({ siteTitle }) => (
             Community Guidelines
           </a>
           <a href="https://github.com/so-sc/code-of-conduct">Code of Conduct</a>
-          <a href="tel:6031112298" target='_blank'>Donate us</a>    
+          <a href="tel:+91 97412 68512" target='_blank'>Donate us</a>    
         </div>
         <div className="column">
           <p>
@@ -30,7 +30,7 @@ const Footer = ({ siteTitle }) => (
             <br />
             sosc@sahyadri.edu.in
             <br />
-            +91 76248 28176
+            +91 97412 68512
           </p>
         </div>
       </div>
