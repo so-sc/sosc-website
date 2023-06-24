@@ -105,7 +105,9 @@ function getMembers(data) {
         element.node.frontmatter.designation.toUpperCase() !== 'MEMBER' &&
         element.node.frontmatter.designation.toUpperCase() !==
           'COMMUNITY LEAD' &&
-        element.node.frontmatter.designation.toUpperCase() !== 'CONTENT CO-LEAD'
+        element.node.frontmatter.designation.toUpperCase() !==
+          'CONTENT CO-LEAD' &&
+        element.node.frontmatter.designation.toUpperCase() !== 'DESIGN CO-LEAD'
       ) {
         return leads.push(
           <MemberCard
@@ -115,7 +117,9 @@ function getMembers(data) {
           />
         )
       } else if (
-        element.node.frontmatter.designation.toUpperCase() == 'CONTENT CO-LEAD'
+        element.node.frontmatter.designation.toUpperCase() ===
+          'CONTENT CO-LEAD' ||
+        element.node.frontmatter.designation.toUpperCase() === 'DESIGN CO-LEAD'
       ) {
         return coLeads.push(
           <MemberCard
