@@ -14,11 +14,9 @@ const Footer = ({ siteTitle }) => (
           </a>
         </div>
         <div className="column">
-          <a href="https://github.com/so-sc/code-of-conduct">
-            Community Guidelines
-          </a>
+          <a href="https://www.sosc.org.in/guidelines">Community Guidelines</a>
           <a href="https://github.com/so-sc/code-of-conduct">Code of Conduct</a>
-          <a href="https://chaai.me/sosc">Donate Us</a>
+          <a href="#">Donate Us</a>
         </div>
         <div className="column">
           <p>
@@ -30,7 +28,7 @@ const Footer = ({ siteTitle }) => (
             <br />
             sosc@sahyadri.edu.in
             <br />
-            +91 76248 28176
+            +91 97412 68512
           </p>
         </div>
       </div>
