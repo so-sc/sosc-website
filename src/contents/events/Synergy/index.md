@@ -3,7 +3,7 @@ slug: /events/Synergy
 name: Synergy-Induction Programme
 date: 2023-06-23
 location: Ground Floor, Sahyadri College
-cover: './cover.png'      
+cover: './cover.jpg'      
 ---
 
 ## Introduction:
@@ -44,18 +44,21 @@ The SOSC Induction Program successfully achieved its objectives of introducing n
 We believe that the induction program has set the stage for a productive and collaborative work environment at SOSC. We look forward to the contributions of our new recruits and their growth within the organization.
 
 ### Media
-<p align="center" >
-<img width="500px" src='./President.jpg'/>
-</p>
-<p align="center" >
-<img width="500px" src='./SOSWCPresident.jpg'/>
-</p>
-<p align="center" >
-<img width="500px" src='./Leads.jpg'/>
-</p>
-<p align="center" >
-<img width="500px" src='./Interaction.jpg'/>
-</p>
-<p align="center" >
-<img width="500px" src='./Group.jpg'/>
-</p>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+    <p> 
+     <img src="./SOSCPresident.jpg" alt="SOSCPresident" style="width: 100%;">
+    </p>
+    <p>
+      <img src="./SOSWCPresident.jpg" alt="SOSWC President" style="width: 100%;">
+    </p>
+    <p>
+      <img src="./Leads.jpg" alt="Tech Leads" style="width: 100%;">
+    </p>
+    <p>
+      <img src="./Interaction.jpg" alt="Interaction" style="width: 100%;">
+    </p>
+    
+</div>
+<p>
+      <img src="./Group.jpg" alt="Group" style="width: 100%;">
+    </p>
