@@ -21,12 +21,8 @@ After the presentation, an interactive question and answer session was conducted
 ## Riddle Competition:
 To engage the participants and add an element of fun to the event, the team organized a riddle competition. The participants were challenged with a riddle, and the first person to solve it correctly would win a sticker as a prize. This activity encouraged active participation and created a lively atmosphere during the induction program.
 
-<!-- SOSWC Announcement:
-<Add things here> -->
-.
 ## Introduction of Tech Leads:
 Following the riddle session, each tech lead was given the opportunity to present and explain their respective domains. This session provided participants with insights into the different areas of expertise within the organization and helped them understand the team structure.
-
 
 
 ## Kahoot Session:
@@ -57,8 +53,7 @@ We believe that the induction program has set the stage for a productive and col
     <p>
       <img src="./Interaction.jpg" alt="Interaction" style="width: 100%;">
     </p>
-    
 </div>
-<p>
+    <p>
       <img src="./Group.jpg" alt="Group" style="width: 100%;">
     </p>
