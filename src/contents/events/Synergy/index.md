@@ -1,6 +1,6 @@
 ---
 slug: /events/Synergy
-name: Synergy-Induction Programme
+name: Synergy - Induction Programme
 date: 2023-06-23
 location: Ground Floor Seminar Hall
 cover: './cover.jpg'
