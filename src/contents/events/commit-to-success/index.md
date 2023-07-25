@@ -37,30 +37,20 @@ In summary, the Git and GitHub workshop provided developers with a solid foundat
 
 ### Media
 
-<p>
-    <img src="./1.jpg" alt="commit-to-success-1" style="width: 100%;">
-</p>
-
-<p>
-    <img src="./2.jpg" alt="commit-to-success-2" style="width: 100%;">
-</p>
-
-<p>
-    <img src="./3.jpg" alt="commit-to-success-3" style="width: 100%;">
-</p>
-
-<p>
-    <img src="./4.jpg" alt="commit-to-success-4" style="width: 100%;">
-</p>
-
-<p>
-    <img src="./5.jpg" alt="commit-to-success-5" style="width: 100%;">
-</p>
-
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+    <p> 
+        <img src="./3.jpg" alt="commit-to-success-3" style="width: 100%">
+    </p>
+    <p>
+        <img src="./4.jpg" alt="commit-to-success-4" style="width: 100%;">
+    </p>
+    <p>
+       <img src="./5.jpg" alt="commit-to-success-5" style="width: 100%;">
+    </p>
+    <p>
+        <img src="./7.jpg" alt="commit-to-success-7" style="width: 100%;">
+    </p>
+</div>
 <p>
     <img src="./6.jpg" alt="commit-to-success-6" style="width: 100%;">
-</p>
-
-<p>
-    <img src="./7.jpg" alt="commit-to-success-7" style="width: 100%;">
 </p>

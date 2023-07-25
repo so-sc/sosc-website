@@ -64,6 +64,6 @@ We believe that the induction program has set the stage for a productive and col
       <img src="./Interaction.jpg" alt="Interaction" style="width: 100%;">
     </p>
 </div>
-    <p>
-      <img src="./Group.jpg" alt="Group" style="width: 100%;">
-    </p>
+<p>
+  <img src="./Group.jpg" alt="Group" style="width: 100%;">
+</p>
