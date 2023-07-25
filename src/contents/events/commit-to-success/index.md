@@ -39,6 +39,12 @@ In summary, the Git and GitHub workshop provided developers with a solid foundat
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
     <p> 
+        <img src="./1.jpg" alt="commit-to-success-3" style="width: 100%">
+    </p>
+    <p>
+        <img src="./2.jpg" alt="commit-to-success-4" style="width: 100%;">
+    </p>
+    <p> 
         <img src="./3.jpg" alt="commit-to-success-3" style="width: 100%">
     </p>
     <p>
