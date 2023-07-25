@@ -27,15 +27,21 @@ In summary, the Node.js workshop equipped developers with the skills and knowled
 
 ## Media
 
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+    <p> 
+        <img src="./1.jpg" alt="nodejs_workshop_1" style="width: 100%;">
+    </p>
+    <p>
+        <img src="./2.jpg" alt="nodejs_workshop_2" style="width: 100%;">
+    </p>
+    <p>
+       <img src="./3.jpg" alt="nodejs_workshop_3" style="width: 100%;">
+    </p>
+    <p>
+        <img src="./4.jpg" alt="nodejs_workshop_4" style="width: 100%;">
+    </p>
+
+</div>
 <p>
-    <img src="./1.jpg" alt="nodejs_workshop_1" style="width: 100%;">
-</p>
-<p>
-    <img src="./2.jpg" alt="nodejs_workshop_2" style="width: 100%;">
-</p>
-<p>
-    <img src="./3.jpg" alt="nodejs_workshop_3" style="width: 100%;">
-</p>
-<p>
-    <img src="./4.jpg" alt="nodejs_workshop_4" style="width: 100%;">
+    <img src="./5.jpg" alt="nodejs_workshop_4" style="width: 100%;">
 </p>
