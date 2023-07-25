@@ -36,22 +36,21 @@ In summary, the UI/UX workshop provided an immersive learning experience, empowe
 
 ### Media
 
-<p>
-    <img src="./1.jpg" alt="beyond-uiux-1" style="width: 100%;">
-</p>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+    <p> 
+        <img src="./1.jpg" alt="beyond-uiux-1" style="width: 100%;">
+    </p>
+    <p>
+        <img src="./2.jpg" alt="beyond-uiux-2" style="width: 100%;">
+    </p>
+    <p>
+       <img src="./3.jpg" alt="beyond-uiux-3" style="width: 100%;">
+    </p>
+    <p>
+        <img src="./4.jpg" alt="beyond-uiux-4" style="width: 100%;">
+    </p>
 
-<p>
-    <img src="./2.jpg" alt="beyond-uiux-2" style="width: 100%;">
-</p>
-
-<p>
-    <img src="./3.jpg" alt="beyond-uiux-3" style="width: 100%;">
-</p>
-
-<p>
-    <img src="./4.jpg" alt="beyond-uiux-4" style="width: 100%;">
-</p>
-
+</div>
 <p>
     <img src="./5.jpg" alt="beyond-uiux-5" style="width: 100%;">
 </p>
