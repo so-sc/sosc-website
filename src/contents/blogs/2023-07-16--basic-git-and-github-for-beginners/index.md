@@ -274,16 +274,152 @@ git push origin <branch-name>
 
 So this is how simple Git is, in your next projects start using Git to record your progress and also utilise GitHub to showcase your work and also to work on other cool open source projects.
 
-### Next What?
+# Branching in Git
 
-This is the basic commands that you will be using most of the times, but Git is not limited to this there are a lot of things you can do
-I am planning to release more blogs continuing this topic, which covers concepts like Branching, Pull Requests, How to Contribute to other's repository and much more.
+Branching in Git is a very important and one of the core concepts in version control. It is a game-changer, trust me on that :)
 
-Let me know how informative you found this blog, so that seeing your reviews I will feel more enthusiastic and if there are any improvements I can do it as well.
+## What is Branching?
 
-Thank you for sticking till the end, see you with another blog 😄.
+Let's begin with a simple analogy. Imagine yourself as a skilled artist who loves to paint landscapes of nature, Picture yourself sitting in a serene place working on your masterpiece, already half-way through its creation and you encounter a situation where you feel the need to try a new shade for the painting to experiment with colours. Would you risk making the changes directly on the canvas? Of course not! Instead, you would want to freely try out the new colours in a separate piece of paper. If you like the chosen shades, you’ll add it confidently to your actual painting.
+But, if you weren’t satisfied, then you can simply discard the separate piece of paper and save time to protect the painting from a blunder.
 
-<!-- Footer section -->
+So, Branching in Git does the similar thing. If you are working on a project and wish to experiment with new code or implement a new feature, you can simply create a new branch and work on it. If you are satisfied, `merge` it to the original branch otherwise you can discard it leaving the original code base untouched.
 
-**[Deveesh Shetty](https://deveesh.vercel.app)**
-Connect with me on [GitHub](https://github.com/Deveesh-Shetty), [Twitter](https://twitter.com/shettydeveesh)
+I'll show in detail how that works, so stick till the end 😉
+
+### What is a branch?
+
+A branch is a timeline in which you work and commit code changes.
+
+- `master` or `main` branch is the main timeline in which you'll be working, the changes made to this branch will reflect in production. (Optional) You can rename this branch as well by using:
+
+```bash
+git branch -M <new-name>
+```
+
+- Then you can create other branches where you will be implementing features, testing out code, and much more by using the following command:
+
+```bash
+git branch <branch-name>
+```
+
+Now switch to the new branch by using:
+
+```bash
+git checkout <branch-name>
+```
+
+Replace `<branch-name>` with a name which reflects the purpose of the branch for eg. `feat-dashboard` which means I am using this branch to create a new Dashboard Feature.
+
+**Pro-tip:** You can create a new branch and switch to it in just one command:
+
+```bash
+git checkout -b <branch-name>
+```
+
+Here, `-b` flag creates a new branch with the specified name if the branch doesn't already exist.
+
+### Let's get started with Hands-on coding
+
+Before continuing with branching commands, ensure that you have some content in the `main` or `master` branch, if it is empty, then add a file called `Readme.md` and add some text in that for instance:
+
+```md
+# My name is Deveesh Shetty
+```
+
+Next, "commit and add" the file by using the following command:
+
+```bash
+git add .
+git commit -m "Adds my Readme File"
+```
+
+Create a new `feature` branch and switch into it by running the command:
+
+```bash
+git checkout -b feature
+```
+
+Now, you are in the `feature` branch. Add a file in the new branch called `Feature.md` and open it and add some content in it:
+
+```md
+# Hello from feature branch
+```
+
+You know next, "add and commit" the files by using the following commands:
+
+```bash
+git add .
+git commit -m "Adds a Feature File"
+```
+
+Check the commit history by running:
+
+```bash
+git log --oneline
+```
+
+You shall see an output similar to:
+
+![Git Log in Feature Branch](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9w5xtlibjf2dbxssmx0g.png)
+
+I want you to notice `(HEAD -> feature)` where `HEAD` is the current commit on which you are and `feature` is the branch we are currently working on.
+
+Now, try switching back to the `master` or `main` branch by using either one of these command based on your main branch name (eg.: if the branch name is `main` then run `git checkout main`)
+
+```bash
+git checkout main
+# or
+git checkout master
+```
+
+_If you encounter an error while running this command, one possible issue might be that you haven't committed the code in the current branch. To resolve this make sure to commit your changes to the current branch and then try the above command again._
+
+Run the `git log --oneline` command again, and compare the output.
+
+![Git log in Master or Main Branch](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d2ykc52bon3ongj5ia0g.png)
+
+What do you see? The file `Feature.md` is missing and the commit from the `feature` branch is also not there. This is the concept of branching, the changes you made in another branch are not reflected in the main branch. It prevents many problems such as breaking the production or having unnecessary codes or commits, etc.
+
+### How to get the changes in the main branch?
+
+Well, now in a real-world scenario, you have built a feature in a branch and it works perfectly. Now, you want to include it in the main branch and deploy it to production. How do you do it? It's simple! You merge it 😄
+
+#### What in the world is merging?
+
+When you want changes from the feature branch to be reflected in the main branch, you do that by merging the feature branch with the main branch. During the merge, a new commit called a merge commit will be formed which will include the changes made in the feature branch and show them in the main or master branch.
+
+To achieve this, first, switch to the `main` or `master` branch:
+
+```bash
+git checkout main
+# or
+git checkout master
+```
+
+And then use the following command to merge the feature branch into main:
+
+```bash
+git merge feature
+```
+
+Here `feature` is the name of the branch to be merged.
+
+You should see the `Feature.md` file in the folder now. Next, run the `git log --oneline` command again and view the commit history.
+
+![Git Log after merging](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7376fqzeo7e70m8prd1q.png)
+
+You will see the commit made in the feature branch in the main branch. Also, you will notice `(HEAD -> master, feature)`, which means the current commit is same for both the `master` and `feature` branch. (It maybe `main` in your case, don't worry it's the same)
+
+Now you can switch back to the `feature` branch and start working on it. Once you are comfortable with the changes, merge them into the main branch. It's as simple as that.
+
+This is a visual explaining the branching concept
+![Branching concept in a diagram](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hyv57jw2pacigt13uft2.png)
+
+That's it for branching in this blog. There are many other concepts like Merge Conflicts, Rebasing, etc. that comes with it, which I will be covering in the future blogs 😄. Also there is an upcoming blog on how to create an Issue and send a Pull Request, and contribute to other repositories 👀.
+
+Thank you for sticking till the end! Until then have a great day and happy learning!!!
+
+**Deveesh Shetty**
+
+[Github](https://github.com/Deveesh-Shetty) | [Twitter](https://twitter.com/shettydeveesh) | [Dev.to](https://dev.to/devshetty)
