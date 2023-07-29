@@ -1,6 +1,6 @@
 ---
 slug: /events/envision-x
-name: EnvisionX
+name: EnvisionX x IEEE
 date: 2023-08-01
 location: Ground Floor Seminar Hall
 cover: './cover.jpg'
@@ -11,6 +11,8 @@ feedback_link:
 ## EnvisionX: Exploring the world of Computer Vision
 
 Have you ever wondered how machines can see and interpret the world around them? Do you want to dive into the exciting world of Computer Vision? If yes, We've got an immersive workshop lined up just for you!
+
+Presenting, an exclusive: SOSC x IEEE workshop!
 
 ### Date and Time: 1st August 2023, 3:30 PM
 
