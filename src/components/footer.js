@@ -28,7 +28,7 @@ const Footer = ({ siteTitle }) => (
             <br />
             sosc@sahyadri.edu.in
             <br />
-            +91 97412 68512
+            +91 87624 58575
           </p>
         </div>
       </div>
