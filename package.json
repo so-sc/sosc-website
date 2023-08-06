@@ -1,5 +1,5 @@
 {
-  "name": "SOSC",
+  "name": "sosc",
   "description": "The official sosc website",
   "version": "1.0.0",
   "author": "Musthaq Ahamad <musthu.gm@gmail.com>",
@@ -54,6 +54,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  }
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-default.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default/issues"
+  },
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-default#readme",
+  "main": "config.js"
 }

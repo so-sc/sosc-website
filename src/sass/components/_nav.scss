@@ -26,10 +26,11 @@
     }
   
     .brand {
-      color: #404140;
+      color:  #404140;
+      text-decoration: none;
       font-size: 1.8em;
       font-family: 'organo';
-
+     
       @media #{$media-mobile} {
         font-size: 1.6em;
         padding-top: 20px;
@@ -41,6 +42,7 @@
         padding-top: 20px;
         margin-left: 15px;
       }
+      
     }
   
     ul {
