@@ -20,7 +20,8 @@ const Header = ({ siteTitle }) => (
 
     <div className="container">
       <div className="nav-items">
-        <span className="brand">{siteTitle}</span>
+        <Link className="brand" to='/'>{siteTitle}</Link>
+        {/* <span className="brand">{siteTitle}</span> */}
         <ul>
           <li>
             <Link to="/" exact="true" activeClassName="active">
