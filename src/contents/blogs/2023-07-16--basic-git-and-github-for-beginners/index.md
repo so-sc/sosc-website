@@ -416,7 +416,56 @@ Now you can switch back to the `feature` branch and start working on it. Once yo
 This is a visual explaining the branching concept
 ![Branching concept in a diagram](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hyv57jw2pacigt13uft2.png)
 
-That's it for branching in this blog. There are many other concepts like Merge Conflicts, Rebasing, etc. that comes with it, which I will be covering in the future blogs 😄. Also there is an upcoming blog on how to create an Issue and send a Pull Request, and contribute to other repositories 👀.
+<br>
+
+# Introduction to GitHub Issues
+
+You maybe new to GitHub or you are using it from quite a long time. But, have you came across the Issues tab in any GitHub repository? If no, then no worries I will be covering about the Issue tab and how it can make an impact on an open source project.
+
+![Issue Tab](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fobw2gh1v9kaqln89dxg.png)
+
+You may have seen this tab in GitHub, this is the Issues tab. The number you see next to it are the total issues which are currently Open.
+
+## What are GitHub Issues?
+
+Issue is one of the feature by GitHub, it provides a way for the users to track tasks, bug fixes, feature requests, etc.
+
+## Why would I use GitHub Issues?
+
+There are endless way for why you will be using the GitHub Issues tab, let me break down a few for you!
+
+### Raising a bug report
+
+You are using an open source project, and you were trying something but the result you got was not the one you expected, you will be like (it is some bug in the project) and neglect it... No!! You are a good open source contributor it's your responsibility to let the developer know about the bug, so the best way is if the project is open sourced in GitHub, go to the issue tab and tell about the bug, elaborate on what you wanted and what result you got, provide some visual prove like screenshots or video (if possible). This will help the developer to reproduce the bug and fix it in next release!
+
+### Giving idea for a new feature
+
+For instance, you are using a software and you have a very good feature which will improve the software. Why keeping the idea to yourself? Raise a new issue in GitHub and describe your idea in human language (yes, you don't even need to code), and mention how it can improve the project. Now anyone interested can take up the issue and start building the feature, even you can build it if you are interested in it, which is very much appreciated!
+
+_Note: Most of the softwares you use are open source, but you are not aware of it! I can list a few, VSCode, MonkeyType, Python, Android, Linux, Brave Browser and many more... ✨_
+
+## How to create a new Issue?
+
+If you found a bug, or you have a new feature Idea. Go to the GitHub repository of the project and click the Issues tab. In there click the `New Issue` button and describe the bug or feature and `Submit` voila! you have created a new Issue, also you have a green square in your GitHub heatmap 😉.
+
+**Some Notes:**
+
+- Before creating an issue make sure there is no similar issue already opened, so it will save your's as well as the maintainer's time.
+- Don't create random issues in repositories, always make sure you have correctly mentioned your plan or described the bug.
+- Use markdown to describe your issue by using todo-lists, heading, code blocks and many more :)
+
+### How to find issues to work as a beginner?
+
+If you are beginner you can find the issues in GitHub repository by filtering with labels like `good first issue` or `first-timers-only` or `documentation` which will help you do your first open source contribution. Most of the repos have these labels which makes it easier for beginners to contribute.
+
+### How to work on issues?
+
+Once you found a good issue which you feel like you can work on, put a comment in there that you want to solve it or implement it. So the maintainer can assign you the issue which will make sure no 2 people are working on same issue, which is waste of time for both. Also in contrary, if the issue is already assigned to someone you can't work on it because "Early bird gets the worm". Don't worry try finding another issue there are many...
+
+Now you have the issue assigned, `fork` and `clone` the repository and create a new `branch` and start working (don't know what is branching? check it out [here](https://dev.to/devshetty/learn-about-branching-in-git-bm3)). Once you have a solution for the issue then proceed by creating a [`Pull Request`](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) (PR), now it's maintainers turn to review and merge your PR. If they need any changes do the needful :)
+
+I will be covering about Pull Requests in my upcoming blogs stay tuned for that!
+Thanks for sticking till the end... that's all for this blog, let me know your opinions and suggestions so I can improve my future blogs 😄
 
 Thank you for sticking till the end! Until then have a great day and happy learning!!!
 
