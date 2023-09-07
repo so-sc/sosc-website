@@ -58,6 +58,11 @@ const IndexPage = (props) => (
               Hack Night is a flagship event organized by Sahyadri Open Source
               Community (SOSC) in celebration of Hacktoberfest 2023
             </p>
+            <p>
+              HacktoberFest is a 2-day event, with a wide reach across several
+              colleges in the region, witnessing participation from over 100+
+              teams and over 1000 participants.
+            </p>
             <Link
               className="btn-hero-green"
               to="http://hacknight.sosc.org.in"
