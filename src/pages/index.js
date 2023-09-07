@@ -45,29 +45,29 @@ const IndexPage = (props) => (
         </section>
       </div>
       <div className="container">
-        <section className="hero-section2 ">
+        <section className="hero-section2 hack">
           <GatsbyImage
-            image={props.data.imageTwo.childImageSharp.gatsbyImageData}
+            image={props.data.imageFive.childImageSharp.gatsbyImageData}
             className="hero-image"
             alt="hero image"
           />
           <div className="hero-texts">
-            <p className="hero-header">Explore clubs and Activities</p>
+            <p className="hero-header">Hack Night 2023</p>
             <div className="dash" />
             <p>
-              SOSC is a conglomeration of clubs and individuals who contribute
-              to the community by helping us conduct events and activities.
-              there are numerous clubs and experts who help shape the community
-              to be pro-active. Mozilla Campus Clubs, Developer Students clubs,
-              and the GitHub Campus Expert are to name a few.
+              Hack Night is a flagship event organized by Sahyadri Open Source
+              Community (SOSC) in celebration of Hacktoberfest 2023
             </p>
-            <Link className="btn-hero-green" to="/clubs">
+            <Link
+              className="btn-hero-green"
+              to="http://hacknight.sosc.org.in"
+              target="_blank"
+            >
               Learn More →{' '}
             </Link>
           </div>
         </section>
       </div>
-
       <div className="container">
         <section className="hero-section3">
           <div className="hero-texts">
@@ -90,14 +90,30 @@ const IndexPage = (props) => (
         </section>
       </div>
       <div className="container">
-        <section className="hero-section4">
-          <div>
-            <GatsbyImage
-              image={props.data.imageFour.childImageSharp.gatsbyImageData}
-              className="hero-image"
-              alt="hero image"
-            />
+        <section className="hero-section2 ">
+          <GatsbyImage
+            image={props.data.imageTwo.childImageSharp.gatsbyImageData}
+            className="hero-image"
+            alt="hero image"
+          />
+          <div className="hero-texts">
+            <p className="hero-header">Explore clubs and Activities</p>
+            <div className="dash" />
+            <p>
+              SOSC is a conglomeration of clubs and individuals who contribute
+              to the community by helping us conduct events and activities.
+              there are numerous clubs and experts who help shape the community
+              to be pro-active. Mozilla Campus Clubs, Developer Students clubs,
+              and the GitHub Campus Expert are to name a few.
+            </p>
+            <Link className="btn-hero-green" to="/clubs">
+              Learn More →{' '}
+            </Link>
           </div>
+        </section>
+      </div>
+      <div className="container">
+        <section className="hero-section4">
           <div className="hero-texts">
             <p className="hero-header">Get Connected !</p>
             <div className="dash" />
@@ -111,6 +127,13 @@ const IndexPage = (props) => (
             <Link to="/team" className="btn-hero-green">
               Learn More
             </Link>
+          </div>{' '}
+          <div>
+            <GatsbyImage
+              image={props.data.imageFour.childImageSharp.gatsbyImageData}
+              className="hero-image"
+              alt="hero image"
+            />
           </div>
         </section>
       </div>
@@ -141,6 +164,12 @@ export const pageQuery = graphql`
       ...firstSiteImages
     }
     imageFour: file(relativePath: { eq: "images/hero_connect_.png" }) {
+      ...firstSiteImages
+    }
+    imageFive: file(relativePath: { eq: "images/hack_dark.png" }) {
+      ...firstSiteImages
+    }
+    imageSix: file(relativePath: { eq: "images/hack_light.png" }) {
       ...firstSiteImages
     }
   }
