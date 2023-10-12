@@ -1,5 +1,5 @@
 ---
-username: proffesCode
+username: printAdityasn
 name: Aditya SN
 designation: Media Lead
 email: adityas.cs21@sahyadri.edu.in
