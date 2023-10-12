@@ -1,5 +1,5 @@
 ---
-username: gauravraoj29
+username: gauravraoj
 name: Gaurav Rao J
 designation: Community Lead
 email: gauravraoj29@gmail.com
