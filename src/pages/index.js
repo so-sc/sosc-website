@@ -44,35 +44,7 @@ const IndexPage = (props) => (
           </div>
         </section>
       </div>
-      <div className="container">
-        <section className="hero-section2 hack">
-          <GatsbyImage
-            image={props.data.imageFive.childImageSharp.gatsbyImageData}
-            className="hero-image"
-            alt="hero image"
-          />
-          <div className="hero-texts">
-            <p className="hero-header">Hack Night 2023</p>
-            <div className="dash" />
-            <p>
-              Hack Night is a flagship event organized by Sahyadri Open Source
-              Community (SOSC) in celebration of Hacktoberfest 2023
-            </p>
-            <p>
-              HacktoberFest is a 2-day event, with a wide reach across several
-              colleges in the region, witnessing participation from over 100+
-              teams and over 1000 participants.
-            </p>
-            <Link
-              className="btn-hero-green"
-              to="http://hacknight.sosc.org.in"
-              target="_blank"
-            >
-              Learn More →{' '}
-            </Link>
-          </div>
-        </section>
-      </div>
+
       <div className="container">
         <section className="hero-section3">
           <div className="hero-texts">
