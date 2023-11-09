@@ -3,7 +3,7 @@ slug: /events/soswc_hacktoberfest-2023
 name: Open Source & HacktoberFest
 date: 2023-10-21
 location: Online
-cover: './cover.jpg'
+cover: './cover.png'
 link: 'https://www.hacknight.sosc.org.in/'
 ---
 
