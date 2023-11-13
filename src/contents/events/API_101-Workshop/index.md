@@ -8,7 +8,7 @@ cover: './cover.jpg'
 
 ## Introduction:
 
-With part one of Hacktober Fest done and dusted, the next leg of the SOSC X Hacktober Fest celebrations centred around a workshop on APIs: ‘API 101: with Postman’.
+With part one of Hacktoberfest done and dusted, the next leg of the SOSC X Hacktoberfest celebrations centred around a workshop on APIs: ‘API 101: with Postman’.
 Helmed by Deveesh Shetty, the President of SOSC and a Postman Student Expert, the workshop focused on the importance, functioning and use of APIs in the software development space, using Postman: a collaborative platform offering tools for creating, deploying and testing APIs in a streamlined and easy fashion.
 
 ## Commencement of the virtual session:

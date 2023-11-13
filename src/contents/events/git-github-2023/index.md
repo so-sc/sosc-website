@@ -8,12 +8,12 @@ cover: './cover.jpg'
 
 ## Introduction:
 
-Kickstarting Hacktober Fest with a comprehensive and immersive workshop on Git & GitHub was the best way to flag off the month-long festivities! With open-source at the cornerstone of Hacktober Fest and SOSC both, the workshop proved to be a well-fitting opening wedge into ‘Hacktober’.
+Kickstarting Hacktoberfest with a comprehensive and immersive workshop on Git & GitHub was the best way to flag off the month-long festivities! With open-source at the cornerstone of Hacktoberfest and SOSC both, the workshop proved to be a well-fitting opening wedge into ‘Hacktober’.
 Led by the web development lead here at SOSC, Tejas G.K, the workshop focused on version control using Git, and learning how to navigate through repositories, pull requests and commits on GitHub.
 
 ## Commencement of the virtual session:
 
-The session was conduction via Google Meet, ensuring a wider reach to interested audiences. Our marketing lead, Pratheeksha welcomed everyone with a brief on Hacktober Fest and SOSC, highlighting our commitment to furthering the cause of open source and empowering the student community with technical training, mentorships and skills.
+The session was conduction via Google Meet, ensuring a wider reach to interested audiences. Our marketing lead, Pratheeksha welcomed everyone with a brief on Hacktoberfest and SOSC, highlighting our commitment to furthering the cause of open source and empowering the student community with technical training, mentorships and skills.
 The speaker then followed up with a quick introduction to ‘version control’, discussing its definition, importance and features. Colourful visuals and engaging graphics were used with real-life examples to explain the theoretical concepts, which helped participants gain a better understanding of the topics.
 
 ## A Hands-on experience:

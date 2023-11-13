@@ -1,6 +1,6 @@
 ---
 slug: /events/soswc_hacktoberfest-2023
-name: Open Source & HacktoberFest
+name: Open Source & Hacktoberfest
 date: 2023-10-21
 location: Online
 cover: './cover.png'
@@ -19,7 +19,7 @@ SOSWC is a community exclusively by women, for women in technology. The workshop
 
 With a short introduction to SOSWC and what it stands for, Nihara, the SOSWC President, took the stage to provide a comprehensive introduction to open source technology. She highlighted the significance of open source, types of open source with a message to attendees how companies hire based on their contributions to open source. The workshop featured a segment on GitHub, a hub for open source projects. Attendees learned how to harness the powerful features of GitHub, customize their profiles, and contribute effectively to open source repositories.
 
-## A segment on HacktoberFest
+## A segment on Hacktoberfest
 
 Following the wrap-up on the segment on open source, Hamshini, the SOSWC Secretary, delved into the details of Hacktoberfest. With an explanation of the objectives of the event and how participants could contribute to open source projects, the presentation included step-by-step guidance on participating in Hacktoberfest and making meaningful contributions to the open source community. Participants received valuable insights into finding open source projects that align with their interests and skill sets. This session aimed to empower attendees to kickstart their journey in open source development.
 
