@@ -53,21 +53,19 @@ const IndexPage = (props) => (
             alt="hero image"
           />
           <div className="hero-texts">
-            <p className="hero-header">Codeblaze</p>
+            <p className="hero-header">DevHost 2023</p>
             <div className="dash" />
             <p>
-              Codeblaze is an extraordinary tech extravaganza by Sahyadri Open
-              Source Community (SOSC), is set to be a thrilling event spanning
-              technical and non-technical domains. It aims to empower
-              participants with knowledge and skills while fostering curiosity
-              and innovation. With a variety of tech-focused events, it offers
-              opportunities for growth and self-discovery. Join the 20-hour
-              on-site Hackathon to turn your innovative ideas into reality, with
-              themes suitable for all skill levels.
+              DevHost is the annual flagship event of SOSC. Our prime goal is to
+              bring young and skilled developers from in and around Karnataka
+              under the same umbrella. This event aims to create a platform to
+              collaborate with various clubs and organizations, discuss the
+              newest technologies and trends in the IT industry and also train
+              students for the same.
             </p>
             <Link
               className="btn-hero-green"
-              to="https://codeblaze.sosc.org.in/"
+              to="https://devhost.sosc.org.in/"
               target="_blank"
             >
               Learn More →{' '}
@@ -173,7 +171,7 @@ export const pageQuery = graphql`
     imageFour: file(relativePath: { eq: "images/hero_connect_.png" }) {
       ...firstSiteImages
     }
-    imageFive: file(relativePath: { eq: "images/codeblaze_logo.png" }) {
+    imageFive: file(relativePath: { eq: "images/devhost23.png" }) {
       ...firstSiteImages
     }
     imageSix: file(relativePath: { eq: "images/hack_light.png" }) {
