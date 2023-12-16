@@ -1,5 +1,5 @@
 ---
-username: HeimanPictures
+username: AkkilMG
 name: Akkil M G
 designation: App Lead
 email: akkilcharanmanyaganesh@gmail.com

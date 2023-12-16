@@ -1,5 +1,5 @@
 ---
-username: Deveesh-Shetty
+username: dev-shetty
 name: Deveesh Shetty
 designation: President
 email: deveeshshetty@gmail.com
