@@ -19,8 +19,10 @@ const Header = ({ siteTitle }) => (
     />
 
     <div className="container">
-      <div className="nav-items">
-        <Link className="brand" to='/'>{siteTitle}</Link>
+      <div className="nav-items headerr">
+        <Link className="brand" to="/">
+          {siteTitle}
+        </Link>
         {/* <span className="brand">{siteTitle}</span> */}
         <ul>
           <li>
@@ -44,6 +46,16 @@ const Header = ({ siteTitle }) => (
             </Link>
           </li>
         </ul>
+      </div>
+      <div className="notification">
+        Applications are open!{' '}
+        <a
+          className="linkk"
+          href="https://forms.gle/VyUNt1NdFcFdBvqG9"
+          target="_blank"
+        >
+          {'Apply Now'}
+        </a>
       </div>
     </div>
   </div>
