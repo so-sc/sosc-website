@@ -4,7 +4,7 @@ name: Codeblaze.
 date: 2023-12-08
 location: Sahyadri Campus
 cover: './cover.png'
-link: ' https://hacknight.sosc.org.in/'
+link: ''
 ---
 
 ## About the Event
@@ -15,7 +15,7 @@ for more details visit the [codeblaze website](https://codeblaze.sosc.org.in/)
 
 ### Event Overview
 
-- Date: December 8 - 9, 2023
+- Date: December 8th - 9th, 2023
 - 300+ participants from across different institutions in India and abroad
 
 ## About Hackathon
@@ -25,16 +25,19 @@ Participants present projects to judges, with company-funded or open-themed prob
 ### Media
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
-    <p> 
-        <img src="./1.JPG" alt="codeblaze-1" style="width: 100%">
-    </p>
     <p>
-        <img src="./2.JPG" alt="codeblaze-2" style="width: 100%;">
+        <img src="./4.jpg" alt="codeblaze-4" style="width: 100%;">
     </p>
     <p> 
-        <img src="./3.JPG" alt="codeblaze-3" style="width: 100%">
+        <img src="./1.jpg" alt="codeblaze-1" style="width: 100%">
+    </p>
+    <p> 
+        <img src="./6.jpg" alt="codeblaze-3" style="width: 100%">
     </p>
     <p>
-        <img src="./4.JPG" alt="codeblaze-4" style="width: 100%;">
+        <img src="./2.jpg" alt="codeblaze-2" style="width: 100%;">
     </p>
 </div>
+<p>
+    <img src="./5.jpg" alt="codeblaze-5" style="width: 100%;">
+</p>
