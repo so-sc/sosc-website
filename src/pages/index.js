@@ -45,7 +45,7 @@ const IndexPage = (props) => (
           </div>
         </section>
       </div>
-      {/* <div className="container">
+      <div className="container">
         <section className="hero-section2 hack">
           <GatsbyImage
             image={props.data.imageFive.childImageSharp.gatsbyImageData}
@@ -53,33 +53,27 @@ const IndexPage = (props) => (
             alt="hero image"
           />
           <div className="hero-texts">
-            <p className="hero-header">DevHost 2023</p>
+            <p className="hero-header">SOSC Next Gen</p>
             <div className="dash" />
             <p>
-              DevHost is the annual flagship event of SOSC. Our prime goal is to
-              bring young and skilled developers from in and around Karnataka
-              under the same umbrella. This event aims to create a platform to
-              collaborate with various clubs and organizations, discuss the
-              newest technologies and trends in the IT industry and also train
-              students for the same.
+              We are seeking out passionate tech enthusiasts with leadership
+              potential to join our community's next generation of leaders.
+              Interested? Fill out our form, impress us during your
+              apprenticeship, and you may secure a spot on the core team for the
+              upcoming year.
             </p>
             <Link
               className="btn-hero-green"
-              to="https://devhost.sosc.org.in/"
+              to="https://forms.gle/VyUNt1NdFcFdBvqG9"
               target="_blank"
             >
-              Learn More →{' '}
+              Apply now!
             </Link>
           </div>
         </section>
-      </div> */}
+      </div>
       <div className="container">
         <section className="hero-section3">
-          <GatsbyImage
-            image={props.data.imageThree.childImageSharp.gatsbyImageData}
-            className="hero-image"
-            alt="hero image"
-          />
           <div className="hero-texts">
             <p className="hero-header">Get Trained by Experts</p>
             <div className="dash" />
@@ -92,10 +86,20 @@ const IndexPage = (props) => (
               host non-profit events to help others.
             </p>
           </div>
+          <GatsbyImage
+            image={props.data.imageThree.childImageSharp.gatsbyImageData}
+            className="hero-image"
+            alt="hero image"
+          />
         </section>
       </div>
       <div className="container">
         <section className="hero-section2 ">
+          <GatsbyImage
+            image={props.data.imageTwo.childImageSharp.gatsbyImageData}
+            className="hero-image"
+            alt="hero image"
+          />
           <div className="hero-texts">
             <p className="hero-header">Explore clubs and Activities</p>
             <div className="dash" />
@@ -110,22 +114,10 @@ const IndexPage = (props) => (
               Learn More →{' '}
             </Link>
           </div>
-          <GatsbyImage
-            image={props.data.imageTwo.childImageSharp.gatsbyImageData}
-            className="hero-image"
-            alt="hero image"
-          />
         </section>
       </div>
       <div className="container">
         <section className="hero-section4">
-          <div>
-            <GatsbyImage
-              image={props.data.imageFour.childImageSharp.gatsbyImageData}
-              className="hero-image"
-              alt="hero image"
-            />
-          </div>
           <div className="hero-texts">
             <p className="hero-header">Get Connected !</p>
             <div className="dash" />
@@ -139,7 +131,14 @@ const IndexPage = (props) => (
             <Link to="/team" className="btn-hero-green">
               Learn More
             </Link>
-          </div>{' '}
+          </div>
+          <div>
+            <GatsbyImage
+              image={props.data.imageFour.childImageSharp.gatsbyImageData}
+              className="hero-image"
+              alt="hero image"
+            />
+          </div>
         </section>
       </div>
     </div>
@@ -171,7 +170,7 @@ export const pageQuery = graphql`
     imageFour: file(relativePath: { eq: "images/hero_connect_.png" }) {
       ...firstSiteImages
     }
-    imageFive: file(relativePath: { eq: "images/devhost23.png" }) {
+    imageFive: file(relativePath: { eq: "images/recruit.png" }) {
       ...firstSiteImages
     }
     imageSix: file(relativePath: { eq: "images/hack_light.png" }) {

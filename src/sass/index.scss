@@ -1,11 +1,14 @@
 @import 'components/components';
 @import 'partials/base';
 
-$font : 'Varela Round';
+$font: 'Varela Round';
 
-:focus {outline:none;}
-::-moz-focus-inner {border:0;}
-
+:focus {
+  outline: none;
+}
+::-moz-focus-inner {
+  border: 0;
+}
 
 html {
   font-family: sans-serif;
@@ -26,14 +29,37 @@ body {
 }
 
 .elevate {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .elevate:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
+.notification {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+  width: 100%;
+  top: 8;
+  left: 0;
+  background-color: #1fd656;
+  color: white;
+}
 
+.main-things {
+  margin-top: 2rem;
+}
 
+.linkk {
+  margin-left: 5px;
+  color: white;
+  text-underline-offset: 2px;
+}
 
+.linkk:hover {
+  text-underline-offset: 5px;
+}
