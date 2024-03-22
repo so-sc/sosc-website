@@ -15,11 +15,11 @@ for more details visit the [hacktoberfest website](https://hacknight.sosc.org.in
 
 ### Event Overview
 
-~Date: October 28th, 2023
-~Duration: 24 hours
-~Themes: Education, Healthcare, Finance, Agriculture and Sustainability
-~Mode: Online
-~300+ participants from across different institutions in India and abroad
+- Date: October 28th, 2023
+- Duration: 24 hours
+- Themes: Education, Healthcare, Finance, Agriculture and Sustainability
+- Mode: Online
+- 300+ participants from across different institutions in India and abroad
 
 ## Inauguration
 
