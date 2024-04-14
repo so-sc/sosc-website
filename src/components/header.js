@@ -47,16 +47,16 @@ const Header = ({ siteTitle }) => (
           </li>
         </ul>
       </div>
-      <div className="notification">
+      {/* <div className="notification">
         Applications are open!{' '}
         <a
           className="linkk"
           href="https://forms.gle/VyUNt1NdFcFdBvqG9"
           target="_blank"
         >
-          {'Apply Now'}
+          Apply Now
         </a>
-      </div>
+      </div> */}
     </div>
   </div>
 )
