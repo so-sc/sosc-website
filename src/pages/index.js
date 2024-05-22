@@ -46,34 +46,12 @@ const IndexPage = (props) => (
         </section>
       </div>
       <div className="container">
-        <section className="hero-section2 hack">
+        <section className="hero-section3">
           <GatsbyImage
-            image={props.data.imageFive.childImageSharp.gatsbyImageData}
-            className="hero-image banner-image "
+            image={props.data.imageThree.childImageSharp.gatsbyImageData}
+            className="hero-image"
             alt="hero image"
           />
-          <div className="hero-texts">
-            <p className="hero-header">SOSC Next Gen</p>
-            <div className="dash" />
-            <p>
-              We are seeking out passionate tech enthusiasts with leadership
-              potential to join our community's next generation of leaders.
-              Interested? Fill out our form, impress us during your
-              apprenticeship, and you may secure a spot on the core team for the
-              upcoming year.
-            </p>
-            <Link
-              className="btn-hero-green"
-              to="https://forms.gle/VyUNt1NdFcFdBvqG9"
-              target="_blank"
-            >
-              Apply now!
-            </Link>
-          </div>
-        </section>
-      </div>
-      <div className="container">
-        <section className="hero-section3">
           <div className="hero-texts">
             <p className="hero-header">Get Trained by Experts</p>
             <div className="dash" />
@@ -86,20 +64,10 @@ const IndexPage = (props) => (
               host non-profit events to help others.
             </p>
           </div>
-          <GatsbyImage
-            image={props.data.imageThree.childImageSharp.gatsbyImageData}
-            className="hero-image"
-            alt="hero image"
-          />
         </section>
       </div>
       <div className="container">
         <section className="hero-section2 ">
-          <GatsbyImage
-            image={props.data.imageTwo.childImageSharp.gatsbyImageData}
-            className="hero-image"
-            alt="hero image"
-          />
           <div className="hero-texts">
             <p className="hero-header">Explore clubs and Activities</p>
             <div className="dash" />
@@ -114,10 +82,22 @@ const IndexPage = (props) => (
               Learn More →{' '}
             </Link>
           </div>
+          <GatsbyImage
+            image={props.data.imageTwo.childImageSharp.gatsbyImageData}
+            className="hero-image"
+            alt="hero image"
+          />
         </section>
       </div>
       <div className="container">
         <section className="hero-section4">
+          <div>
+            <GatsbyImage
+              image={props.data.imageFour.childImageSharp.gatsbyImageData}
+              className="hero-image"
+              alt="hero image"
+            />
+          </div>
           <div className="hero-texts">
             <p className="hero-header">Get Connected !</p>
             <div className="dash" />
@@ -131,13 +111,6 @@ const IndexPage = (props) => (
             <Link to="/team" className="btn-hero-green">
               Learn More
             </Link>
-          </div>
-          <div>
-            <GatsbyImage
-              image={props.data.imageFour.childImageSharp.gatsbyImageData}
-              className="hero-image"
-              alt="hero image"
-            />
           </div>
         </section>
       </div>
