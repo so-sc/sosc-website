@@ -6,6 +6,10 @@ module.exports = {
       title: 'SOSC - Events',
       siteUrl: 'https://sosc.org.in/events',
     },
+    reports: {
+      title: 'SOSC - Reports',
+      siteUrl: 'https://sosc.org.in/reports',
+    },
     team: {
       title: 'SOSC - Team',
       siteUrl: 'https://sosc.org.in/team',

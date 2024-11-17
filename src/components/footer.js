@@ -16,6 +16,7 @@ const Footer = ({ siteTitle }) => (
         <div className="column">
           <a href="https://www.sosc.org.in/guidelines">Community Guidelines</a>
           <a href="https://github.com/so-sc/code-of-conduct">Code of Conduct</a>
+          <a href="https://www.sosc.org.in/reports">Annual Reports</a>
           <a href="#">Donate Us</a>
         </div>
         <div className="column">
