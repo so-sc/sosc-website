@@ -18,11 +18,20 @@ function isUpcoming(date) {
 const Card = (props) => (
   <div className="card elevate white-bg">
     <Link className="card-container" to={props.slug}>
-      <GatsbyImage
-        image={props.cover.childImageSharp.gatsbyImageData}
-        className="card-header-img"
-        alt="Card Image Text"
-      />
+      {props.isNotMarkdown ? (
+        <img
+          src={props.cover}
+          alt={props.title}
+          className="card-header-img"
+          style={{ overflow: 'hidden' }}
+        />
+      ) : (
+        <GatsbyImage
+          image={props.cover.childImageSharp.gatsbyImageData}
+          className="card-header-img"
+          alt="Card Image Text"
+        />
+      )}
       <div className="card-text">
         <h2 className="card-header-text">{props.title}</h2>
         <div className="card-date">
