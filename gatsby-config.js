@@ -114,6 +114,14 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-plugin-netlify',
+      options: {
+        headers: {
+          '/*': ['Content-Security-Policy: frame-ancestors *;'],
+        },
+      },
+    },
     /* Must be placed at the end */
     'gatsby-plugin-offline',
   ],
