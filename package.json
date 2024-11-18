@@ -45,7 +45,8 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettienpr --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "upgrade-interactive": "npm-check --update"
+    "upgrade-interactive": "npm-check --update",
+    "clean-develop": "gatsby clean && gatsby develop"
   },
   "devDependencies": {
     "npm-check": "^5.9.2",
