@@ -8,6 +8,7 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 
 function getMembers(data) {
   let president = []
+  let organizers=[]
   let vicepresident = []
   let generalsec = []
   let treasurer = []
@@ -22,8 +23,8 @@ function getMembers(data) {
 
   memberList.forEach((element) => {
     if (element.node.frontmatter.designation !== 'Alumni') {
-      if (element.node.frontmatter.designation.toUpperCase() === 'PRESIDENT') {
-        return president.push(
+      if (element.node.frontmatter.designation.toUpperCase() === 'ORGANIZER') {
+        return organizers.push(
           <MemberCard
             username={element.node.frontmatter.username}
             full_name={element.node.frontmatter.name}
@@ -31,7 +32,7 @@ function getMembers(data) {
           />
         )
       } else if (
-        element.node.frontmatter.designation.toUpperCase() === 'VICE PRESIDENT'
+        element.node.frontmatter.designation.toUpperCase() === 'SOSWC REPRESENTATIVE'
       ) {
         return vicepresident.push(
           <MemberCard
@@ -150,7 +151,7 @@ function getMembers(data) {
     }
   })
 
-  return president.concat(
+  return organizers.concat(
     vicepresident,
     generalsec,
     treasurer,

@@ -1,7 +1,7 @@
 ---
 username: Ananyapk25
 name: Ananya P K
-designation: Treasurer
+designation: Alumni
 email: ananyapk752@gmail.com
 linkedin: https://www.linkedin.com/in/ananya-pk-52409522b
 skills: Public speaking, Web

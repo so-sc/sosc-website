@@ -1,7 +1,7 @@
 ---
 username:
 name: Achal
-designation: Community Lead
+designation: Alumni
 email:
 linkedin:
 skills:
