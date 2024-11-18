@@ -1,7 +1,7 @@
 ---
 username: AkkilMG
 name: Akkil M G
-designation: App Lead
+designation: Alumni
 email: akkilcharanmanyaganesh@gmail.com
 linkedin: https://linkedin.com/in/akkilmg
 skills: Python, Android, Web
