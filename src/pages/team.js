@@ -149,7 +149,10 @@ function getMembers(data) {
       }
     }
   })
-
+  organizers.sort((a, b) =>
+    a.props.full_name.localeCompare(b.props.full_name)
+  );
+  leads.sort((a, b) => a.props.full_name.localeCompare(b.props.full_name));
   return organizers.concat(
     soswc,
     leads,
