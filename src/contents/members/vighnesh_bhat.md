@@ -1,6 +1,6 @@
 ---
 username: Bhatvighnesh
-name: vighnesh bhat
+name: Vighnesh bhat
 designation: Community Member
 email: 
 linkedin: 
