@@ -61,7 +61,7 @@
     flex-direction: row;
 
     @media #{$media-mobile} {
-      width: 100%;
+      // width: 100%;
       align-self: center;
       justify-content: space-between;
       padding: 0;
@@ -69,8 +69,9 @@
     }
 
     @media #{$media-small} {
-      width: 100%;
+      // width: 100%;
       align-self: center;
+      font-size: small;
       justify-content: space-between;
       padding: 0;
       margin: 0;
@@ -79,13 +80,13 @@
     li {
       @media #{$media-mobile} {
         flex-grow: 0;
-        flex-basis: 25%;
+        flex-basis: 20%;
         margin: auto;
       }
 
       @media #{$media-small} {
         flex-grow: 0;
-        flex-basis: 25%;
+        flex-basis: 20%;
         margin: auto;
       }
       a {

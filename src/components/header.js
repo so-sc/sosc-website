@@ -45,7 +45,13 @@ const Header = ({ siteTitle }) => (
               Team
             </Link>
           </li>
+          <li>
+            <Link to="/nextgen25" exact="true" activeClassName="active">
+              Join Us
+            </Link>
+          </li>
         </ul>
+        
       </div>
       {/* <div className="notification">
         Applications are open!{' '}
