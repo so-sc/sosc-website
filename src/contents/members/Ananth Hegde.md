@@ -1,7 +1,7 @@
 ---
 username: anth_hgde
 name: Ananth Hegde
-designation: Organizer
+designation: Community Member
 email: 
 linkedin: 
 skills: 
