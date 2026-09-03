@@ -8,7 +8,7 @@
     "babel-loader": "^8.2.4",
     "core-js": "^3.21.1",
     "disqus-react": "^1.0.8",
-    "gatsby": "^4.9.3",
+    "gatsby": "^4.25.9",
     "gatsby-image": "^3.11.0",
     "gatsby-link": "^4.9.1",
     "gatsby-plugin-google-analytics": "^4.9.0",
